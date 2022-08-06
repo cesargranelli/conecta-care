@@ -1,0 +1,3 @@
+rootProject.name = 'api-homecare'
+
+include 'api-gateway'
