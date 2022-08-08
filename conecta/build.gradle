@@ -1,0 +1,61 @@
+plugins {
+    id 'org.springframework.boot' version '2.7.2'
+    id 'io.spring.dependency-management' version '1.0.12.RELEASE'
+    id 'java'
+}
+
+group = 'com.sevenine'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '14'
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+    set('springBootVersion', '2.7.2')
+    set('springCloudVersion', '2021.0.3')
+}
+
+dependencyManagement {
+    imports {
+        mavenBom org.springframework.boot.gradle.plugin.SpringBootPlugin.BOM_COORDINATES
+        mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
+    }
+}
+dependencies {
+    // Spring Boot
+    implementation 'org.springframework.boot:spring-boot-starter'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+
+    // Spring Cloud
+    implementation 'org.springframework.cloud:spring-cloud-starter-sleuth'
+
+    // Helpers Code
+    implementation 'org.projectlombok:lombok:1.18.20'
+    implementation 'org.mapstruct:mapstruct:1.4.2.Final'
+
+    // Logbook
+    implementation 'org.zalando:logbook-spring-boot-starter:2.11.0'
+
+    // Helpers
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'org.apache.commons:commons-lang3:3.0'
+
+    // Database
+//    implementation 'mysql:mysql-connector-java:8.0.27'
+    implementation 'com.h2database:h2'
+
+    // Annotations Processors
+    annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
+    annotationProcessor 'org.projectlombok:lombok:1.18.20'
+    annotationProcessor 'org.mapstruct:mapstruct-processor:1.4.2.Final'
+
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}

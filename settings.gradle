@@ -1,3 +1,4 @@
-rootProject.name = 'api-homecare'
+rootProject.name = 'api-conecta-care'
 
-include 'api-gateway'
+include 'api'
+include 'conecta'
