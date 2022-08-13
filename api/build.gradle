@@ -1,3 +1,5 @@
+import org.springframework.boot.gradle.plugin.SpringBootPlugin
+
 plugins {
     id 'org.springframework.boot' version '2.7.2'
     id 'io.spring.dependency-management' version '1.0.12.RELEASE'
@@ -19,7 +21,7 @@ ext {
 
 dependencyManagement {
     imports {
-        mavenBom org.springframework.boot.gradle.plugin.SpringBootPlugin.BOM_COORDINATES
+        mavenBom SpringBootPlugin.BOM_COORDINATES
         mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
     }
 }
@@ -37,6 +39,9 @@ dependencies {
 
     // Helpers
     implementation 'com.google.code.gson:gson:2.8.6'
+
+    // Automation migration DB
+    implementation 'org.flywaydb:flyway-core:8.5.13'
 
     // Modules
     implementation project(':conecta')

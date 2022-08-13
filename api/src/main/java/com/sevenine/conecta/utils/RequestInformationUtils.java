@@ -13,7 +13,7 @@ import java.util.Enumeration;
 public class RequestInformationUtils {
 
     public RequestData getRequestData(HttpServletRequest request) {
-        StringBuffer jb = new StringBuffer();
+        StringBuilder jb = new StringBuilder();
         String line;
         ServletInputStream is;
         try {
@@ -39,9 +39,9 @@ public class RequestInformationUtils {
         StringBuilder requestUrl = new StringBuilder(request.getServletPath());
         String queryString = request.getQueryString();
         if (queryString == null) {
-            return requestUrl.toString();
+            return requestUrl.toString().replace("api/", "");
         } else {
-            return requestUrl.append('?').append(queryString).toString();
+            return requestUrl.append('?').append(queryString).toString().replace("api/", "");
         }
     }
 

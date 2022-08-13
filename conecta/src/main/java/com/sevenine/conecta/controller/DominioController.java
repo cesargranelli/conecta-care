@@ -16,76 +16,76 @@ public class DominioController {
 
     @GetMapping("genero")
     public ResponseEntity<?> generos() {
-        return ResponseEntity.ok().body("dominios");//ResponseEntity.ok().body(dominioUseCase.consultarGeneros());
+        return ResponseEntity.ok().body(dominioUseCase.consultarGeneros());
     }
 
     @GetMapping("tipo-empresa")
-    public ResponseEntity<?> tipoEmpresa() {
+    public ResponseEntity<?> tiposEmpresa() {
         return ResponseEntity.ok().body(dominioUseCase.consultarTiposEmpresas());
     }
 
     @GetMapping("estado-civil")
-    public ResponseEntity<?> estadoCivil() {
+    public ResponseEntity<?> estadosCivil() {
         return ResponseEntity.ok().body(dominioUseCase.consultarEstadosCivis());
     }
 
     @GetMapping("estado")
-    public ResponseEntity<?> estado() {
+    public ResponseEntity<?> estados() {
         return ResponseEntity.ok().body(dominioUseCase.consultarEstados());
     }
 
     @GetMapping("conselho")
-    public ResponseEntity<?> conselho() {
+    public ResponseEntity<?> conselhos() {
         return ResponseEntity.ok().body(dominioUseCase.consultarConselhos());
     }
 
     @GetMapping("area-atendimento")
-    public ResponseEntity<?> areaAtendimento() {
+    public ResponseEntity<?> areasAtendimento() {
         return ResponseEntity.ok().body(dominioUseCase.consultarAreasAtendimentos());
     }
 
     @GetMapping("transporte")
-    public ResponseEntity<?> transporte() {
+    public ResponseEntity<?> transportes() {
         return ResponseEntity.ok().body(dominioUseCase.consultarTransportes());
     }
 
     @GetMapping("instrucao")
-    public ResponseEntity<?> instrucao() {
+    public ResponseEntity<?> instrucoes() {
         return ResponseEntity.ok().body(dominioUseCase.consultarInstrucoes());
     }
 
     @GetMapping("categoria-cnh")
-    public ResponseEntity<?> categoriaCnh() {
+    public ResponseEntity<?> categoriasCnh() {
         return ResponseEntity.ok().body(dominioUseCase.consultarCategoriasCnh());
     }
 
     @GetMapping("tipo-conta")
-    public ResponseEntity<?> tipoConta() {
+    public ResponseEntity<?> tiposConta() {
         return ResponseEntity.ok().body(dominioUseCase.consultarTiposContas());
     }
 
     @GetMapping("banco")
-    public ResponseEntity<?> banco() {
+    public ResponseEntity<?> bancos() {
         return ResponseEntity.ok().body(dominioUseCase.consultarBancos());
     }
 
     @GetMapping("pais")
-    public ResponseEntity<?> pais() {
+    public ResponseEntity<?> paises() {
         return ResponseEntity.ok().body(dominioUseCase.consultarPaises());
     }
 
     @GetMapping("parentesco")
-    public ResponseEntity<?> parentesco() {
+    public ResponseEntity<?> parentescos() {
         return ResponseEntity.ok().body(dominioUseCase.consultarParentescos());
     }
 
     @GetMapping("modelo")
-    public ResponseEntity<?> modelo() {
+    public ResponseEntity<?> modelos() {
         return ResponseEntity.ok().body(dominioUseCase.consultarModelos());
     }
 
     @GetMapping("grupo")
-    public ResponseEntity<?> grupo() {
+    public ResponseEntity<?> grupos() {
         return ResponseEntity.ok().body(dominioUseCase.consultarGrupos());
     }
 
@@ -93,6 +93,6 @@ public class DominioController {
     public ResponseEntity<?> status() {
         return ResponseEntity.ok().body(dominioUseCase.consultarStatusAtendimentos());
     }
-    
+
 }
 
