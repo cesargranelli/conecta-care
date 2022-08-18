@@ -1,6 +1,6 @@
 package com.sevenine.conecta.http.homecare;
 
-import com.sevenine.conecta.config.properties.EndpointsProperties;
+import com.sevenine.conecta.http.care.config.properties.EndpointsProperties;
 import com.sevenine.conecta.service.AbstractService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpMethod;

@@ -1,5 +1,3 @@
-import org.springframework.boot.gradle.plugin.SpringBootPlugin
-
 plugins {
     id 'org.springframework.boot' version '2.7.2'
     id 'io.spring.dependency-management' version '1.0.12.RELEASE'
@@ -7,24 +5,13 @@ plugins {
 }
 
 group = 'com.sevenine'
-version = '0.0.1-SNAPSHOT'
+version = '1.0.0'
 sourceCompatibility = '14'
 
 repositories {
     mavenCentral()
 }
 
-ext {
-    set('springBootVersion', '2.7.2')
-    set('springCloudVersion', '2021.0.3')
-}
-
-dependencyManagement {
-    imports {
-        mavenBom SpringBootPlugin.BOM_COORDINATES
-        mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
-    }
-}
 dependencies {
     // Spring Boot
     implementation 'org.springframework.boot:spring-boot-starter'
@@ -32,27 +19,28 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-hateoas'
 
     // Helpers Code
-    implementation 'org.projectlombok:lombok:1.18.20'
+    implementation 'org.projectlombok:lombok'
+    implementation 'org.mapstruct:mapstruct:1.4.2.Final'
+    implementation 'org.projectlombok:lombok-mapstruct-binding:0.2.0'
 
     // Logbook
-    implementation 'org.zalando:logbook-spring-boot-starter:2.11.0'
+    implementation 'org.zalando:logbook-spring-boot-starter:2.14.0'
 
     // Helpers
-    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.google.code.gson:gson'
 
     // Automation migration DB
-    implementation 'org.flywaydb:flyway-core:8.5.13'
-
-    // Modules
-    implementation project(':conecta')
+    implementation 'org.flywaydb:flyway-core'
 
     // Annotations Processors
     annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
-    annotationProcessor 'org.projectlombok:lombok:1.18.20'
+    annotationProcessor 'org.projectlombok:lombok'
+    annotationProcessor 'org.mapstruct:mapstruct-processor:1.4.2.Final'
 
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    // Modules
+    implementation project(':conecta')
+    implementation project(':authentication')
 }
 
-tasks.named('test') {
-    useJUnitPlatform()
-}

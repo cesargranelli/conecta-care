@@ -1,7 +1,7 @@
 package com.sevenine.conecta.service.converter;
 
-import com.sevenine.conecta.controller.data.request.DocumentoRequest;
-import com.sevenine.conecta.controller.data.response.DocumentoCadastraResponse;
+import com.sevenine.conecta.controller.data.request.CadastraDocumentoRequest;
+import com.sevenine.conecta.controller.data.response.CadastraDocumentoResponse;
 import com.sevenine.conecta.controller.data.response.DocumentoConsultaResponse;
 import com.sevenine.conecta.exception.DocumentoNaoEncontradoException;
 import com.sevenine.conecta.enumerator.Modulo;
@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class DocumentoServiceConverter {
 
-    public SequenceCadastro toEntityCadastro(DocumentoRequest request) {
+    public SequenceCadastro toEntityCadastro(CadastraDocumentoRequest request) {
         return SequenceCadastro
                 .builder()
                 .status(StatusCadastro.PENDENTE)
@@ -25,8 +25,8 @@ public class DocumentoServiceConverter {
                 .build();
     }
 
-    public DocumentoCadastraResponse toResponseCadastro(SequenceCadastro cadastro) {
-        return DocumentoCadastraResponse.builder()
+    public CadastraDocumentoResponse toResponseCadastro(SequenceCadastro cadastro) {
+        return CadastraDocumentoResponse.builder()
                 .id(cadastro.getId())
                 .status(cadastro.getStatus())
                 .build();

@@ -1,7 +1,7 @@
 package com.sevenine.conecta.usecase;
 
-import com.sevenine.conecta.controller.data.request.DocumentoRequest;
-import com.sevenine.conecta.controller.data.response.DocumentoCadastraResponse;
+import com.sevenine.conecta.controller.data.request.CadastraDocumentoRequest;
+import com.sevenine.conecta.controller.data.response.CadastraDocumentoResponse;
 import com.sevenine.conecta.enumerator.StatusCadastro;
 import com.sevenine.conecta.exception.DocumentoDuplicadoException;
 import com.sevenine.conecta.exception.DocumentoNaoEncontradoException;
@@ -11,19 +11,19 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;
 
-@Component
 @RequiredArgsConstructor
+@Component
 public class DocumentoUseCase {
 
     private final DocumentoService documentoService;
 
-    public DocumentoCadastraResponse cadastrar(DocumentoRequest request) {
+    public CadastraDocumentoResponse cadastrar(CadastraDocumentoRequest request) {
         try {
             DocumentoResponse response = documentoService.pesquisar(request);
             if (!response.getStatus().equals(StatusCadastro.PENDENTE)) {
                 throw new DocumentoDuplicadoException("Documento já cadastrado na base de dados", HttpStatus.PRECONDITION_FAILED);
             }
-            return DocumentoCadastraResponse.builder()
+            return CadastraDocumentoResponse.builder()
                     .id(response.getId())
                     .status(response.getStatus())
                     .build();

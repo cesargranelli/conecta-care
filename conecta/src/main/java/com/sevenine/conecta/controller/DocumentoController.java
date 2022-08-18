@@ -1,7 +1,7 @@
 package com.sevenine.conecta.controller;
 
-import com.sevenine.conecta.controller.data.request.DocumentoRequest;
-import com.sevenine.conecta.controller.data.response.DocumentoCadastraResponse;
+import com.sevenine.conecta.controller.data.request.CadastraDocumentoRequest;
+import com.sevenine.conecta.controller.data.response.CadastraDocumentoResponse;
 import com.sevenine.conecta.service.data.response.DocumentoResponse;
 import com.sevenine.conecta.usecase.DocumentoConsultaUseCase;
 import com.sevenine.conecta.usecase.DocumentoUseCase;
@@ -11,17 +11,17 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 
-@RestController
-@RequestMapping(path = "documentos")
 @RequiredArgsConstructor
+@RequestMapping(path = "documentos")
+@RestController
 public class DocumentoController {
 
     private final DocumentoUseCase documentoUseCase;
     private final DocumentoConsultaUseCase documentoConsultaUseCase;
 
     @PostMapping
-    public ResponseEntity<?> cadastra(@RequestBody @Valid DocumentoRequest request) {
-        DocumentoCadastraResponse response = documentoUseCase.cadastrar(request);
+    public ResponseEntity<CadastraDocumentoResponse> cadastra(@RequestBody @Valid CadastraDocumentoRequest request) {
+        CadastraDocumentoResponse response = documentoUseCase.cadastrar(request);
         return ResponseEntity.ok().body(response);
     }
 

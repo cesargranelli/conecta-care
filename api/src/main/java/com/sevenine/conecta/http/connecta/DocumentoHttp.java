@@ -1,6 +1,6 @@
 package com.sevenine.conecta.http.connecta;
 
-import com.sevenine.conecta.config.properties.EndpointsProperties;
+import com.sevenine.conecta.http.care.config.properties.EndpointsProperties;
 import com.sevenine.conecta.service.AbstractService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpMethod;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 
-@RequestMapping(value = "documentos", produces = MediaType.APPLICATION_JSON_VALUE, consumes = MediaType.APPLICATION_JSON_VALUE)
+@RequestMapping(value = "documento", produces = MediaType.APPLICATION_JSON_VALUE, consumes = MediaType.APPLICATION_JSON_VALUE)
 @RestController
 @RequiredArgsConstructor
 public class DocumentoHttp {
