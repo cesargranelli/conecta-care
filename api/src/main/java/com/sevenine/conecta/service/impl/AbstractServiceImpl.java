@@ -1,6 +1,6 @@
 package com.sevenine.conecta.service.impl;
 
-import com.sevenine.conecta.http.response.HyperMediaResponse;
+import com.sevenine.conecta.http_.response.HyperMediaResponse;
 import com.sevenine.conecta.service.AbstractService;
 import com.google.gson.Gson;
 import com.sevenine.conecta.utils.RequestData;

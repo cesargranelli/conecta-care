@@ -17,6 +17,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-hateoas'
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
 
     // Helpers Code
     implementation 'org.projectlombok:lombok'
@@ -40,7 +41,14 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
     // Modules
-    implementation project(':conecta')
+    implementation project(':atendimento')
     implementation project(':authentication')
+    implementation project(':conecta')
+    implementation project(':estoque')
+    implementation project(':homecare')
+    implementation project(':paciente')
+    implementation project(':plano-saude')
+    implementation project(':profissional')
+    implementation project(':tratamento')
 }
 

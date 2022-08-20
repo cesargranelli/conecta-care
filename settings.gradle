@@ -1,5 +1,12 @@
 rootProject.name = 'api-conecta-care'
 
 include 'api'
+include 'atendimento'
 include 'authentication'
 include 'conecta'
+include 'estoque'
+include 'homecare'
+include 'paciente'
+include 'plano-saude'
+include 'profissional'
+include 'tratamento'
