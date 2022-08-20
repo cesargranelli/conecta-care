@@ -1,4 +1,4 @@
-package com.sevenine.conecta.config;
+package com.sevenine.conecta.configs;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Value;
@@ -14,7 +14,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.TimeZone;
 
 @Configuration
-public class ConfigRestTemplate {
+public class RestTemplateConfig {
 
     @Value("${connecta.config.timezone}")
     private String timezone;
