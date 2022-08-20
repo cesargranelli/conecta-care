@@ -38,6 +38,11 @@ dependencies {
     // Helpers Code
     implementation 'org.projectlombok:lombok'
     implementation 'org.mapstruct:mapstruct:1.4.2.Final'
+    implementation 'org.modelmapper.extensions:modelmapper-spring:2.4.4'
+
+    // Logbook
+    implementation 'org.zalando:logbook-spring-boot-starter:2.11.0'
+    implementation 'net.minidev:json-smart:2.4.7'
 
     // Annotations Processors
     annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'

@@ -23,6 +23,7 @@ dependencies {
     implementation 'org.projectlombok:lombok'
     implementation 'org.mapstruct:mapstruct:1.4.2.Final'
     implementation 'org.projectlombok:lombok-mapstruct-binding:0.2.0'
+    implementation 'org.modelmapper.extensions:modelmapper-spring:2.4.4'
 
     // Logbook
     implementation 'org.zalando:logbook-spring-boot-starter:2.14.0'
