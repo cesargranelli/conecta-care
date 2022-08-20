@@ -45,6 +45,7 @@ dependencies {
     implementation project(':authentication')
     implementation project(':conecta')
     implementation project(':estoque')
+    implementation project(':evento')
     implementation project(':homecare')
     implementation project(':paciente')
     implementation project(':plano-saude')
