@@ -4,7 +4,7 @@ import com.sevenine.conecta.controller.data.request.EnderecoRequest;
 import com.sevenine.conecta.controller.data.response.EnderecoCadastroResponse;
 import com.sevenine.conecta.controller.data.response.EnderecoResponse;
 import com.sevenine.conecta.repository.EnderecoRepository;
-import com.sevenine.conecta.repository.data.Endereco;
+import com.sevenine.conecta.repository.data.EnderecoHomecare;
 import com.sevenine.conecta.service.EnderecoService;
 import com.sevenine.conecta.service.converter.EnderecoServiceConverter;
 import lombok.RequiredArgsConstructor;
@@ -21,13 +21,13 @@ public class EnderecoServiceImpl implements EnderecoService {
 
     @Override
     public EnderecoCadastroResponse cadastrar(EnderecoRequest request) {
-        Endereco endereco = converter.toEntity(request);
-        return converter.toResponse(repository.save(endereco).getId());
+        EnderecoHomecare enderecoHomecare = converter.toEntity(request);
+        return converter.toResponse(repository.save(enderecoHomecare).getId());
     }
 
     @Override
     public void alterar(EnderecoRequest request) {
-        Optional<Endereco> enderecoOptional = repository.findByIdHomecare(request.getIdHomeCare());
+        Optional<EnderecoHomecare> enderecoOptional = repository.findByHomecareId(request.getIdHomeCare());
         if (enderecoOptional.isPresent()) {
             enderecoOptional.get().atualizarEndereco(converter.toEntity(request));
             repository.flush();
@@ -38,7 +38,7 @@ public class EnderecoServiceImpl implements EnderecoService {
 
     @Override
     public EnderecoResponse consultar(Long idHomeCare) {
-        Optional<Endereco> enderecoOptional = repository.findByIdHomecare(idHomeCare);
+        Optional<EnderecoHomecare> enderecoOptional = repository.findByHomecareId(idHomeCare);
         if (enderecoOptional.isPresent()) {
             return converter.toResponse(enderecoOptional.get());
         } else {

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.2.2.final using JasperReports Library version 6.2.2  -->
+<!-- 2021-12-12T10:15:26 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="964fd1d7-cba6-4cbd-914f-6f57fbe673b5">
+	<parameter name="cpfProfissional" class="java.lang.String"/>
+	<parameter name="cpfPaciente" class="java.lang.String"/>
+	<parameter name="areaAtendimentoId" class="java.lang.String"/>
+	<parameter name="statusAtendimentoId" class="java.lang.String"/>
+	<parameter name="homeCareId" class="java.lang.String"/>
+	<parameter name="periodoDe" class="java.lang.String"/>
+	<parameter name="periodoAte" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="atendimentoId" class="java.lang.Long"/>
+	<field name="atendimentoTipo" class="java.lang.String"/>
+	<field name="pacienteId" class="java.lang.Long"/>
+	<field name="pacienteNome" class="java.lang.String"/>
+	<field name="pacienteCpf" class="java.lang.String"/>
+	<field name="dataHora" class="java.lang.String"/>
+	<field name="status" class="java.lang.String"/>
+	<field name="observacao" class="java.lang.String"/>
+	<field name="observacoesBaixa" class="java.lang.String"/>
+	<field name="protocolo" class="java.lang.String"/>
+	<field name="checkIn" class="java.lang.String"/>
+	<field name="checkOut" class="java.lang.String"/>
+	<field name="profissionalArea" class="java.lang.String"/>
+	<field name="profissionalNome" class="java.lang.String"/>
+	<field name="profissionalContato" class="java.lang.String"/>
+	<field name="profissionalCpf" class="java.lang.String"/>
+	<field name="grupoId" class="java.lang.Long"/>
+	<field name="grupoNome" class="java.lang.String"/>
+	<field name="subGrupoId" class="java.lang.Long"/>
+	<field name="subGrupoNome" class="java.lang.String"/>
+	<field name="campoId" class="java.lang.Long"/>
+	<field name="campoTipo" class="java.lang.String"/>
+	<field name="campoPre" class="java.lang.String"/>
+	<field name="campoPos" class="java.lang.String"/>
+	<field name="campoBaixa" class="java.lang.String"/>
+	<field name="assinaturaPacientePath" class="java.lang.String"/>
+	<field name="assinaturaProfissionalPath" class="java.lang.String"/>
+	<group name="Atendimento" isStartNewPage="true">
+		<groupExpression><![CDATA[$F{atendimentoId}]]></groupExpression>
+		<groupHeader>
+			<band height="366">
+				<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				<textField>
+					<reportElement mode="Opaque" x="0" y="0" width="275" height="40" forecolor="#FFFFFF" backcolor="#5B9BD5" uuid="fde7cd46-41ed-4b55-a13b-ca4106700bbe">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font size="12"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Paciente Nome " + $F{pacienteNome} +"\n" + "Paciente Cpf: " + $F{pacienteCpf}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement mode="Opaque" x="275" y="0" width="275" height="40" forecolor="#FFFFFF" backcolor="#5B9BD5" uuid="0041978b-a695-4820-b74e-569078ba701e">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font size="14" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Situação: " + $F{status}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="0" y="60" width="275" height="100" uuid="c685fe81-3d58-4ba0-ad0b-e9bb1dc00b17"/>
+					<textFieldExpression><![CDATA["Descrição do atendimento: " + $F{observacao}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="275" y="40" width="275" height="20" uuid="52495d80-3f1f-4ec4-bb8a-fcbf151c6664"/>
+					<textFieldExpression><![CDATA["Protocolo: " + $F{protocolo}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="274" y="60" width="275" height="20" uuid="be583d63-2a6c-45c8-8f87-6e992575957d"/>
+					<textFieldExpression><![CDATA["Check-In: " + $F{checkIn}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="274" y="80" width="275" height="20" uuid="590b8755-fb2f-4bb7-b5be-2c1ea662b304"/>
+					<textFieldExpression><![CDATA["Check-Out: " + $F{checkOut}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="274" y="100" width="275" height="20" uuid="9e668417-ce01-44a7-9595-d28866c51ef3"/>
+					<textFieldExpression><![CDATA[$F{profissionalArea} + ": " + $F{profissionalNome}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="274" y="120" width="275" height="20" uuid="c1eea95a-62be-45cc-9765-75efc464f692"/>
+					<textFieldExpression><![CDATA["Contato Profissional: " + $F{profissionalContato}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="4" y="160" width="550" height="100" uuid="55a18dab-78dd-49bf-8f44-82972bf1110b">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textFieldExpression><![CDATA["Orientação Médica: " + $F{observacoesBaixa}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="2" y="260" width="550" height="100" uuid="c7057cf6-e98e-4977-8fed-961f010103cc">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textFieldExpression><![CDATA["Ocorrências do Atendimento: " + $F{observacoesBaixa}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="0" y="40" width="275" height="20" uuid="ea38ad21-6c6a-48a9-a972-2dab4c41d769"/>
+					<textFieldExpression><![CDATA["Atendimento: " + $F{atendimentoId}  + " Tipo: " + $F{atendimentoTipo}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="273" y="140" width="275" height="20" uuid="e3a3812b-20dd-4ada-a73f-97fa2d09e9a5"/>
+					<textFieldExpression><![CDATA["Cpf Profissional: " + $F{profissionalCpf}]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band height="217">
+				<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				<image>
+					<reportElement x="9" y="26" width="540" height="80" uuid="e445f1ae-0115-4b81-af0b-4eff503d00ec">
+						<printWhenExpression><![CDATA[!$F{assinaturaPacientePath}.equals("")]]></printWhenExpression>
+					</reportElement>
+					<imageExpression><![CDATA[$F{assinaturaPacientePath}]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement mode="Opaque" x="-1" y="6" width="550" height="20" backcolor="#CFCFCF" uuid="d1d8b08e-fd88-4765-810a-7d78d53c0883"/>
+					<textElement verticalAlignment="Middle">
+						<font size="11" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Assinatura digital do paciente:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement mode="Opaque" x="0" y="110" width="550" height="20" backcolor="#CFCFCF" uuid="cf67c6db-5eb8-4cea-b39c-7c250a1f00a6"/>
+					<textElement verticalAlignment="Middle">
+						<font size="11" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Assinatura digital do profissional:]]></text>
+				</staticText>
+				<image>
+					<reportElement x="7" y="130" width="540" height="80" uuid="d6bf198d-d5d8-45cc-8748-f8658081b77b">
+						<printWhenExpression><![CDATA[!$F{assinaturaProfissionalPath}.equals("")]]></printWhenExpression>
+					</reportElement>
+					<imageExpression><![CDATA[$F{assinaturaPacientePath}]]></imageExpression>
+				</image>
+			</band>
+		</groupFooter>
+	</group>
+	<group name="Grupo">
+		<groupExpression><![CDATA[$F{grupoId}]]></groupExpression>
+		<groupHeader>
+			<band height="25">
+				<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				<textField>
+					<reportElement mode="Opaque" x="0" y="0" width="550" height="20" forecolor="#000000" backcolor="#5BB4FF" uuid="29bfaf78-449f-420c-9eb4-1ca57eda11a0">
+						<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font size="11"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{grupoNome}]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band>
+				<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			</band>
+		</groupFooter>
+	</group>
+	<group name="SubGrupo">
+		<groupExpression><![CDATA[$F{subGrupoId}]]></groupExpression>
+		<groupHeader>
+			<band height="25">
+				<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				<textField>
+					<reportElement x="0" y="0" width="550" height="20" uuid="78ebe2ea-2bc5-4aad-b09d-566ccdfe5896">
+						<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+					</reportElement>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font fontName="SansSerif" size="11" isUnderline="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{subGrupoNome}]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band>
+				<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			</band>
+		</groupFooter>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="104" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="50" width="550" height="15" uuid="05df4292-9286-465e-bc81-f71ca596a857">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA["Período de: " + $P{periodoDe} + " até " + $P{periodoAte}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="0" width="550" height="30" backcolor="#5B9BD5" uuid="d0f4f352-7f42-44fb-8e5e-1e0e55f2daf7"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CONNECTA CARE - ATENDIMENTOS]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="0" y="65" width="275" height="15" uuid="856573bb-b594-4bf5-9e42-8b3416b4459f">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA["C.P.F. Paciente:" + $P{cpfPaciente}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="274" y="65" width="275" height="15" uuid="cc52a67c-fd11-4f2e-be18-90453b34d33f">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA["CPF Profissional: " + $P{cpfProfissional}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="80" width="275" height="15" uuid="05b5fef2-13b9-495a-897b-c6de6b5a787d">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA["Tipo de Atendimento: " + $P{areaAtendimentoId}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="274" y="80" width="275" height="15" uuid="c678581d-5dd0-4772-ad75-063a7c4c1469">
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA["Status de Atendimento: " + $P{statusAtendimentoId}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="30" width="549" height="20" uuid="708ffc10-7669-4d91-b717-531c7cacd627"/>
+				<textElement>
+					<font isItalic="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[Filtros aplicados:]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="25" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+			<textField>
+				<reportElement x="20" y="0" width="530" height="20" uuid="3e0d2d47-835b-433f-90f7-6df8b498eb37">
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{campoTipo}.equals("checkbox") ? $F{campoPre} + " [ " + $F{campoBaixa} + " ] " + $F{campoPos} : 
+$F{campoTipo}.equals("caracter") ? $F{campoPre} + " " + $F{campoBaixa}  + " " + $F{campoPos} : 
+$F{campoTipo}.equals("numero") ? $F{campoPre} + " " + $F{campoBaixa}  + " " + $F{campoPos} : 
+$F{campoTipo}.equals("data") ? $F{campoPre} + " " + $F{campoBaixa}  +" " +  $F{campoPos} : 
+"Implementar " + $F{campoTipo}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+		</band>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+		</band>
+	</summary>
+</jasperReport>

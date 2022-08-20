@@ -43,7 +43,7 @@ public class HomeCare {
             name = "enderecos",
             joinColumns = @JoinColumn(name = "homecare_id"),
             inverseJoinColumns = @JoinColumn(name = "id"))
-    private Endereco endereco;
+    private EnderecoHomecare enderecoHomecare;
 
     @OneToOne
     @JoinTable(

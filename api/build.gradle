@@ -42,8 +42,8 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
     // Modules
-    implementation project(':atendimento')
     implementation project(':authentication')
+    implementation project(':care')
     implementation project(':conecta')
     implementation project(':estoque')
     implementation project(':evento')
@@ -51,6 +51,5 @@ dependencies {
     implementation project(':paciente')
     implementation project(':plano-saude')
     implementation project(':profissional')
-    implementation project(':tratamento')
 }
 

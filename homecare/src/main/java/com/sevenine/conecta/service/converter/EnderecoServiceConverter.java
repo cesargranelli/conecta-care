@@ -5,7 +5,7 @@ import com.sevenine.conecta.controller.data.response.EnderecoCadastroResponse;
 import com.sevenine.conecta.controller.data.response.EnderecoResponse;
 import com.sevenine.conecta.controller.data.response.EstadoResponse;
 import com.sevenine.conecta.controller.data.response.PaisResponse;
-import com.sevenine.conecta.repository.data.Endereco;
+import com.sevenine.conecta.repository.data.EnderecoHomecare;
 import com.sevenine.conecta.repository.data.Estado;
 import com.sevenine.conecta.repository.data.Pais;
 import org.springframework.stereotype.Component;
@@ -13,8 +13,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class EnderecoServiceConverter {
 
-    public Endereco toEntity(EnderecoRequest request) {
-        return Endereco
+    public EnderecoHomecare toEntity(EnderecoRequest request) {
+        return EnderecoHomecare
                 .builder()
                 .estado(Estado
                         .builder()
@@ -30,7 +30,7 @@ public class EnderecoServiceConverter {
                         .codigo(request.getPais().getCodigo())
                         .nome(request.getPais().getNome())
                         .build())
-                .idHomecare(request.getIdHomeCare())
+                .homecareId(request.getIdHomeCare())
                 .logradouro(request.getLogradouro())
                 .numero(request.getNumero())
                 .complemento(request.getComplemento())
@@ -41,7 +41,7 @@ public class EnderecoServiceConverter {
                 .build();
     }
 
-    public EnderecoResponse toResponse(Endereco entity) {
+    public EnderecoResponse toResponse(EnderecoHomecare entity) {
         return EnderecoResponse
                 .builder()
                 .id(entity.getId())
@@ -66,7 +66,7 @@ public class EnderecoServiceConverter {
                 .cidade(entity.getCidade())
                 .cep(entity.getCep())
                 .comprovante(entity.getComprovante())
-                .idHomeCare(entity.getIdHomecare())
+                .idHomeCare(entity.getHomecareId())
                 .build();
     }
 
