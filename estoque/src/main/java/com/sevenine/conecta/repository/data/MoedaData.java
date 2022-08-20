@@ -9,7 +9,7 @@ import javax.persistence.Table;
 
 @Setter
 @Entity
-@Table(name = "moedas")
+@Table(name = "moeda")
 public class MoedaData {
 
     @Id

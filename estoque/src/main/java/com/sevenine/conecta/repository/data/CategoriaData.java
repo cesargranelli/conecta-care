@@ -9,7 +9,7 @@ import javax.persistence.Table;
 
 @Setter
 @Entity
-@Table(name = "categorias")
+@Table(name = "categoria")
 public class CategoriaData {
 
     @Id

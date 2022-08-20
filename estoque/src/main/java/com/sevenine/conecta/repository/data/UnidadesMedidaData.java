@@ -9,7 +9,7 @@ import javax.persistence.Table;
 
 @Setter
 @Entity
-@Table(name = "unidades_medida")
+@Table(name = "unidade_medida")
 public class UnidadesMedidaData {
 
     @Id
