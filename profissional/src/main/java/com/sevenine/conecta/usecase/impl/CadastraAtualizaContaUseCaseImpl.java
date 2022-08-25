@@ -1,9 +1,9 @@
 package com.sevenine.conecta.usecase.impl;
 
-import com.sevenine.conecta.controller.data.request.ContaRequest;
-import com.sevenine.conecta.controller.data.response.CadastraAtualizaContaResponse;
-import com.sevenine.conecta.service.AtivaUsuarioService;
-import com.sevenine.conecta.service.CadastraAtualizaContaService;
+import com.sevenine.conecta.controllers.data.request.ContaRequest;
+import com.sevenine.conecta.controllers.data.response.CadastraAtualizaContaResponse;
+import com.sevenine.conecta.services.AtivaUsuarioService;
+import com.sevenine.conecta.services.CadastraAtualizaContaService;
 import com.sevenine.conecta.usecase.CadastraAtualizaContaUseCase;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;

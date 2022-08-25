@@ -1,8 +1,8 @@
-package com.sevenine.conecta.service;
+package com.sevenine.conecta.services;
 
-import com.sevenine.conecta.controller.data.request.HomeCareRequest;
-import com.sevenine.conecta.controller.data.response.HomeCareCadastroResponse;
-import com.sevenine.conecta.controller.data.response.HomeCareResponse;
+import com.sevenine.conecta.controllers.data.request.HomeCareRequest;
+import com.sevenine.conecta.controllers.data.response.HomeCareCadastroResponse;
+import com.sevenine.conecta.controllers.data.response.HomeCareResponse;
 
 import java.util.List;
 

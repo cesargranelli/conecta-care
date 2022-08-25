@@ -1,10 +1,10 @@
-package com.sevenine.conecta.service.converter;
+package com.sevenine.conecta.services.converter;
 
-import com.sevenine.conecta.controller.data.request.EnderecoRequest;
-import com.sevenine.conecta.controller.data.response.EnderecoCadastroResponse;
-import com.sevenine.conecta.controller.data.response.EnderecoResponse;
-import com.sevenine.conecta.controller.data.response.EstadoResponse;
-import com.sevenine.conecta.controller.data.response.PaisResponse;
+import com.sevenine.conecta.controllers.data.request.EnderecoRequest;
+import com.sevenine.conecta.controllers.data.response.EnderecoCadastroResponse;
+import com.sevenine.conecta.controllers.data.response.EnderecoResponse;
+import com.sevenine.conecta.controllers.data.response.EstadoResponse;
+import com.sevenine.conecta.controllers.data.response.PaisResponse;
 import com.sevenine.conecta.repository.data.EnderecoHomecare;
 import com.sevenine.conecta.repository.data.Estado;
 import com.sevenine.conecta.repository.data.Pais;

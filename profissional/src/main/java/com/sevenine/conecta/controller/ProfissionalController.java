@@ -1,7 +1,7 @@
-package com.sevenine.conecta.controller;
+package com.sevenine.conecta.controllers;
 
-import com.sevenine.conecta.controller.data.request.*;
-import com.sevenine.conecta.controller.data.response.*;
+import com.sevenine.conecta.controllers.data.request.*;
+import com.sevenine.conecta.controllers.data.response.*;
 import com.sevenine.conecta.usecase.*;
 import lombok.RequiredArgsConstructor;
 import org.apache.commons.lang3.StringUtils;

@@ -1,14 +1,14 @@
-package com.sevenine.conecta.controller;
+package com.sevenine.conecta.controllers;
 
-import com.sevenine.conecta.controller.data.request.atendimento.AdicionaAtendimentoRequest;
-import com.sevenine.conecta.controller.data.request.atendimento.BaixaRequest;
-import com.sevenine.conecta.controller.data.response.atendimento.AtendimentoCheckResponse;
-import com.sevenine.conecta.controller.data.response.atendimento.AtendimentoPacienteResponse;
-import com.sevenine.conecta.controller.data.response.atendimento.AtendimentoResumoResponse;
-import com.sevenine.conecta.controller.data.response.atendimento.ConsultaAtendimentoDetalheResponse;
-import com.sevenine.conecta.service.data.request.atendimento.AtendimentoPreviewPara;
-import com.sevenine.conecta.service.data.response.AtendimentoPreviewResponse;
-import com.sevenine.conecta.service.data.response.ProfissionalAtendimentoResponse;
+import com.sevenine.conecta.controllers.data.request.atendimento.AdicionaAtendimentoRequest;
+import com.sevenine.conecta.controllers.data.request.atendimento.BaixaRequest;
+import com.sevenine.conecta.controllers.data.response.atendimento.AtendimentoCheckResponse;
+import com.sevenine.conecta.controllers.data.response.atendimento.AtendimentoPacienteResponse;
+import com.sevenine.conecta.controllers.data.response.atendimento.AtendimentoResumoResponse;
+import com.sevenine.conecta.controllers.data.response.atendimento.ConsultaAtendimentoDetalheResponse;
+import com.sevenine.conecta.services.data.request.atendimento.AtendimentoPreviewPara;
+import com.sevenine.conecta.services.data.response.AtendimentoPreviewResponse;
+import com.sevenine.conecta.services.data.response.ProfissionalAtendimentoResponse;
 import com.sevenine.conecta.usecase.AdicionaAtendimentoUseCase;
 import com.sevenine.conecta.usecase.AlteraStatusAtendimentoUseCase;
 import com.sevenine.conecta.usecase.BaixaAtendimentoUseCase;

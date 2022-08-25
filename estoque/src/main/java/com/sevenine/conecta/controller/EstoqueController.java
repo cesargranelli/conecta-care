@@ -1,6 +1,6 @@
-package com.sevenine.conecta.controller;
+package com.sevenine.conecta.controllers;
 
-import com.sevenine.conecta.controller.data.request.CadastroMaterialRequest;
+import com.sevenine.conecta.controllers.data.request.CadastroMaterialRequest;
 import com.sevenine.conecta.usecase.CadastrarMateriaisUseCase;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

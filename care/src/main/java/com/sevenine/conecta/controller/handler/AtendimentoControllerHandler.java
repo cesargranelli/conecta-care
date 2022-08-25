@@ -1,6 +1,6 @@
-package com.sevenine.conecta.controller.handler;
+package com.sevenine.conecta.controllers.handler;
 
-import com.sevenine.conecta.controller.AtendimentoController;
+import com.sevenine.conecta.controllers.AtendimentoController;
 import com.sevenine.conecta.exception.AtendimentoRuntimeException;
 import com.sevenine.conecta.exception.CareRuntimeException;
 import com.sevenine.conecta.exception.NaoLocalizadoException;

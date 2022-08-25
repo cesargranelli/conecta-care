@@ -1,7 +1,7 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
 import com.sevenine.conecta.config.properties.EndpointsAuthenticationProperties;
-import com.sevenine.conecta.service.AtivaUsuarioService;
+import com.sevenine.conecta.services.AtivaUsuarioService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;

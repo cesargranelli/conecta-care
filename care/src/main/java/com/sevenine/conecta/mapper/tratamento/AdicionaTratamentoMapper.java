@@ -1,6 +1,6 @@
 package com.sevenine.conecta.mapper.tratamento;
 
-import com.sevenine.conecta.controller.data.request.tratamento.AdicionaTratamentoRequest;
+import com.sevenine.conecta.controllers.data.request.tratamento.AdicionaTratamentoRequest;
 import com.sevenine.conecta.repository.data.Tratamento;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

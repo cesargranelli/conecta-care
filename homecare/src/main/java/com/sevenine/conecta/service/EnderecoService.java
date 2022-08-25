@@ -1,8 +1,8 @@
-package com.sevenine.conecta.service;
+package com.sevenine.conecta.services;
 
-import com.sevenine.conecta.controller.data.request.EnderecoRequest;
-import com.sevenine.conecta.controller.data.response.EnderecoCadastroResponse;
-import com.sevenine.conecta.controller.data.response.EnderecoResponse;
+import com.sevenine.conecta.controllers.data.request.EnderecoRequest;
+import com.sevenine.conecta.controllers.data.response.EnderecoCadastroResponse;
+import com.sevenine.conecta.controllers.data.response.EnderecoResponse;
 
 public interface EnderecoService {
     EnderecoCadastroResponse cadastrar(EnderecoRequest request);

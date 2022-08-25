@@ -1,6 +1,6 @@
 package com.sevenine.conecta.repository.conveter;
 
-import com.sevenine.conecta.http.resource.GeneroResource;
+import com.sevenine.conecta.controllers.resource.GeneroResource;
 import com.sevenine.conecta.repository.entity.GeneroEntity;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;

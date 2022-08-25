@@ -1,12 +1,12 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.http.resource.HistoricoMedicoResource;
+import com.sevenine.conecta.controllers.resource.HistoricoMedicoResource;
 import com.sevenine.conecta.infra.enumerator.ErrorMappingEnum;
 import com.sevenine.conecta.infra.exception.PacienteException;
 import com.sevenine.conecta.repository.HistoricoMedicoRepository;
 import com.sevenine.conecta.repository.conveter.HistoricoMedicoConverter;
 import com.sevenine.conecta.repository.entity.HistoricoMedicoEntity;
-import com.sevenine.conecta.service.HistoricoMedicoService;
+import com.sevenine.conecta.services.HistoricoMedicoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;

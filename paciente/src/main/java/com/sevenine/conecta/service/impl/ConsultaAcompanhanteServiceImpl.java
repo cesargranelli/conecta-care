@@ -1,10 +1,10 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.http.resource.AcompanhanteResponseResource;
+import com.sevenine.conecta.controllers.resource.AcompanhanteResponseResource;
 import com.sevenine.conecta.mapper.ConsultaAcompanhanteMapper;
 import com.sevenine.conecta.repository.AcompanhanteRepository;
 import com.sevenine.conecta.repository.entity.AcompanhanteEntity;
-import com.sevenine.conecta.service.ConsultaAcompanhanteService;
+import com.sevenine.conecta.services.ConsultaAcompanhanteService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

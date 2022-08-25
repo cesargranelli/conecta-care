@@ -1,10 +1,10 @@
 package com.sevenine.conecta.usecase.impl;
 
-import com.sevenine.conecta.controller.data.response.ProfissionalResponse;
-import com.sevenine.conecta.service.ConsultaProfissionalPorCpfService;
-import com.sevenine.conecta.service.EstadoCivilService;
-import com.sevenine.conecta.service.GeneroService;
-import com.sevenine.conecta.service.TipoEmpresaService;
+import com.sevenine.conecta.controllers.data.response.ProfissionalResponse;
+import com.sevenine.conecta.services.ConsultaProfissionalPorCpfService;
+import com.sevenine.conecta.services.EstadoCivilService;
+import com.sevenine.conecta.services.GeneroService;
+import com.sevenine.conecta.services.TipoEmpresaService;
 import com.sevenine.conecta.usecase.ConsultaProfissionalPorCpfUseCase;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;

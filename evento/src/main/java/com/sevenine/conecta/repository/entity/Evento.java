@@ -1,7 +1,7 @@
-package com.connecta.evento.repository.entity;
+package com.sevenine.conecta.repository.entity;
 
-import com.connecta.evento.enumerator.EventoStatus;
-import com.connecta.evento.service.state.EventoState;
+import com.sevenine.conecta.enumerator.EventoStatus;
+import com.sevenine.conecta.services.state.EventoState;
 import lombok.Getter;
 import lombok.Setter;
 

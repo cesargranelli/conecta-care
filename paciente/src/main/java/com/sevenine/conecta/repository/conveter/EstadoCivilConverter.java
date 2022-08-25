@@ -1,6 +1,6 @@
 package com.sevenine.conecta.repository.conveter;
 
-import com.sevenine.conecta.http.resource.EstadoCivilResource;
+import com.sevenine.conecta.controllers.resource.EstadoCivilResource;
 import com.sevenine.conecta.repository.entity.EstadoCivilEntity;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;

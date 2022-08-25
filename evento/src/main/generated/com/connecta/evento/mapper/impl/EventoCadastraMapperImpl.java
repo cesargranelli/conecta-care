@@ -1,10 +1,10 @@
-package com.connecta.evento.mapper.impl;
+package com.sevenine.conecta.mapper.impl;
 
-import com.connecta.evento.controller.data.request.EstadoRequest;
-import com.connecta.evento.controller.data.request.EventoRequest;
-import com.connecta.evento.mapper.EventoCadastraMapper;
-import com.connecta.evento.repository.entity.Estado;
-import com.connecta.evento.repository.entity.Evento;
+import com.sevenine.conecta.controllers.data.request.EstadoRequest;
+import com.sevenine.conecta.controllers.data.request.EventoRequest;
+import com.sevenine.conecta.mapper.EventoCadastraMapper;
+import com.sevenine.conecta.repository.entity.Estado;
+import com.sevenine.conecta.repository.entity.Evento;
 import javax.annotation.processing.Generated;
 import org.springframework.stereotype.Component;
 

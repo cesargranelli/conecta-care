@@ -1,4 +1,4 @@
-package com.sevenine.conecta.http.resource;
+package com.sevenine.conecta.controllers.resource;
 
 import com.sevenine.conecta.repository.entity.TipoSanguineoEntity;
 import lombok.*;

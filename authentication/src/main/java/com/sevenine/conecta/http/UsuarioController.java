@@ -1,12 +1,12 @@
-package com.sevenine.conecta.http;
+package com.sevenine.conecta.controllers;
 
 import com.google.gson.Gson;
 import com.sevenine.conecta.entity.ConsultaUsuario;
 import com.sevenine.conecta.entity.ValidacaoUsuario;
-import com.sevenine.conecta.http.data.request.CadastroUsuarioRequest;
-import com.sevenine.conecta.http.data.response.CadastroResponse;
-import com.sevenine.conecta.http.data.response.ConsultaUsuarioResponse;
-import com.sevenine.conecta.http.data.response.ValidationResponse;
+import com.sevenine.conecta.controllers.data.request.CadastroUsuarioRequest;
+import com.sevenine.conecta.controllers.data.response.CadastroResponse;
+import com.sevenine.conecta.controllers.data.response.ConsultaUsuarioResponse;
+import com.sevenine.conecta.controllers.data.response.ValidationResponse;
 import com.sevenine.conecta.usecase.AtivaUsuarioUseCase;
 import com.sevenine.conecta.usecase.CadastraUsuarioUseCase;
 import com.sevenine.conecta.usecase.ConsultaUsuarioUseCase;

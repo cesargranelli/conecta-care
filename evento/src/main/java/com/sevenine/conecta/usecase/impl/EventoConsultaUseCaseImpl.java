@@ -1,8 +1,8 @@
-package com.connecta.evento.usecase.impl;
+package com.sevenine.conecta.usecase.impl;
 
-import com.connecta.evento.controller.data.response.EventoResponse;
-import com.connecta.evento.service.EventoConsultaService;
-import com.connecta.evento.usecase.EventoConsultaUseCase;
+import com.sevenine.conecta.controllers.data.response.EventoResponse;
+import com.sevenine.conecta.services.EventoConsultaService;
+import com.sevenine.conecta.usecase.EventoConsultaUseCase;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 

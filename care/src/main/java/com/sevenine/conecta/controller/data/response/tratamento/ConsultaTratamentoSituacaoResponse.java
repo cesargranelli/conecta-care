@@ -1,4 +1,4 @@
-package com.sevenine.conecta.controller.data.response.tratamento;
+package com.sevenine.conecta.controllers.data.response.tratamento;
 
 import lombok.Getter;
 import lombok.Setter;

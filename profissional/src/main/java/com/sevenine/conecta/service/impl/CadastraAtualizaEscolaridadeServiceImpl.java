@@ -1,12 +1,12 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controller.data.request.EscolaridadeRequest;
-import com.sevenine.conecta.controller.data.response.CadastraAtualizaEscolaridadeResponse;
+import com.sevenine.conecta.controllers.data.request.EscolaridadeRequest;
+import com.sevenine.conecta.controllers.data.response.CadastraAtualizaEscolaridadeResponse;
 import com.sevenine.conecta.mapper.cadastro.CadastraAtualizaEscolaridadeMapper;
 import com.sevenine.conecta.repository.EscolaridadeRepository;
 import com.sevenine.conecta.repository.data.Escolaridade;
-import com.sevenine.conecta.service.CadastraAtualizaEscolaridadeService;
-import com.sevenine.conecta.service.ConsultaInstrucaoService;
+import com.sevenine.conecta.services.CadastraAtualizaEscolaridadeService;
+import com.sevenine.conecta.services.ConsultaInstrucaoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

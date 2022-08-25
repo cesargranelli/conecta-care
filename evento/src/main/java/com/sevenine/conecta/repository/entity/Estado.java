@@ -1,4 +1,4 @@
-package com.connecta.evento.repository.entity;
+package com.sevenine.conecta.repository.entity;
 
 import lombok.Getter;
 import lombok.Setter;

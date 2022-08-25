@@ -1,8 +1,8 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.http.resource.PacienteNomeDocumentoResource;
-import com.sevenine.conecta.http.resource.PacientePesquisaResource;
-import com.sevenine.conecta.http.resource.PacienteResource;
+import com.sevenine.conecta.controllers.resource.PacienteNomeDocumentoResource;
+import com.sevenine.conecta.controllers.resource.PacientePesquisaResource;
+import com.sevenine.conecta.controllers.resource.PacienteResource;
 import com.sevenine.conecta.infra.enumerator.ErrorMappingEnum;
 import com.sevenine.conecta.infra.exception.PacienteException;
 import com.sevenine.conecta.repository.PacientePesquisaRepository;
@@ -10,7 +10,7 @@ import com.sevenine.conecta.repository.PacienteRepository;
 import com.sevenine.conecta.repository.conveter.PacienteConverter;
 import com.sevenine.conecta.repository.entity.PacienteEntity;
 import com.sevenine.conecta.repository.entity.PacientePesquisaEntity;
-import com.sevenine.conecta.service.PacienteService;
+import com.sevenine.conecta.services.PacienteService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;

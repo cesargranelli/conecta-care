@@ -1,6 +1,6 @@
 package com.sevenine.conecta.converter.atendimento;
 
-import com.sevenine.conecta.service.data.response.*;
+import com.sevenine.conecta.services.data.response.*;
 
 public interface ConsultaAtendimentoPorProfissionalUseCaseConverter {
     ProfissionalAtendimentoResponse toResponse(AtendimentoResponse atendimento,

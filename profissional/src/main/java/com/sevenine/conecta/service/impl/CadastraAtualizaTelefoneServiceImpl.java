@@ -1,11 +1,11 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controller.data.request.TelefoneRequest;
-import com.sevenine.conecta.controller.data.response.CadastraAtualizaTelefoneResponse;
+import com.sevenine.conecta.controllers.data.request.TelefoneRequest;
+import com.sevenine.conecta.controllers.data.response.CadastraAtualizaTelefoneResponse;
 import com.sevenine.conecta.mapper.cadastro.CadastraAtualizaTelefoneMapper;
 import com.sevenine.conecta.repository.TelefoneRepository;
 import com.sevenine.conecta.repository.data.Telefone;
-import com.sevenine.conecta.service.CadastraAtualizaTelefoneService;
+import com.sevenine.conecta.services.CadastraAtualizaTelefoneService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

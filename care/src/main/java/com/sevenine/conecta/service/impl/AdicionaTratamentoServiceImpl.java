@@ -1,10 +1,10 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controller.data.request.tratamento.AdicionaTratamentoRequest;
+import com.sevenine.conecta.controllers.data.request.tratamento.AdicionaTratamentoRequest;
 import com.sevenine.conecta.mapper.tratamento.AdicionaTratamentoMapper;
 import com.sevenine.conecta.repository.TratamentoRepository;
 import com.sevenine.conecta.repository.data.Tratamento;
-import com.sevenine.conecta.service.AdicionaTratamentoService;
+import com.sevenine.conecta.services.AdicionaTratamentoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

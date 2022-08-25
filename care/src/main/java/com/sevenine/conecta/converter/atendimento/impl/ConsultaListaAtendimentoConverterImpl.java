@@ -1,6 +1,6 @@
 package com.sevenine.conecta.converter.atendimento.impl;
 
-import com.sevenine.conecta.controller.data.response.atendimento.AtendimentoResumoResponse;
+import com.sevenine.conecta.controllers.data.response.atendimento.AtendimentoResumoResponse;
 import com.sevenine.conecta.converter.atendimento.ConsultaListaAtendimentoConverter;
 import com.sevenine.conecta.repository.data.Atendimento;
 import com.sevenine.conecta.repository.data.AtendimentoSituacao;

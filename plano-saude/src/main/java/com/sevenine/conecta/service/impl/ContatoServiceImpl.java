@@ -1,12 +1,12 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controller.data.request.ContatoRequest;
-import com.sevenine.conecta.controller.data.response.ContatoCadastroResponse;
-import com.sevenine.conecta.controller.data.response.ContatoResponse;
+import com.sevenine.conecta.controllers.data.request.ContatoRequest;
+import com.sevenine.conecta.controllers.data.response.ContatoCadastroResponse;
+import com.sevenine.conecta.controllers.data.response.ContatoResponse;
 import com.sevenine.conecta.repository.ContatoRepository;
 import com.sevenine.conecta.repository.data.Contato;
-import com.sevenine.conecta.service.ContatoService;
-import com.sevenine.conecta.service.converter.ContatoServiceConverter;
+import com.sevenine.conecta.services.ContatoService;
+import com.sevenine.conecta.services.converter.ContatoServiceConverter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

@@ -1,9 +1,9 @@
-package com.connecta.evento.service.state.evento;
+package com.sevenine.conecta.services.state.evento;
 
-import com.connecta.evento.enumerator.EventoStatus;
-import com.connecta.evento.exception.FalhaValidacaoStatusEventoException;
-import com.connecta.evento.repository.entity.Evento;
-import com.connecta.evento.service.state.EventoState;
+import com.sevenine.conecta.enumerator.EventoStatus;
+import com.sevenine.conecta.exception.FalhaValidacaoStatusEventoException;
+import com.sevenine.conecta.repository.entity.Evento;
+import com.sevenine.conecta.services.state.EventoState;
 import org.springframework.http.HttpStatus;
 
 import static java.util.Objects.isNull;

@@ -1,6 +1,6 @@
-package com.connecta.evento.usecase;
+package com.sevenine.conecta.usecase;
 
-import com.connecta.evento.controller.data.request.EventoRequest;
+import com.sevenine.conecta.controllers.data.request.EventoRequest;
 
 public interface EventoCadastraUseCase {
     void executar(EventoRequest request);

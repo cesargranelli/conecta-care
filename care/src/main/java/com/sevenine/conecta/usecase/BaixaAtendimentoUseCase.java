@@ -1,6 +1,6 @@
 package com.sevenine.conecta.usecase;
 
-import com.sevenine.conecta.controller.data.request.atendimento.BaixaRequest;
+import com.sevenine.conecta.controllers.data.request.atendimento.BaixaRequest;
 
 public interface BaixaAtendimentoUseCase {
 

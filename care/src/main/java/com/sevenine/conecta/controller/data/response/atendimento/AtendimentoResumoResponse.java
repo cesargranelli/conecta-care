@@ -1,4 +1,4 @@
-package com.sevenine.conecta.controller.data.response.atendimento;
+package com.sevenine.conecta.controllers.data.response.atendimento;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;

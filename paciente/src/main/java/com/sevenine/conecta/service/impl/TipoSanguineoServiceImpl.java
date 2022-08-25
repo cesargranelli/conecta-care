@@ -1,9 +1,9 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.http.resource.TipoSanguineoResource;
+import com.sevenine.conecta.controllers.resource.TipoSanguineoResource;
 import com.sevenine.conecta.repository.TipoSanguineoRepository;
 import com.sevenine.conecta.repository.conveter.TipoSanguineoConverter;
-import com.sevenine.conecta.service.TipoSanguineoService;
+import com.sevenine.conecta.services.TipoSanguineoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

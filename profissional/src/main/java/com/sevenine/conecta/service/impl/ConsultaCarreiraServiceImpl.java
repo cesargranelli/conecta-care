@@ -1,12 +1,12 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
 import com.sevenine.conecta.config.properties.ExceptionMessageProperties;
-import com.sevenine.conecta.controller.data.response.CarreiraResponse;
+import com.sevenine.conecta.controllers.data.response.CarreiraResponse;
 import com.sevenine.conecta.exception.InformacaoNaoEncontradaException;
 import com.sevenine.conecta.mapper.consulta.ConsultaCarreiraMapper;
 import com.sevenine.conecta.repository.CarreiraRepository;
 import com.sevenine.conecta.repository.data.Carreira;
-import com.sevenine.conecta.service.ConsultaCarreiraService;
+import com.sevenine.conecta.services.ConsultaCarreiraService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;

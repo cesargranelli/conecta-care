@@ -1,8 +1,8 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
 import com.sevenine.conecta.repository.DocumentoUsuarioRepository;
 import com.sevenine.conecta.repository.data.DocumentoUsuario;
-import com.sevenine.conecta.service.DocumentoUsuarioService;
+import com.sevenine.conecta.services.DocumentoUsuarioService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 

@@ -1,7 +1,7 @@
 package com.sevenine.conecta.usecase.impl;
 
-import com.sevenine.conecta.controller.data.response.ProfissionalCpfResponse;
-import com.sevenine.conecta.service.BuscaProfissionalPorNomeService;
+import com.sevenine.conecta.controllers.data.response.ProfissionalCpfResponse;
+import com.sevenine.conecta.services.BuscaProfissionalPorNomeService;
 import com.sevenine.conecta.usecase.ConsultaProfissionalPorNomeUseCase;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;

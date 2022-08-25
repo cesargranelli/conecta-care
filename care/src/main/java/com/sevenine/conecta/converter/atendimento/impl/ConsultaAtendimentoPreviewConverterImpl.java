@@ -2,9 +2,9 @@ package com.sevenine.conecta.converter.atendimento.impl;
 
 import com.sevenine.conecta.converter.atendimento.ConsultaAtendimentoPreviewConverter;
 import com.sevenine.conecta.repository.data.Atendimento;
-import com.sevenine.conecta.service.data.response.AtendimentoPreviewResponse;
-import com.sevenine.conecta.service.data.response.AtendimentoProfissionalResponse;
-import com.sevenine.conecta.service.data.response.PacienteResponse;
+import com.sevenine.conecta.services.data.response.AtendimentoPreviewResponse;
+import com.sevenine.conecta.services.data.response.AtendimentoProfissionalResponse;
+import com.sevenine.conecta.services.data.response.PacienteResponse;
 
 import java.util.List;
 import java.util.stream.Collectors;

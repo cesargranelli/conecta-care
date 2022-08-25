@@ -1,13 +1,13 @@
 package com.sevenine.conecta.usecase.impl;
 
-import com.sevenine.conecta.controller.data.request.tratamento.AdicionaTratamentoRequest;
+import com.sevenine.conecta.controllers.data.request.tratamento.AdicionaTratamentoRequest;
 import com.sevenine.conecta.exception.ExisteTratamentoEmAbertoException;
 import com.sevenine.conecta.exception.NaoExisteTratamentoEmAbertoException;
 import com.sevenine.conecta.exception.NaoLocalizadoException;
-import com.sevenine.conecta.service.AdicionaTratamentoService;
-import com.sevenine.conecta.service.CadastraAcompanhanteService;
-import com.sevenine.conecta.service.ConsultaTratamentoEmAbertoService;
-import com.sevenine.conecta.service.AdicionaTratamentoSituacaoService;
+import com.sevenine.conecta.services.AdicionaTratamentoService;
+import com.sevenine.conecta.services.CadastraAcompanhanteService;
+import com.sevenine.conecta.services.ConsultaTratamentoEmAbertoService;
+import com.sevenine.conecta.services.AdicionaTratamentoSituacaoService;
 import com.sevenine.conecta.usecase.AdicionaTratamentoUseCase;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

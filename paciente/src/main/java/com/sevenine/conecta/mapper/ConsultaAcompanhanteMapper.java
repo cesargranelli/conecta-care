@@ -1,6 +1,6 @@
 package com.sevenine.conecta.mapper;
 
-import com.sevenine.conecta.http.resource.AcompanhanteResponseResource;
+import com.sevenine.conecta.controllers.resource.AcompanhanteResponseResource;
 import com.sevenine.conecta.repository.entity.AcompanhanteEntity;
 import org.mapstruct.Mapper;
 

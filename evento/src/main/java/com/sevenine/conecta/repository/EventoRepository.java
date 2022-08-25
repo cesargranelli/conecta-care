@@ -1,7 +1,7 @@
-package com.connecta.evento.repository;
+package com.sevenine.conecta.repository;
 
-import com.connecta.evento.enumerator.EventoStatus;
-import com.connecta.evento.repository.entity.Evento;
+import com.sevenine.conecta.enumerator.EventoStatus;
+import com.sevenine.conecta.repository.entity.Evento;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

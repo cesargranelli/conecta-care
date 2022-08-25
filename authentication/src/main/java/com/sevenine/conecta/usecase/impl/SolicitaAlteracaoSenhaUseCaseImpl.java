@@ -1,9 +1,9 @@
 package com.sevenine.conecta.usecase.impl;
 
-import com.sevenine.conecta.http.data.request.EsqueciMinhaSenhaRequest;
-import com.sevenine.conecta.http.data.response.EsqueciMinhaSenhaResponse;
+import com.sevenine.conecta.controllers.data.request.EsqueciMinhaSenhaRequest;
+import com.sevenine.conecta.controllers.data.response.EsqueciMinhaSenhaResponse;
 import com.sevenine.conecta.repository.data.Usuario;
-import com.sevenine.conecta.service.ConsultaUsuarioService;
+import com.sevenine.conecta.services.ConsultaUsuarioService;
 import com.sevenine.conecta.usecase.SolicitaAlteracaoSenhaUseCase;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;

@@ -1,4 +1,4 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
 import com.sevenine.conecta.exception.NaoLocalizadoException;
 import com.sevenine.conecta.repository.AtendimentoRepository;
@@ -7,7 +7,7 @@ import com.sevenine.conecta.repository.StatusAtendimentoRepository;
 import com.sevenine.conecta.repository.data.Atendimento;
 import com.sevenine.conecta.repository.data.AtendimentoSituacao;
 import com.sevenine.conecta.repository.data.StatusAtendimento;
-import com.sevenine.conecta.service.AlteraStatusAtendimentoService;
+import com.sevenine.conecta.services.AlteraStatusAtendimentoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;

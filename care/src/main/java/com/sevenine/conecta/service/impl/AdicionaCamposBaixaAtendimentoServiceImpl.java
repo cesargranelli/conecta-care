@@ -1,9 +1,9 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controller.data.request.atendimento.GrupoBaixaRequest;
+import com.sevenine.conecta.controllers.data.request.atendimento.GrupoBaixaRequest;
 import com.sevenine.conecta.repository.AtendimentoCampoBaixaRepository;
 import com.sevenine.conecta.repository.data.AtendimentoCampoBaixa;
-import com.sevenine.conecta.service.AdicionaCamposBaixaAtendimentoService;
+import com.sevenine.conecta.services.AdicionaCamposBaixaAtendimentoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

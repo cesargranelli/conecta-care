@@ -1,7 +1,7 @@
 package com.sevenine.conecta.usecase.impl;
 
-import com.sevenine.conecta.controller.data.response.EscolaridadeResponse;
-import com.sevenine.conecta.service.ConsultaEscolaridadeService;
+import com.sevenine.conecta.controllers.data.response.EscolaridadeResponse;
+import com.sevenine.conecta.services.ConsultaEscolaridadeService;
 import com.sevenine.conecta.usecase.ConsultaEscolaridadeUseCase;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;

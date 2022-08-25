@@ -1,6 +1,6 @@
-package com.connecta.evento.service;
+package com.sevenine.conecta.services;
 
-import com.connecta.evento.service.data.response.ProfissionalEventoResponse;
+import com.sevenine.conecta.services.data.response.ProfissionalEventoResponse;
 
 import java.util.List;
 

@@ -1,10 +1,10 @@
-package com.connecta.evento.usecase.impl;
+package com.sevenine.conecta.usecase.impl;
 
-import com.connecta.evento.config.properties.ExceptionMessageProperties;
-import com.connecta.evento.controller.data.response.EventoResponse;
-import com.connecta.evento.exception.EventoNaoEncontradoException;
-import com.connecta.evento.service.EventoEmAbertoService;
-import com.connecta.evento.usecase.EventoFuturoUseCase;
+import com.sevenine.conecta.config.properties.ExceptionMessageProperties;
+import com.sevenine.conecta.controllers.data.response.EventoResponse;
+import com.sevenine.conecta.exception.EventoNaoEncontradoException;
+import com.sevenine.conecta.services.EventoEmAbertoService;
+import com.sevenine.conecta.usecase.EventoFuturoUseCase;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;

@@ -1,4 +1,4 @@
-package com.sevenine.conecta.service.data.response;
+package com.sevenine.conecta.services.data.response;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;

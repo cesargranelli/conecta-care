@@ -1,11 +1,11 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controller.data.request.ContaRequest;
-import com.sevenine.conecta.controller.data.response.CadastraAtualizaContaResponse;
+import com.sevenine.conecta.controllers.data.request.ContaRequest;
+import com.sevenine.conecta.controllers.data.response.CadastraAtualizaContaResponse;
 import com.sevenine.conecta.mapper.cadastro.CadastraAtualizaContaMapper;
 import com.sevenine.conecta.repository.ContaRepository;
 import com.sevenine.conecta.repository.data.Conta;
-import com.sevenine.conecta.service.CadastraAtualizaContaService;
+import com.sevenine.conecta.services.CadastraAtualizaContaService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

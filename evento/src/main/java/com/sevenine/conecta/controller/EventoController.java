@@ -1,9 +1,9 @@
-package com.connecta.evento.controller;
+package com.sevenine.conecta.controllers;
 
-import com.connecta.evento.controller.data.request.EventoRequest;
-import com.connecta.evento.controller.data.response.EnvioResponse;
-import com.connecta.evento.controller.data.response.EventoResponse;
-import com.connecta.evento.usecase.*;
+import com.sevenine.conecta.controllers.data.request.EventoRequest;
+import com.sevenine.conecta.controllers.data.response.EnvioResponse;
+import com.sevenine.conecta.controllers.data.response.EventoResponse;
+import com.sevenine.conecta.usecase.*;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

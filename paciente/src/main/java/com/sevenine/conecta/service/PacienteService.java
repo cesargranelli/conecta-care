@@ -1,8 +1,8 @@
-package com.sevenine.conecta.service;
+package com.sevenine.conecta.services;
 
-import com.sevenine.conecta.http.resource.PacienteNomeDocumentoResource;
-import com.sevenine.conecta.http.resource.PacientePesquisaResource;
-import com.sevenine.conecta.http.resource.PacienteResource;
+import com.sevenine.conecta.controllers.resource.PacienteNomeDocumentoResource;
+import com.sevenine.conecta.controllers.resource.PacientePesquisaResource;
+import com.sevenine.conecta.controllers.resource.PacienteResource;
 
 import java.util.List;
 

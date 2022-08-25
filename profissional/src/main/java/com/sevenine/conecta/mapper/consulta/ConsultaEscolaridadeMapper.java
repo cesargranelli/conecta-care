@@ -1,6 +1,6 @@
 package com.sevenine.conecta.mapper.consulta;
 
-import com.sevenine.conecta.controller.data.response.EscolaridadeResponse;
+import com.sevenine.conecta.controllers.data.response.EscolaridadeResponse;
 import com.sevenine.conecta.repository.data.Escolaridade;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

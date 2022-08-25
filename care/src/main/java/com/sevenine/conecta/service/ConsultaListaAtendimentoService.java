@@ -1,6 +1,6 @@
-package com.sevenine.conecta.service;
+package com.sevenine.conecta.services;
 
-import com.sevenine.conecta.controller.data.response.atendimento.AtendimentoResumoResponse;
+import com.sevenine.conecta.controllers.data.response.atendimento.AtendimentoResumoResponse;
 import com.sevenine.conecta.repository.data.Atendimento;
 
 import java.time.LocalDate;

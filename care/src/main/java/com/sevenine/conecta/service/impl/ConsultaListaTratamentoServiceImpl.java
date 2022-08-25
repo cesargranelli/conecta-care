@@ -1,11 +1,11 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
 import com.sevenine.conecta.exception.NaoLocalizadoException;
 import com.sevenine.conecta.mapper.tratamento.ConsultaListaTratamentoMapper;
 import com.sevenine.conecta.repository.TratamentoRepository;
 import com.sevenine.conecta.repository.data.Tratamento;
-import com.sevenine.conecta.service.ConsultaListaTratamentoService;
-import com.sevenine.conecta.service.data.response.TratamentoResponse;
+import com.sevenine.conecta.services.ConsultaListaTratamentoService;
+import com.sevenine.conecta.services.data.response.TratamentoResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;

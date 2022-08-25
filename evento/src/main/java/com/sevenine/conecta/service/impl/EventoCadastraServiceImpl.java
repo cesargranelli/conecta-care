@@ -1,11 +1,11 @@
-package com.connecta.evento.service.impl;
+package com.sevenine.conecta.services.impl;
 
-import com.connecta.evento.controller.data.request.EventoRequest;
-import com.connecta.evento.mapper.EventoCadastraMapper;
-import com.connecta.evento.repository.EventoRepository;
-import com.connecta.evento.repository.entity.Evento;
-import com.connecta.evento.service.EventoCadastraService;
-import com.connecta.evento.service.state.evento.EventoAberto;
+import com.sevenine.conecta.controllers.data.request.EventoRequest;
+import com.sevenine.conecta.mapper.EventoCadastraMapper;
+import com.sevenine.conecta.repository.EventoRepository;
+import com.sevenine.conecta.repository.entity.Evento;
+import com.sevenine.conecta.services.EventoCadastraService;
+import com.sevenine.conecta.services.state.evento.EventoAberto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

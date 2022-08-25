@@ -1,6 +1,6 @@
-package com.connecta.evento.service;
+package com.sevenine.conecta.services;
 
-import com.connecta.evento.controller.data.response.EventoResponse;
+import com.sevenine.conecta.controllers.data.response.EventoResponse;
 
 public interface EventoConsultaService {
     EventoResponse consultar(long idEvento);

@@ -1,8 +1,8 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controller.data.response.ProfissionalFiltroDadosSmsResponse;
+import com.sevenine.conecta.controllers.data.response.ProfissionalFiltroDadosSmsResponse;
 import com.sevenine.conecta.repository.ProfissionalRepository;
-import com.sevenine.conecta.service.ProfissionalFiltroDadosSmsService;
+import com.sevenine.conecta.services.ProfissionalFiltroDadosSmsService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

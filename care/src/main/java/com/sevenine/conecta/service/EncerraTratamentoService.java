@@ -1,6 +1,6 @@
-package com.sevenine.conecta.service;
+package com.sevenine.conecta.services;
 
-import com.sevenine.conecta.controller.data.request.tratamento.EncerraTratamentoRequest;
+import com.sevenine.conecta.controllers.data.request.tratamento.EncerraTratamentoRequest;
 
 public interface EncerraTratamentoService {
     void encerrar(EncerraTratamentoRequest request);

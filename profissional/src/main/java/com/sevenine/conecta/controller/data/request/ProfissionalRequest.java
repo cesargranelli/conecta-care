@@ -1,4 +1,4 @@
-package com.sevenine.conecta.controller.data.request;
+package com.sevenine.conecta.controllers.data.request;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Getter;

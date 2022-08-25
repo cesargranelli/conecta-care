@@ -1,12 +1,12 @@
 package com.sevenine.conecta.usecase;
 
-import com.sevenine.conecta.controller.data.request.CadastraDocumentoRequest;
-import com.sevenine.conecta.controller.data.response.CadastraDocumentoResponse;
+import com.sevenine.conecta.controllers.data.request.CadastraDocumentoRequest;
+import com.sevenine.conecta.controllers.data.response.CadastraDocumentoResponse;
 import com.sevenine.conecta.enumerator.StatusCadastro;
 import com.sevenine.conecta.exception.DocumentoDuplicadoException;
 import com.sevenine.conecta.exception.DocumentoNaoEncontradoException;
-import com.sevenine.conecta.service.DocumentoService;
-import com.sevenine.conecta.service.data.response.DocumentoResponse;
+import com.sevenine.conecta.services.DocumentoService;
+import com.sevenine.conecta.services.data.response.DocumentoResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;

@@ -1,12 +1,12 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
 import com.sevenine.conecta.entity.Role;
 import com.sevenine.conecta.enumerator.StatusCadastro;
-import com.sevenine.conecta.http.data.request.CadastroUsuarioRequest;
+import com.sevenine.conecta.controllers.data.request.CadastroUsuarioRequest;
 import com.sevenine.conecta.repository.UsuarioRepository;
 import com.sevenine.conecta.repository.data.SequenceCadastro;
 import com.sevenine.conecta.repository.data.Usuario;
-import com.sevenine.conecta.service.AtualizaUsuarioService;
+import com.sevenine.conecta.services.AtualizaUsuarioService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 

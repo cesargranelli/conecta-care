@@ -1,7 +1,7 @@
 package com.sevenine.conecta.converter.atendimento.impl;
 
 import com.sevenine.conecta.converter.atendimento.ConsultaAtendimentoPorProfissionalUseCaseConverter;
-import com.sevenine.conecta.service.data.response.*;
+import com.sevenine.conecta.services.data.response.*;
 import org.springframework.stereotype.Component;
 
 import static java.util.Objects.isNull;

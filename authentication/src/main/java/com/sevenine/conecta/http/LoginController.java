@@ -1,10 +1,10 @@
-package com.sevenine.conecta.http;
+package com.sevenine.conecta.controllers;
 
 import com.google.gson.Gson;
 import com.sevenine.conecta.entity.ConsultaUsuario;
-import com.sevenine.conecta.http.data.request.EsqueciMinhaSenhaRequest;
-import com.sevenine.conecta.http.data.response.ConsultaUsuarioResponse;
-import com.sevenine.conecta.http.data.response.EsqueciMinhaSenhaResponse;
+import com.sevenine.conecta.controllers.data.request.EsqueciMinhaSenhaRequest;
+import com.sevenine.conecta.controllers.data.response.ConsultaUsuarioResponse;
+import com.sevenine.conecta.controllers.data.response.EsqueciMinhaSenhaResponse;
 import com.sevenine.conecta.usecase.ConsultaUsuarioUseCase;
 import com.sevenine.conecta.usecase.SolicitaAlteracaoSenhaUseCase;
 import lombok.RequiredArgsConstructor;

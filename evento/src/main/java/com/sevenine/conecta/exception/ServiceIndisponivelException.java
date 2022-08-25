@@ -1,4 +1,4 @@
-package com.connecta.evento.exception;
+package com.sevenine.conecta.exception;
 
 import lombok.Getter;
 import lombok.Setter;

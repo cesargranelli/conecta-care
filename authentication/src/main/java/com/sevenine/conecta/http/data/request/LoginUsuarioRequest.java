@@ -1,4 +1,4 @@
-package com.sevenine.conecta.http.data.request;
+package com.sevenine.conecta.controllers.data.request;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

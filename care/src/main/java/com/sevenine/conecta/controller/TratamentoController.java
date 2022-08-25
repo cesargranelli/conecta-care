@@ -1,10 +1,10 @@
-package com.sevenine.conecta.controller;
+package com.sevenine.conecta.controllers;
 
-import com.sevenine.conecta.controller.data.request.tratamento.AdicionaTratamentoRequest;
-import com.sevenine.conecta.controller.data.request.tratamento.EncerraTratamentoRequest;
-import com.sevenine.conecta.controller.data.response.tratamento.ConsultaTratamentoResponse;
-import com.sevenine.conecta.controller.data.response.tratamento.ListaTratamentoEmAbertoResponse;
-import com.sevenine.conecta.controller.data.response.tratamento.ProntuarioResponse;
+import com.sevenine.conecta.controllers.data.request.tratamento.AdicionaTratamentoRequest;
+import com.sevenine.conecta.controllers.data.request.tratamento.EncerraTratamentoRequest;
+import com.sevenine.conecta.controllers.data.response.tratamento.ConsultaTratamentoResponse;
+import com.sevenine.conecta.controllers.data.response.tratamento.ListaTratamentoEmAbertoResponse;
+import com.sevenine.conecta.controllers.data.response.tratamento.ProntuarioResponse;
 import com.sevenine.conecta.usecase.*;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

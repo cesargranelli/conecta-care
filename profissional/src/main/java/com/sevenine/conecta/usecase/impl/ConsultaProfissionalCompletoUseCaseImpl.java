@@ -1,10 +1,10 @@
 package com.sevenine.conecta.usecase.impl;
 
-import com.sevenine.conecta.controller.data.response.ProfissionalCompletoResponse;
-import com.sevenine.conecta.controller.data.response.ProfissionalCpfResponse;
-import com.sevenine.conecta.controller.data.response.ProfissionalResponse;
+import com.sevenine.conecta.controllers.data.response.ProfissionalCompletoResponse;
+import com.sevenine.conecta.controllers.data.response.ProfissionalCpfResponse;
+import com.sevenine.conecta.controllers.data.response.ProfissionalResponse;
 import com.sevenine.conecta.exception.InformacaoNaoEncontradaException;
-import com.sevenine.conecta.service.*;
+import com.sevenine.conecta.services.*;
 import com.sevenine.conecta.usecase.ConsultaProfissionalCompletoUseCase;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;

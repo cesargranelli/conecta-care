@@ -1,6 +1,6 @@
-package com.sevenine.conecta.service;
+package com.sevenine.conecta.services;
 
-import com.sevenine.conecta.controller.data.response.ContaResponse;
+import com.sevenine.conecta.controllers.data.response.ContaResponse;
 
 public interface ConsultaContaService {
     ContaResponse consultar(Long profissionalId);

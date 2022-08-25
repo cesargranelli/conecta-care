@@ -1,7 +1,7 @@
 package com.sevenine.conecta.usecase.impl;
 
-import com.sevenine.conecta.controller.data.response.CarreiraResponse;
-import com.sevenine.conecta.service.ConsultaCarreiraService;
+import com.sevenine.conecta.controllers.data.response.CarreiraResponse;
+import com.sevenine.conecta.services.ConsultaCarreiraService;
 import com.sevenine.conecta.usecase.ConsultaCarreiraUseCase;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;

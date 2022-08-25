@@ -1,9 +1,9 @@
-package com.sevenine.conecta.controller;
+package com.sevenine.conecta.controllers;
 
-import com.sevenine.conecta.controller.data.request.HomeCareRequest;
-import com.sevenine.conecta.controller.data.response.HomeCareCadastroResponse;
-import com.sevenine.conecta.controller.data.response.HomeCareResponse;
-import com.sevenine.conecta.service.data.response.PlantonistaResponse;
+import com.sevenine.conecta.controllers.data.request.HomeCareRequest;
+import com.sevenine.conecta.controllers.data.response.HomeCareCadastroResponse;
+import com.sevenine.conecta.controllers.data.response.HomeCareResponse;
+import com.sevenine.conecta.services.data.response.PlantonistaResponse;
 import com.sevenine.conecta.usecase.ConsultaListaPlantonistaUseCase;
 import com.sevenine.conecta.usecase.ConsultaPlantonistaUseCase;
 import com.sevenine.conecta.usecase.HomeCareUseCase;

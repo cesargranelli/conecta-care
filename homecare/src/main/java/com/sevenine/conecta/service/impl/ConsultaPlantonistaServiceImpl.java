@@ -1,11 +1,11 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
 import com.sevenine.conecta.exception.InformacaoNaoLocalizadaException;
 import com.sevenine.conecta.mapper.ConsultaPlantonistaMapper;
 import com.sevenine.conecta.repository.PlantonistaRepository;
 import com.sevenine.conecta.repository.data.Plantonista;
-import com.sevenine.conecta.service.ConsultaPlantonistaService;
-import com.sevenine.conecta.service.data.response.PlantonistaResponse;
+import com.sevenine.conecta.services.ConsultaPlantonistaService;
+import com.sevenine.conecta.services.data.response.PlantonistaResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

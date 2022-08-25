@@ -1,6 +1,6 @@
 package com.sevenine.conecta.usecase.impl;
 
-import com.sevenine.conecta.service.AtivaUsuarioService;
+import com.sevenine.conecta.services.AtivaUsuarioService;
 import com.sevenine.conecta.usecase.AtivaUsuarioUseCase;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;

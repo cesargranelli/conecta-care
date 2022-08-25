@@ -1,10 +1,10 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
 import com.sevenine.conecta.config.properties.EndpointsProfissionalProperties;
 import com.sevenine.conecta.config.properties.ExceptionMessageProperties;
 import com.sevenine.conecta.exception.ServiceIndisponivelException;
-import com.sevenine.conecta.service.ConsultaListaProfissionalService;
-import com.sevenine.conecta.service.data.response.AtendimentoProfissionalResponse;
+import com.sevenine.conecta.services.ConsultaListaProfissionalService;
+import com.sevenine.conecta.services.data.response.AtendimentoProfissionalResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.*;

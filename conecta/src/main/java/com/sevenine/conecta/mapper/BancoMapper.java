@@ -1,6 +1,6 @@
 package com.sevenine.conecta.mapper;
 
-import com.sevenine.conecta.controller.data.response.ConsultaBancoResponse;
+import com.sevenine.conecta.controllers.data.response.ConsultaBancoResponse;
 import com.sevenine.conecta.repository.data.Banco;
 import org.mapstruct.Mapper;
 

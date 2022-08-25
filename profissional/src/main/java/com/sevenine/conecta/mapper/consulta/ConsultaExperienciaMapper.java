@@ -1,6 +1,6 @@
 package com.sevenine.conecta.mapper.consulta;
 
-import com.sevenine.conecta.controller.data.response.ExperienciaResponse;
+import com.sevenine.conecta.controllers.data.response.ExperienciaResponse;
 import com.sevenine.conecta.repository.data.Experiencia;
 import org.mapstruct.IterableMapping;
 import org.mapstruct.Mapper;

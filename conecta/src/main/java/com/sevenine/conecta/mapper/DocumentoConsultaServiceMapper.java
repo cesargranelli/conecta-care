@@ -1,6 +1,6 @@
 package com.sevenine.conecta.mapper;
 
-import com.sevenine.conecta.service.data.response.DocumentoResponse;
+import com.sevenine.conecta.services.data.response.DocumentoResponse;
 import com.sevenine.conecta.repository.data.SequenceCadastro;
 import org.mapstruct.Mapper;
 

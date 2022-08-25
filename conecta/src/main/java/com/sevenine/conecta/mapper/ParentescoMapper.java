@@ -1,6 +1,6 @@
 package com.sevenine.conecta.mapper;
 
-import com.sevenine.conecta.controller.data.response.ConsultaParentescoResponse;
+import com.sevenine.conecta.controllers.data.response.ConsultaParentescoResponse;
 import com.sevenine.conecta.repository.data.Parentesco;
 import org.mapstruct.Mapper;
 

@@ -1,7 +1,7 @@
-package com.sevenine.conecta.service;
+package com.sevenine.conecta.services;
 
-import com.sevenine.conecta.controller.data.request.CarreiraRequest;
-import com.sevenine.conecta.controller.data.response.CadastraAtualizaCarreiraResponse;
+import com.sevenine.conecta.controllers.data.request.CarreiraRequest;
+import com.sevenine.conecta.controllers.data.response.CadastraAtualizaCarreiraResponse;
 
 public interface CadastraAtualizaCarreiraService {
     CadastraAtualizaCarreiraResponse salvar(CarreiraRequest request);

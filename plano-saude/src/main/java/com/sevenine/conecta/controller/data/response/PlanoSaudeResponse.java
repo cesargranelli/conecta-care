@@ -1,4 +1,4 @@
-package com.sevenine.conecta.controller.data.response;
+package com.sevenine.conecta.controllers.data.response;
 
 import com.sevenine.conecta.repository.data.PlanoSaude;
 import lombok.Builder;

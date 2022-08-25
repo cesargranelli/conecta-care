@@ -1,11 +1,11 @@
 package com.sevenine.conecta.usecase.impl;
 
 import com.sevenine.conecta.entity.ConsultaUsuario;
-import com.sevenine.conecta.http.data.response.ConsultaUsuarioResponse;
+import com.sevenine.conecta.controllers.data.response.ConsultaUsuarioResponse;
 import com.sevenine.conecta.repository.data.SequenceCadastro;
 import com.sevenine.conecta.repository.data.Usuario;
-import com.sevenine.conecta.service.ConsultaUsuarioService;
-import com.sevenine.conecta.service.DocumentoService;
+import com.sevenine.conecta.services.ConsultaUsuarioService;
+import com.sevenine.conecta.services.DocumentoService;
 import com.sevenine.conecta.usecase.ConsultaUsuarioUseCase;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;

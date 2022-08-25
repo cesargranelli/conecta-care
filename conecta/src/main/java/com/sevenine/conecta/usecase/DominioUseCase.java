@@ -1,37 +1,37 @@
 package com.sevenine.conecta.usecase;
 
-import com.sevenine.conecta.controller.data.response.ConsultaAreaAtendimentoResponse;
-import com.sevenine.conecta.controller.data.response.ConsultaBancoResponse;
-import com.sevenine.conecta.controller.data.response.ConsultaCategoriaCnhResponse;
-import com.sevenine.conecta.controller.data.response.ConsultaConselhoResponse;
-import com.sevenine.conecta.controller.data.response.ConsultaEstadoCivilResponse;
-import com.sevenine.conecta.controller.data.response.ConsultaEstadoResponse;
-import com.sevenine.conecta.controller.data.response.ConsultaGeneroResponse;
-import com.sevenine.conecta.controller.data.response.ConsultaGrupoResponse;
-import com.sevenine.conecta.controller.data.response.ConsultaInstrucaoResponse;
-import com.sevenine.conecta.controller.data.response.ConsultaModeloResponse;
-import com.sevenine.conecta.controller.data.response.ConsultaPaisResponse;
-import com.sevenine.conecta.controller.data.response.ConsultaParentescoResponse;
-import com.sevenine.conecta.controller.data.response.ConsultaStatusAtendimentoResponse;
-import com.sevenine.conecta.controller.data.response.ConsultaTipoContaResponse;
-import com.sevenine.conecta.controller.data.response.ConsultaTipoEmpresaResponse;
-import com.sevenine.conecta.controller.data.response.ConsultaTransporteResponse;
-import com.sevenine.conecta.service.AreaAtendimentoService;
-import com.sevenine.conecta.service.BancoService;
-import com.sevenine.conecta.service.CategoriaCnhService;
-import com.sevenine.conecta.service.ConselhoService;
-import com.sevenine.conecta.service.EstadoCivilService;
-import com.sevenine.conecta.service.EstadoService;
-import com.sevenine.conecta.service.GeneroService;
-import com.sevenine.conecta.service.GrupoService;
-import com.sevenine.conecta.service.InstrucaoService;
-import com.sevenine.conecta.service.ModeloService;
-import com.sevenine.conecta.service.PaisService;
-import com.sevenine.conecta.service.ParentescoService;
-import com.sevenine.conecta.service.StatusAtendimentoService;
-import com.sevenine.conecta.service.TipoContaService;
-import com.sevenine.conecta.service.TipoEmpresaService;
-import com.sevenine.conecta.service.TransporteService;
+import com.sevenine.conecta.controllers.data.response.ConsultaAreaAtendimentoResponse;
+import com.sevenine.conecta.controllers.data.response.ConsultaBancoResponse;
+import com.sevenine.conecta.controllers.data.response.ConsultaCategoriaCnhResponse;
+import com.sevenine.conecta.controllers.data.response.ConsultaConselhoResponse;
+import com.sevenine.conecta.controllers.data.response.ConsultaEstadoCivilResponse;
+import com.sevenine.conecta.controllers.data.response.ConsultaEstadoResponse;
+import com.sevenine.conecta.controllers.data.response.ConsultaGeneroResponse;
+import com.sevenine.conecta.controllers.data.response.ConsultaGrupoResponse;
+import com.sevenine.conecta.controllers.data.response.ConsultaInstrucaoResponse;
+import com.sevenine.conecta.controllers.data.response.ConsultaModeloResponse;
+import com.sevenine.conecta.controllers.data.response.ConsultaPaisResponse;
+import com.sevenine.conecta.controllers.data.response.ConsultaParentescoResponse;
+import com.sevenine.conecta.controllers.data.response.ConsultaStatusAtendimentoResponse;
+import com.sevenine.conecta.controllers.data.response.ConsultaTipoContaResponse;
+import com.sevenine.conecta.controllers.data.response.ConsultaTipoEmpresaResponse;
+import com.sevenine.conecta.controllers.data.response.ConsultaTransporteResponse;
+import com.sevenine.conecta.services.AreaAtendimentoService;
+import com.sevenine.conecta.services.BancoService;
+import com.sevenine.conecta.services.CategoriaCnhService;
+import com.sevenine.conecta.services.ConselhoService;
+import com.sevenine.conecta.services.EstadoCivilService;
+import com.sevenine.conecta.services.EstadoService;
+import com.sevenine.conecta.services.GeneroServiceTest;
+import com.sevenine.conecta.services.GrupoService;
+import com.sevenine.conecta.services.InstrucaoService;
+import com.sevenine.conecta.services.ModeloService;
+import com.sevenine.conecta.services.PaisService;
+import com.sevenine.conecta.services.ParentescoService;
+import com.sevenine.conecta.services.StatusAtendimentoService;
+import com.sevenine.conecta.services.TipoContaService;
+import com.sevenine.conecta.services.TipoEmpresaService;
+import com.sevenine.conecta.services.TransporteService;
 
 import java.util.List;
 
@@ -43,7 +43,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class DominioUseCase {
 
-    private final GeneroService generoService;
+    private final GeneroServiceTest generoServiceTest;
     private final TipoEmpresaService tipoEmpresaService;
     private final EstadoCivilService estadoCivilService;
     private final EstadoService estadoService;
@@ -60,9 +60,9 @@ public class DominioUseCase {
     private final GrupoService grupoService;
     private final StatusAtendimentoService statusAtendimentoService;
 
-    public List<ConsultaGeneroResponse> consultarGeneros() {
-        return generoService.consultar();
-    }
+//    public List<ConsultaGeneroResponse> consultarGeneros() {
+//        return generoServiceTest.consultar();
+//    }
 
     public List<ConsultaTipoEmpresaResponse> consultarTiposEmpresas() {
         return tipoEmpresaService.consultar();

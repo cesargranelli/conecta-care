@@ -1,7 +1,7 @@
 package com.sevenine.conecta.usecase;
 
-import com.sevenine.conecta.controller.data.request.ExperienciaRequest;
-import com.sevenine.conecta.controller.data.response.CadastraAtualizaExperienciaResponse;
+import com.sevenine.conecta.controllers.data.request.ExperienciaRequest;
+import com.sevenine.conecta.controllers.data.response.CadastraAtualizaExperienciaResponse;
 
 import java.util.List;
 

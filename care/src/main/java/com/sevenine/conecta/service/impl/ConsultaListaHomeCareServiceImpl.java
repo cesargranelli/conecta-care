@@ -1,12 +1,12 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
 import com.sevenine.conecta.config.properties.EndpointsHomeCareProperties;
 import com.sevenine.conecta.config.properties.EndpointsPacienteProperties;
 import com.sevenine.conecta.config.properties.ExceptionMessageProperties;
 import com.sevenine.conecta.exception.ServiceIndisponivelException;
-import com.sevenine.conecta.service.ConsultaListaHomeCareService;
-import com.sevenine.conecta.service.data.response.HomeCareResponse;
-import com.sevenine.conecta.service.data.response.PacienteResponse;
+import com.sevenine.conecta.services.ConsultaListaHomeCareService;
+import com.sevenine.conecta.services.data.response.HomeCareResponse;
+import com.sevenine.conecta.services.data.response.PacienteResponse;
 
 import java.util.List;
 

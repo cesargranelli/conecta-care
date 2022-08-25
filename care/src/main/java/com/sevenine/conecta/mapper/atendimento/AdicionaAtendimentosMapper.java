@@ -1,6 +1,6 @@
 package com.sevenine.conecta.mapper.atendimento;
 
-import com.sevenine.conecta.controller.data.request.atendimento.AdicionaAtendimentoRequest;
+import com.sevenine.conecta.controllers.data.request.atendimento.AdicionaAtendimentoRequest;
 import com.sevenine.conecta.repository.data.Atendimento;
 import org.mapstruct.IterableMapping;
 import org.mapstruct.Mapper;

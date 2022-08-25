@@ -1,4 +1,4 @@
-package com.sevenine.conecta.service.data.report;
+package com.sevenine.conecta.services.data.report;
 
 import lombok.Builder;
 import lombok.Getter;

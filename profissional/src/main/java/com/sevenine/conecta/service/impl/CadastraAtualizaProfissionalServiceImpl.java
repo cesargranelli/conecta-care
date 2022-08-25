@@ -1,11 +1,11 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controller.data.request.ProfissionalRequest;
-import com.sevenine.conecta.controller.data.response.CadastraAtualizaProfissionalResponse;
+import com.sevenine.conecta.controllers.data.request.ProfissionalRequest;
+import com.sevenine.conecta.controllers.data.response.CadastraAtualizaProfissionalResponse;
 import com.sevenine.conecta.mapper.cadastro.CadastraAtualizaProfissionalMapper;
 import com.sevenine.conecta.repository.ProfissionalRepository;
 import com.sevenine.conecta.repository.data.Profissional;
-import com.sevenine.conecta.service.CadastraAtualizaProfissionalService;
+import com.sevenine.conecta.services.CadastraAtualizaProfissionalService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

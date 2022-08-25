@@ -1,8 +1,8 @@
 package com.sevenine.conecta.usecase.impl;
 
-import com.sevenine.conecta.http.data.request.CadastroUsuarioRequest;
+import com.sevenine.conecta.controllers.data.request.CadastroUsuarioRequest;
 import com.sevenine.conecta.repository.data.Usuario;
-import com.sevenine.conecta.service.*;
+import com.sevenine.conecta.services.*;
 import com.sevenine.conecta.usecase.CadastraUsuarioUseCase;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;

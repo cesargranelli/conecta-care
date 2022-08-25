@@ -1,6 +1,6 @@
-package com.sevenine.conecta.service;
+package com.sevenine.conecta.services;
 
-import com.sevenine.conecta.service.data.response.AcompanhanteResponse;
+import com.sevenine.conecta.services.data.response.AcompanhanteResponse;
 
 public interface ConsultaAcompanhanteService {
     AcompanhanteResponse consultar(Long pacienteId, Long acompanhanteId);

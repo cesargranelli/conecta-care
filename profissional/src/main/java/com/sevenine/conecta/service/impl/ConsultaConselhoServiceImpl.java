@@ -1,9 +1,9 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
 import com.sevenine.conecta.exception.InformacaoNaoEncontradaException;
 import com.sevenine.conecta.repository.ConselhoRepository;
 import com.sevenine.conecta.repository.data.Conselho;
-import com.sevenine.conecta.service.ConsultaConselhoService;
+import com.sevenine.conecta.services.ConsultaConselhoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;

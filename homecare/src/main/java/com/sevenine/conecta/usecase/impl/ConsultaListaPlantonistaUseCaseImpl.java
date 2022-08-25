@@ -1,7 +1,7 @@
 package com.sevenine.conecta.usecase.impl;
 
-import com.sevenine.conecta.service.ConsultaListaPlantonistaService;
-import com.sevenine.conecta.service.data.response.PlantonistaResponse;
+import com.sevenine.conecta.services.ConsultaListaPlantonistaService;
+import com.sevenine.conecta.services.data.response.PlantonistaResponse;
 import com.sevenine.conecta.usecase.ConsultaListaPlantonistaUseCase;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;

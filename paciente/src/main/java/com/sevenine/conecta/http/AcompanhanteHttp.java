@@ -1,9 +1,9 @@
-package com.sevenine.conecta.http;
+package com.sevenine.conecta.controllers;
 
-import com.sevenine.conecta.http.resource.AcompanhanteResource;
-import com.sevenine.conecta.http.resource.AcompanhanteResponseResource;
-import com.sevenine.conecta.service.AdicionaAcompanhanteService;
-import com.sevenine.conecta.service.ConsultaAcompanhanteService;
+import com.sevenine.conecta.controllers.resource.AcompanhanteResource;
+import com.sevenine.conecta.controllers.resource.AcompanhanteResponseResource;
+import com.sevenine.conecta.services.AdicionaAcompanhanteService;
+import com.sevenine.conecta.services.ConsultaAcompanhanteService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

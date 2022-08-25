@@ -1,8 +1,8 @@
-package com.connecta.evento.service.impl;
+package com.sevenine.conecta.services.impl;
 
-import com.connecta.evento.service.EventoEnviaService;
-import com.connecta.evento.service.SmsService;
-import com.connecta.evento.service.data.request.EventoEnviaRequest;
+import com.sevenine.conecta.services.EventoEnviaService;
+import com.sevenine.conecta.services.SmsService;
+import com.sevenine.conecta.services.data.request.EventoEnviaRequest;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.java.Log;
 import org.springframework.stereotype.Service;

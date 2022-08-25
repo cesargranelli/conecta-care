@@ -1,11 +1,11 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
 import com.sevenine.conecta.config.properties.EndpointsConnectaProperties;
 import com.sevenine.conecta.config.properties.ExceptionMessageProperties;
-import com.sevenine.conecta.controller.data.response.GeneroResponse;
+import com.sevenine.conecta.controllers.data.response.GeneroResponse;
 import com.sevenine.conecta.exception.GeneroNaoLocalizadoException;
 import com.sevenine.conecta.exception.ServiceIndisponivelException;
-import com.sevenine.conecta.service.GeneroService;
+import com.sevenine.conecta.services.GeneroService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpMethod;

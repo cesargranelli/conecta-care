@@ -1,7 +1,7 @@
 package com.sevenine.conecta.usecase.impl;
 
-import com.sevenine.conecta.service.DocumentoConsultaService;
-import com.sevenine.conecta.service.data.response.DocumentoResponse;
+import com.sevenine.conecta.services.DocumentoConsultaService;
+import com.sevenine.conecta.services.data.response.DocumentoResponse;
 import com.sevenine.conecta.usecase.DocumentoConsultaUseCase;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;

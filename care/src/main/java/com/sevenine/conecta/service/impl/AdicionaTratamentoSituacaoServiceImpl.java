@@ -1,11 +1,11 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controller.data.request.tratamento.TratamentoSituacaoRequest;
+import com.sevenine.conecta.controllers.data.request.tratamento.TratamentoSituacaoRequest;
 import com.sevenine.conecta.repository.StatusTratamentoRepository;
 import com.sevenine.conecta.repository.TratamentoRepository;
 import com.sevenine.conecta.repository.TratamentoSituacaoRepository;
 import com.sevenine.conecta.repository.data.TratamentoSituacao;
-import com.sevenine.conecta.service.AdicionaTratamentoSituacaoService;
+import com.sevenine.conecta.services.AdicionaTratamentoSituacaoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

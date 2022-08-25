@@ -1,11 +1,11 @@
-package com.connecta.evento.service.impl;
+package com.sevenine.conecta.services.impl;
 
-import com.connecta.evento.config.properties.ApplicationProperties;
-import com.connecta.evento.config.properties.EndpointsProperties;
-import com.connecta.evento.config.properties.ExceptionMessageProperties;
-import com.connecta.evento.enumerator.Endpoints;
-import com.connecta.evento.exception.ServiceIndisponivelException;
-import com.connecta.evento.service.SmsService;
+import com.sevenine.conecta.config.properties.ApplicationProperties;
+import com.sevenine.conecta.config.properties.EndpointsProperties;
+import com.sevenine.conecta.config.properties.ExceptionMessageProperties;
+import com.sevenine.conecta.enumerator.Endpoints;
+import com.sevenine.conecta.exception.ServiceIndisponivelException;
+import com.sevenine.conecta.services.SmsService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.HttpStatus;

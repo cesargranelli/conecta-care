@@ -1,6 +1,6 @@
 package com.sevenine.conecta.usecase;
 
-import com.sevenine.conecta.controller.data.response.ListaProfissionalResponse;
+import com.sevenine.conecta.controllers.data.response.ListaProfissionalResponse;
 
 import java.util.List;
 

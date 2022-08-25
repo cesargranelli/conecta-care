@@ -1,6 +1,6 @@
 package com.sevenine.conecta.mapper;
 
-import com.sevenine.conecta.controller.data.response.ConsultaCategoriaCnhResponse;
+import com.sevenine.conecta.controllers.data.response.ConsultaCategoriaCnhResponse;
 import com.sevenine.conecta.repository.data.CategoriaCnh;
 import org.mapstruct.Mapper;
 

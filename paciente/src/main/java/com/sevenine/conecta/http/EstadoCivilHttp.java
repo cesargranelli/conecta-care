@@ -1,7 +1,7 @@
-package com.sevenine.conecta.http;
+package com.sevenine.conecta.controllers;
 
-import com.sevenine.conecta.http.resource.EstadoCivilResource;
-import com.sevenine.conecta.service.EstadoCivilService;
+import com.sevenine.conecta.controllers.resource.EstadoCivilResource;
+import com.sevenine.conecta.services.EstadoCivilService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

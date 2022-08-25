@@ -1,6 +1,6 @@
-package com.sevenine.conecta.service;
+package com.sevenine.conecta.services;
 
-import com.sevenine.conecta.controller.data.response.EnderecoResponse;
+import com.sevenine.conecta.controllers.data.response.EnderecoResponse;
 
 public interface ConsultaEnderecoService {
     EnderecoResponse consultar(Long profissionalId);

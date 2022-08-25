@@ -1,16 +1,16 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controller.data.request.HomeCareRequest;
-import com.sevenine.conecta.controller.data.response.HomeCareCadastroResponse;
-import com.sevenine.conecta.controller.data.response.HomeCareResponse;
+import com.sevenine.conecta.controllers.data.request.HomeCareRequest;
+import com.sevenine.conecta.controllers.data.response.HomeCareCadastroResponse;
+import com.sevenine.conecta.controllers.data.response.HomeCareResponse;
 import com.sevenine.conecta.exception.HomeCareNaoEncontradaException;
 import com.sevenine.conecta.repository.HomeCareRepository;
 import com.sevenine.conecta.repository.data.Especialidade;
 import com.sevenine.conecta.repository.data.HomeCare;
 import com.sevenine.conecta.repository.data.TipoEmpresa;
-import com.sevenine.conecta.service.DocumentoConsultaService;
-import com.sevenine.conecta.service.HomeCareService;
-import com.sevenine.conecta.service.converter.HomeCareServiceConverter;
+import com.sevenine.conecta.services.DocumentoConsultaService;
+import com.sevenine.conecta.services.HomeCareService;
+import com.sevenine.conecta.services.converter.HomeCareServiceConverter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;

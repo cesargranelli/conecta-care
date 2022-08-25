@@ -1,10 +1,10 @@
 package com.sevenine.conecta.mapper.atendimento;
 
-import com.sevenine.conecta.controller.data.response.atendimento.ConsultaAtendimentoDetalheResponse;
-import com.sevenine.conecta.service.data.response.AcompanhanteResponse;
-import com.sevenine.conecta.service.data.response.AtendimentoDetalheResponse;
-import com.sevenine.conecta.service.data.response.AtendimentoProfissionalResponse;
-import com.sevenine.conecta.service.data.response.PlantonistaResponse;
+import com.sevenine.conecta.controllers.data.response.atendimento.ConsultaAtendimentoDetalheResponse;
+import com.sevenine.conecta.services.data.response.AcompanhanteResponse;
+import com.sevenine.conecta.services.data.response.AtendimentoDetalheResponse;
+import com.sevenine.conecta.services.data.response.AtendimentoProfissionalResponse;
+import com.sevenine.conecta.services.data.response.PlantonistaResponse;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 

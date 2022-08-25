@@ -1,8 +1,8 @@
 package com.sevenine.conecta.usecase.impl;
 
-import com.sevenine.conecta.controller.data.request.EnderecoRequest;
-import com.sevenine.conecta.controller.data.response.CadastraAtualizaEnderecoResponse;
-import com.sevenine.conecta.service.CadastraAtualizaEnderecoService;
+import com.sevenine.conecta.controllers.data.request.EnderecoRequest;
+import com.sevenine.conecta.controllers.data.response.CadastraAtualizaEnderecoResponse;
+import com.sevenine.conecta.services.CadastraAtualizaEnderecoService;
 import com.sevenine.conecta.usecase.CadastraAtualizaEnderecoUseCase;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;

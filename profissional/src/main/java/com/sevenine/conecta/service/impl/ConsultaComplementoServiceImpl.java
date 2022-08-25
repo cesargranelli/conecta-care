@@ -1,12 +1,12 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
 import com.sevenine.conecta.config.properties.ExceptionMessageProperties;
-import com.sevenine.conecta.controller.data.response.ComplementoResponse;
+import com.sevenine.conecta.controllers.data.response.ComplementoResponse;
 import com.sevenine.conecta.exception.InformacaoNaoEncontradaException;
 import com.sevenine.conecta.mapper.consulta.ConsultaComplementoMapper;
 import com.sevenine.conecta.repository.ComplementoRepository;
 import com.sevenine.conecta.repository.data.Complemento;
-import com.sevenine.conecta.service.ConsultaComplementoService;
+import com.sevenine.conecta.services.ConsultaComplementoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;

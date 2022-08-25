@@ -1,0 +1,6 @@
+com\sevenine\conecta\configs\RestTemplateConfig.class
+com\sevenine\conecta\configs\ConfigLogBook.class
+com\sevenine\conecta\App.class
+com\sevenine\conecta\configs\CorsConfig$1.class
+com\sevenine\conecta\configs\CorsConfig.class
+com\sevenine\conecta\controllers\DominioController.class

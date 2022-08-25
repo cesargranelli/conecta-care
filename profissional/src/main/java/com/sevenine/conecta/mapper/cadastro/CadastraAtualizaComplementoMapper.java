@@ -1,7 +1,7 @@
 package com.sevenine.conecta.mapper.cadastro;
 
-import com.sevenine.conecta.controller.data.request.ComplementoRequest;
-import com.sevenine.conecta.controller.data.response.CadastraAtualizaComplementoResponse;
+import com.sevenine.conecta.controllers.data.request.ComplementoRequest;
+import com.sevenine.conecta.controllers.data.response.CadastraAtualizaComplementoResponse;
 import com.sevenine.conecta.repository.data.Complemento;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

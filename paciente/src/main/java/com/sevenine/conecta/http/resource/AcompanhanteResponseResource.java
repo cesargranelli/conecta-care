@@ -1,4 +1,4 @@
-package com.sevenine.conecta.http.resource;
+package com.sevenine.conecta.controllers.resource;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.*;

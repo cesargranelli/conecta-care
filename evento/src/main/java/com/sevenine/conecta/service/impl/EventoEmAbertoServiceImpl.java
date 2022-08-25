@@ -1,13 +1,13 @@
-package com.connecta.evento.service.impl;
+package com.sevenine.conecta.services.impl;
 
-import com.connecta.evento.config.properties.ExceptionMessageProperties;
-import com.connecta.evento.controller.data.response.EventoResponse;
-import com.connecta.evento.enumerator.EventoStatus;
-import com.connecta.evento.exception.EventoNaoEncontradoException;
-import com.connecta.evento.repository.EventoRepository;
-import com.connecta.evento.repository.entity.Evento;
-import com.connecta.evento.service.EventoEmAbertoService;
-import com.connecta.evento.mapper.EventoEmAbertoMapper;
+import com.sevenine.conecta.config.properties.ExceptionMessageProperties;
+import com.sevenine.conecta.controllers.data.response.EventoResponse;
+import com.sevenine.conecta.enumerator.EventoStatus;
+import com.sevenine.conecta.exception.EventoNaoEncontradoException;
+import com.sevenine.conecta.repository.EventoRepository;
+import com.sevenine.conecta.repository.entity.Evento;
+import com.sevenine.conecta.services.EventoEmAbertoService;
+import com.sevenine.conecta.mapper.EventoEmAbertoMapper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;

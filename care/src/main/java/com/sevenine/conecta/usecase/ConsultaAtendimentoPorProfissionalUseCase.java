@@ -1,6 +1,6 @@
 package com.sevenine.conecta.usecase;
 
-import com.sevenine.conecta.service.data.response.ProfissionalAtendimentoResponse;
+import com.sevenine.conecta.services.data.response.ProfissionalAtendimentoResponse;
 
 import java.time.LocalDate;
 import java.util.List;

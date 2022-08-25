@@ -1,9 +1,9 @@
 package com.sevenine.conecta.converter.atendimento.impl;
 
-import com.sevenine.conecta.controller.data.response.atendimento.TipoAtendimentoResponse;
+import com.sevenine.conecta.controllers.data.response.atendimento.TipoAtendimentoResponse;
 import com.sevenine.conecta.converter.atendimento.ConsultaAtendimentoConverter;
 import com.sevenine.conecta.repository.data.*;
-import com.sevenine.conecta.service.data.response.*;
+import com.sevenine.conecta.services.data.response.*;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;

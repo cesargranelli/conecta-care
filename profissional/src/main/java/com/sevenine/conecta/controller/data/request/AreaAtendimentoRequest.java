@@ -1,4 +1,4 @@
-package com.sevenine.conecta.controller.data.request;
+package com.sevenine.conecta.controllers.data.request;
 
 import lombok.Getter;
 import lombok.Setter;

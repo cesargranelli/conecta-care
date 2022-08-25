@@ -1,13 +1,13 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controller.data.request.atendimento.AdicionaAtendimentoRequest;
-import com.sevenine.conecta.controller.data.request.atendimento.AdicionaAtendimentoSituacaoRequest;
+import com.sevenine.conecta.controllers.data.request.atendimento.AdicionaAtendimentoRequest;
+import com.sevenine.conecta.controllers.data.request.atendimento.AdicionaAtendimentoSituacaoRequest;
 import com.sevenine.conecta.enumerator.StatusAtendimentoEnum;
 import com.sevenine.conecta.mapper.atendimento.AdicionaAtendimentosMapper;
 import com.sevenine.conecta.repository.AtendimentoRepository;
 import com.sevenine.conecta.repository.data.Atendimento;
-import com.sevenine.conecta.service.AdicionaAtendimentoSituacaoService;
-import com.sevenine.conecta.service.AdicionaAtendimentosService;
+import com.sevenine.conecta.services.AdicionaAtendimentoSituacaoService;
+import com.sevenine.conecta.services.AdicionaAtendimentosService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

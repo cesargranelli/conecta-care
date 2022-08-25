@@ -1,6 +1,6 @@
 package com.sevenine.conecta.usecase;
 
-import com.sevenine.conecta.controller.data.response.ProfissionalFiltroDadosSmsResponse;
+import com.sevenine.conecta.controllers.data.response.ProfissionalFiltroDadosSmsResponse;
 
 import java.util.List;
 

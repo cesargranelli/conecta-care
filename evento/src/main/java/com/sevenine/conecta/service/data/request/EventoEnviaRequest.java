@@ -1,4 +1,4 @@
-package com.connecta.evento.service.data.request;
+package com.sevenine.conecta.services.data.request;
 
 import lombok.Getter;
 import lombok.Setter;

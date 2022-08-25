@@ -1,4 +1,4 @@
-package com.connecta.evento.config.properties;
+package com.sevenine.conecta.config.properties;
 
 import lombok.Getter;
 import lombok.Setter;

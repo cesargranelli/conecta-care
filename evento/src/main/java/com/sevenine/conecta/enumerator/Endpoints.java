@@ -1,4 +1,4 @@
-package com.connecta.evento.enumerator;
+package com.sevenine.conecta.enumerator;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

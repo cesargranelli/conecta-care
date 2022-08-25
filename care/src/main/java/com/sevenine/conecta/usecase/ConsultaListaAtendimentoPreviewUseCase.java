@@ -1,7 +1,7 @@
 package com.sevenine.conecta.usecase;
 
-import com.sevenine.conecta.service.data.request.atendimento.AtendimentoPreviewPara;
-import com.sevenine.conecta.service.data.response.AtendimentoPreviewResponse;
+import com.sevenine.conecta.services.data.request.atendimento.AtendimentoPreviewPara;
+import com.sevenine.conecta.services.data.response.AtendimentoPreviewResponse;
 
 import java.io.File;
 import java.time.LocalDate;

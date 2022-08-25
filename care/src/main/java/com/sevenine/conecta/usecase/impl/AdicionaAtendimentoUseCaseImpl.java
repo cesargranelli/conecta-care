@@ -1,7 +1,7 @@
 package com.sevenine.conecta.usecase.impl;
 
-import com.sevenine.conecta.controller.data.request.atendimento.AdicionaAtendimentoRequest;
-import com.sevenine.conecta.service.AdicionaAtendimentosService;
+import com.sevenine.conecta.controllers.data.request.atendimento.AdicionaAtendimentoRequest;
+import com.sevenine.conecta.services.AdicionaAtendimentosService;
 import com.sevenine.conecta.usecase.AdicionaAtendimentoUseCase;
 import com.sevenine.conecta.usecase.rule.GeraRecorrenciaDiariaRule;
 import com.sevenine.conecta.usecase.rule.GeraRecorrenciaSemanalRule;

@@ -1,7 +1,7 @@
 package com.sevenine.conecta.usecase.impl;
 
-import com.sevenine.conecta.controller.data.response.ProfissionalFiltroDadosSmsResponse;
-import com.sevenine.conecta.service.ProfissionalFiltroDadosSmsService;
+import com.sevenine.conecta.controllers.data.response.ProfissionalFiltroDadosSmsResponse;
+import com.sevenine.conecta.services.ProfissionalFiltroDadosSmsService;
 import com.sevenine.conecta.usecase.ProfissionalFiltroDadosSmsUseCase;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;

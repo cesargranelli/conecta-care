@@ -1,13 +1,13 @@
 package com.sevenine.conecta.usecase.impl;
 
 import com.sevenine.conecta.converter.atendimento.ConsultaAtendimentoPorProfissionalUseCaseConverter;
-import com.sevenine.conecta.service.ConsultaAcompanhanteService;
-import com.sevenine.conecta.service.ConsultaListaAtendimentosProfissionalService;
-import com.sevenine.conecta.service.ConsultaPacienteService;
-import com.sevenine.conecta.service.ConsultaProfissionalService;
-import com.sevenine.conecta.service.ConsultaTratamentoService;
-import com.sevenine.conecta.service.data.response.AtendimentoResponse;
-import com.sevenine.conecta.service.data.response.ProfissionalAtendimentoResponse;
+import com.sevenine.conecta.services.ConsultaAcompanhanteService;
+import com.sevenine.conecta.services.ConsultaListaAtendimentosProfissionalService;
+import com.sevenine.conecta.services.ConsultaPacienteService;
+import com.sevenine.conecta.services.ConsultaProfissionalService;
+import com.sevenine.conecta.services.ConsultaTratamentoService;
+import com.sevenine.conecta.services.data.response.AtendimentoResponse;
+import com.sevenine.conecta.services.data.response.ProfissionalAtendimentoResponse;
 import com.sevenine.conecta.usecase.ConsultaAtendimentoPorProfissionalUseCase;
 
 import java.time.LocalDate;

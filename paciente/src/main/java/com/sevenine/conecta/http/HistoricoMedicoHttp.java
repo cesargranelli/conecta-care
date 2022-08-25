@@ -1,7 +1,7 @@
-package com.sevenine.conecta.http;
+package com.sevenine.conecta.controllers;
 
-import com.sevenine.conecta.http.resource.HistoricoMedicoResource;
-import com.sevenine.conecta.service.HistoricoMedicoService;
+import com.sevenine.conecta.controllers.resource.HistoricoMedicoResource;
+import com.sevenine.conecta.services.HistoricoMedicoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

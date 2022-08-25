@@ -1,12 +1,12 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
 import com.sevenine.conecta.config.properties.ExceptionMessageProperties;
-import com.sevenine.conecta.controller.data.response.EnderecoResponse;
+import com.sevenine.conecta.controllers.data.response.EnderecoResponse;
 import com.sevenine.conecta.exception.InformacaoNaoEncontradaException;
 import com.sevenine.conecta.mapper.consulta.ConsultaEnderecoMapper;
 import com.sevenine.conecta.repository.EnderecoRepository;
 import com.sevenine.conecta.repository.data.Endereco;
-import com.sevenine.conecta.service.ConsultaEnderecoService;
+import com.sevenine.conecta.services.ConsultaEnderecoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;

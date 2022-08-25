@@ -1,6 +1,6 @@
 package com.sevenine.conecta.mapper;
 
-import com.sevenine.conecta.controller.data.response.ConsultaConselhoResponse;
+import com.sevenine.conecta.controllers.data.response.ConsultaConselhoResponse;
 import com.sevenine.conecta.repository.data.Conselho;
 import org.mapstruct.Mapper;
 

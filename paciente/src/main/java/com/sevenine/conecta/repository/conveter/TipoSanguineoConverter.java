@@ -1,6 +1,6 @@
 package com.sevenine.conecta.repository.conveter;
 
-import com.sevenine.conecta.http.resource.TipoSanguineoResource;
+import com.sevenine.conecta.controllers.resource.TipoSanguineoResource;
 import com.sevenine.conecta.repository.entity.TipoSanguineoEntity;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;

@@ -1,6 +1,6 @@
-package com.sevenine.conecta.controller.data.response.atendimento;
+package com.sevenine.conecta.controllers.data.response.atendimento;
 
-import com.sevenine.conecta.service.data.response.*;
+import com.sevenine.conecta.services.data.response.*;
 import lombok.Getter;
 import lombok.Setter;
 

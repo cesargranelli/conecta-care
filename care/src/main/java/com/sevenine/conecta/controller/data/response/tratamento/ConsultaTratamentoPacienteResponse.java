@@ -1,7 +1,7 @@
-package com.sevenine.conecta.controller.data.response.tratamento;
+package com.sevenine.conecta.controllers.data.response.tratamento;
 
-import com.sevenine.conecta.service.data.response.ContatoResponse;
-import com.sevenine.conecta.service.data.response.EnderecoResponse;
+import com.sevenine.conecta.services.data.response.ContatoResponse;
+import com.sevenine.conecta.services.data.response.EnderecoResponse;
 import lombok.Getter;
 import lombok.Setter;
 

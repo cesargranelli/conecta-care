@@ -1,6 +1,6 @@
-package com.connecta.evento.service;
+package com.sevenine.conecta.services;
 
-import com.connecta.evento.service.data.request.EventoEnviaRequest;
+import com.sevenine.conecta.services.data.request.EventoEnviaRequest;
 
 import java.util.List;
 

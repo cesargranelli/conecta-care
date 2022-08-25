@@ -1,9 +1,9 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.http.data.request.CadastroUsuarioRequest;
+import com.sevenine.conecta.controllers.data.request.CadastroUsuarioRequest;
 import com.sevenine.conecta.repository.UsuarioRepository;
 import com.sevenine.conecta.repository.data.Usuario;
-import com.sevenine.conecta.service.CadastraUsuarioService;
+import com.sevenine.conecta.services.CadastraUsuarioService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Service;

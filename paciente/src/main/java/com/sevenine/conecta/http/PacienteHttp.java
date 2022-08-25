@@ -1,11 +1,11 @@
-package com.sevenine.conecta.http;
+package com.sevenine.conecta.controllers;
 
-import com.sevenine.conecta.http.resource.PacienteNomeDocumentoResource;
-import com.sevenine.conecta.http.resource.PacientePesquisaResource;
-import com.sevenine.conecta.http.resource.PacienteResource;
-import com.sevenine.conecta.http.resource.PacienteResponseResource;
-import com.sevenine.conecta.service.ConsultaAcompanhanteService;
-import com.sevenine.conecta.service.PacienteService;
+import com.sevenine.conecta.controllers.resource.PacienteNomeDocumentoResource;
+import com.sevenine.conecta.controllers.resource.PacientePesquisaResource;
+import com.sevenine.conecta.controllers.resource.PacienteResource;
+import com.sevenine.conecta.controllers.resource.PacienteResponseResource;
+import com.sevenine.conecta.services.ConsultaAcompanhanteService;
+import com.sevenine.conecta.services.PacienteService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

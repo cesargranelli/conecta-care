@@ -1,11 +1,11 @@
-package com.connecta.evento.service.impl;
+package com.sevenine.conecta.services.impl;
 
-import com.connecta.evento.config.properties.ExceptionMessageProperties;
-import com.connecta.evento.exception.FalhaEncerrarEventoException;
-import com.connecta.evento.repository.EventoRepository;
-import com.connecta.evento.repository.entity.Evento;
-import com.connecta.evento.service.EventoEncerraService;
-import com.connecta.evento.service.state.evento.EventoEncerrado;
+import com.sevenine.conecta.config.properties.ExceptionMessageProperties;
+import com.sevenine.conecta.exception.FalhaEncerrarEventoException;
+import com.sevenine.conecta.repository.EventoRepository;
+import com.sevenine.conecta.repository.entity.Evento;
+import com.sevenine.conecta.services.EventoEncerraService;
+import com.sevenine.conecta.services.state.evento.EventoEncerrado;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;

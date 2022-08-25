@@ -1,9 +1,9 @@
-package com.connecta.evento.controller.handler;
+package com.sevenine.conecta.controllers.handler;
 
-import com.connecta.evento.exception.EventoNaoEncontradoException;
-import com.connecta.evento.exception.EventoRuntimeException;
-import com.connecta.evento.exception.FalhaValidacaoStatusEventoException;
-import com.connecta.evento.exception.ServiceIndisponivelException;
+import com.sevenine.conecta.exception.EventoNaoEncontradoException;
+import com.sevenine.conecta.exception.EventoRuntimeException;
+import com.sevenine.conecta.exception.FalhaValidacaoStatusEventoException;
+import com.sevenine.conecta.exception.ServiceIndisponivelException;
 import org.springframework.context.support.DefaultMessageSourceResolvable;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

@@ -1,4 +1,4 @@
-package com.sevenine.conecta.http;
+package com.sevenine.conecta.controllers;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;

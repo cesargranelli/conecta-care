@@ -1,9 +1,9 @@
 package com.sevenine.conecta.usecase;
 
-import com.sevenine.conecta.controller.data.request.PlanoSaudeRequest;
-import com.sevenine.conecta.controller.data.response.PlanoSaudeCadastroResponse;
-import com.sevenine.conecta.controller.data.response.PlanoSaudeResponse;
-import com.sevenine.conecta.service.PlanoSaudeService;
+import com.sevenine.conecta.controllers.data.request.PlanoSaudeRequest;
+import com.sevenine.conecta.controllers.data.response.PlanoSaudeCadastroResponse;
+import com.sevenine.conecta.controllers.data.response.PlanoSaudeResponse;
+import com.sevenine.conecta.services.PlanoSaudeService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 

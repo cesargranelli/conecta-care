@@ -1,12 +1,20 @@
 package com.sevenine.conecta.mapper;
 
-import com.sevenine.conecta.controller.data.response.ConsultaGeneroResponse;
-import com.sevenine.conecta.repository.data.Genero;
+import com.sevenine.conecta.controllers.data.response.ConsultaGeneroResponse;
+import com.sevenine.conecta.repositories.entities.GeneroData;
+import com.sevenine.conecta.services.output.GeneroOutput;
 import org.mapstruct.Mapper;
+import org.mapstruct.factory.Mappers;
 
 import java.util.List;
 
-@Mapper(componentModel = "spring", implementationPackage = "<PACKAGE_NAME>.impl")
+@Mapper(implementationPackage = "<PACKAGE_NAME>.impl")
 public interface GeneroMapper {
-    List<ConsultaGeneroResponse> fromEntityData(List<Genero> generos);
+
+    GeneroMapper INSTANCE = Mappers.getMapper(GeneroMapper.class);
+
+    List<ConsultaGeneroResponse> fromEntityData(List<GeneroData> generos);
+
+    List<ConsultaGeneroResponse> toResponse(List<GeneroOutput> generos);
+
 }

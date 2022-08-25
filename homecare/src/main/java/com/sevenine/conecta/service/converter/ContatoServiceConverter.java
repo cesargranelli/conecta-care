@@ -1,8 +1,8 @@
-package com.sevenine.conecta.service.converter;
+package com.sevenine.conecta.services.converter;
 
-import com.sevenine.conecta.controller.data.request.ContatoRequest;
-import com.sevenine.conecta.controller.data.response.ContatoCadastroResponse;
-import com.sevenine.conecta.controller.data.response.ContatoResponse;
+import com.sevenine.conecta.controllers.data.request.ContatoRequest;
+import com.sevenine.conecta.controllers.data.response.ContatoCadastroResponse;
+import com.sevenine.conecta.controllers.data.response.ContatoResponse;
 import com.sevenine.conecta.enumerator.TipoFlagEnum;
 import com.sevenine.conecta.repository.data.Contato;
 import org.springframework.stereotype.Component;

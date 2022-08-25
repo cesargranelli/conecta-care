@@ -1,7 +1,7 @@
-package com.sevenine.conecta.service;
+package com.sevenine.conecta.services;
 
-import com.sevenine.conecta.controller.data.request.EscolaridadeRequest;
-import com.sevenine.conecta.controller.data.response.CadastraAtualizaEscolaridadeResponse;
+import com.sevenine.conecta.controllers.data.request.EscolaridadeRequest;
+import com.sevenine.conecta.controllers.data.response.CadastraAtualizaEscolaridadeResponse;
 
 public interface CadastraAtualizaEscolaridadeService {
     CadastraAtualizaEscolaridadeResponse salvar(EscolaridadeRequest request);

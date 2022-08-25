@@ -1,11 +1,11 @@
-package com.connecta.evento.mapper;
+package com.sevenine.conecta.mapper;
 
-import com.connecta.evento.controller.data.request.EventoRequest;
-import com.connecta.evento.repository.entity.Evento;
+import com.sevenine.conecta.controllers.data.request.EventoRequest;
+import com.sevenine.conecta.repository.entity.Evento;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
-@Mapper(componentModel = "spring", implementationPackage = "com.connecta.evento.mapper.impl")
+@Mapper(componentModel = "spring", implementationPackage = "com.sevenine.conecta.mapper.impl")
 public interface EventoCadastraMapper {
     @Mapping(target = "usuarioCadastro", source = "usuario")
     @Mapping(target = "dataCadastro", expression = "java(java.time.LocalDateTime.now())")

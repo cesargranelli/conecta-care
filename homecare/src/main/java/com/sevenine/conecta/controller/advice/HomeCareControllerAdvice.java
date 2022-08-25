@@ -1,4 +1,4 @@
-package com.sevenine.conecta.controller.advice;
+package com.sevenine.conecta.controllers.advice;
 
 import com.sevenine.conecta.exception.HomeCareNaoEncontradaException;
 import com.sevenine.conecta.exception.InformacaoNaoLocalizadaException;

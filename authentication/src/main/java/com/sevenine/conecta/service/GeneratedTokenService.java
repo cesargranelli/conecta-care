@@ -1,4 +1,4 @@
-package com.sevenine.conecta.service;
+package com.sevenine.conecta.services;
 
 import java.util.List;
 

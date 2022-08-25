@@ -1,6 +1,6 @@
-package com.connecta.evento.usecase;
+package com.sevenine.conecta.usecase;
 
-import com.connecta.evento.controller.data.response.EventoResponse;
+import com.sevenine.conecta.controllers.data.response.EventoResponse;
 
 import java.util.List;
 

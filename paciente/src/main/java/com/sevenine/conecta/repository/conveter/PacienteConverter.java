@@ -1,7 +1,7 @@
 package com.sevenine.conecta.repository.conveter;
 
-import com.sevenine.conecta.http.resource.PacienteNomeDocumentoResource;
-import com.sevenine.conecta.http.resource.PacienteResource;
+import com.sevenine.conecta.controllers.resource.PacienteNomeDocumentoResource;
+import com.sevenine.conecta.controllers.resource.PacienteResource;
 import com.sevenine.conecta.repository.entity.PacienteEntity;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;

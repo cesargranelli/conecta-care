@@ -1,12 +1,12 @@
-package com.connecta.evento.mapper.impl;
+package com.sevenine.conecta.mapper.impl;
 
-import com.connecta.evento.controller.data.response.EspecialidadeResponse;
-import com.connecta.evento.controller.data.response.EstadoResponse;
-import com.connecta.evento.controller.data.response.EventoResponse;
-import com.connecta.evento.mapper.EventoEmAbertoMapper;
-import com.connecta.evento.repository.entity.Especialidade;
-import com.connecta.evento.repository.entity.Estado;
-import com.connecta.evento.repository.entity.Evento;
+import com.sevenine.conecta.controllers.data.response.EspecialidadeResponse;
+import com.sevenine.conecta.controllers.data.response.EstadoResponse;
+import com.sevenine.conecta.controllers.data.response.EventoResponse;
+import com.sevenine.conecta.mapper.EventoEmAbertoMapper;
+import com.sevenine.conecta.repository.entity.Especialidade;
+import com.sevenine.conecta.repository.entity.Estado;
+import com.sevenine.conecta.repository.entity.Evento;
 import java.util.ArrayList;
 import java.util.List;
 import javax.annotation.processing.Generated;

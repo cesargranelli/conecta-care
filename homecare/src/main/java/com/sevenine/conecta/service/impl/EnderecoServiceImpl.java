@@ -1,12 +1,12 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controller.data.request.EnderecoRequest;
-import com.sevenine.conecta.controller.data.response.EnderecoCadastroResponse;
-import com.sevenine.conecta.controller.data.response.EnderecoResponse;
+import com.sevenine.conecta.controllers.data.request.EnderecoRequest;
+import com.sevenine.conecta.controllers.data.response.EnderecoCadastroResponse;
+import com.sevenine.conecta.controllers.data.response.EnderecoResponse;
 import com.sevenine.conecta.repository.EnderecoRepository;
 import com.sevenine.conecta.repository.data.EnderecoHomecare;
-import com.sevenine.conecta.service.EnderecoService;
-import com.sevenine.conecta.service.converter.EnderecoServiceConverter;
+import com.sevenine.conecta.services.EnderecoService;
+import com.sevenine.conecta.services.converter.EnderecoServiceConverter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

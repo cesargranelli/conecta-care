@@ -1,0 +1,6 @@
+com\sevenine\conecta\mappers\impl\GeneroMapperImpl.class
+com\sevenine\conecta\mappers\GeneroMapper.class
+com\sevenine\conecta\repositories\GeneroRepository.class
+com\sevenine\conecta\repositories\entities\GeneroData.class
+META-INF\services\com.sevenine.conecta.mappers.GeneroMapper
+com\sevenine\conecta\adapters\GeneroPersistence.class

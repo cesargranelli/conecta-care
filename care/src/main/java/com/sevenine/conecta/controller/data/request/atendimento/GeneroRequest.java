@@ -1,4 +1,4 @@
-package com.sevenine.conecta.controller.data.request.atendimento;
+package com.sevenine.conecta.controllers.data.request.atendimento;
 
 import com.sevenine.conecta.enumerator.GeneroEnum;
 import com.sevenine.conecta.enumerator.TipoGeneroEnum;

@@ -1,6 +1,6 @@
 package com.sevenine.conecta.usecase;
 
-import com.sevenine.conecta.http.data.request.CadastroUsuarioRequest;
+import com.sevenine.conecta.controllers.data.request.CadastroUsuarioRequest;
 
 import java.sql.SQLException;
 

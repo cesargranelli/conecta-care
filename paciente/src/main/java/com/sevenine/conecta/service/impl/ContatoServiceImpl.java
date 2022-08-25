@@ -1,6 +1,6 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.http.resource.ContatoResource;
+import com.sevenine.conecta.controllers.resource.ContatoResource;
 import com.sevenine.conecta.infra.enumerator.ErrorMappingEnum;
 import com.sevenine.conecta.infra.exception.PacienteException;
 import com.sevenine.conecta.repository.ContatoRepository;
@@ -9,8 +9,8 @@ import com.sevenine.conecta.repository.conveter.ContatoConverter;
 import com.sevenine.conecta.repository.entity.ContatoEntity;
 import com.sevenine.conecta.repository.entity.EnderecoEntity;
 import com.sevenine.conecta.repository.entity.PacienteEntity;
-import com.sevenine.conecta.service.AtivaUsuarioService;
-import com.sevenine.conecta.service.ContatoService;
+import com.sevenine.conecta.services.AtivaUsuarioService;
+import com.sevenine.conecta.services.ContatoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;

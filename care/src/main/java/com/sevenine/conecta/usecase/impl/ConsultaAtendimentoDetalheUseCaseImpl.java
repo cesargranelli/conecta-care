@@ -1,9 +1,9 @@
 package com.sevenine.conecta.usecase.impl;
 
-import com.sevenine.conecta.controller.data.response.atendimento.ConsultaAtendimentoDetalheResponse;
+import com.sevenine.conecta.controllers.data.response.atendimento.ConsultaAtendimentoDetalheResponse;
 import com.sevenine.conecta.mapper.atendimento.ConsultaAtendimentoDetalheMapper;
-import com.sevenine.conecta.service.*;
-import com.sevenine.conecta.service.data.response.*;
+import com.sevenine.conecta.services.*;
+import com.sevenine.conecta.services.data.response.*;
 import com.sevenine.conecta.usecase.ConsultaAtendimentoDetalheUseCase;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
@@ -22,7 +22,7 @@ public class ConsultaAtendimentoDetalheUseCaseImpl implements ConsultaAtendiment
 
     @Override
     public ConsultaAtendimentoDetalheResponse executar(Long idAtendimento) {
-        com.sevenine.conecta.service.data.response.AtendimentoDetalheResponse atendimento = atendimentoService.consultar(idAtendimento);
+        com.sevenine.conecta.services.data.response.AtendimentoDetalheResponse atendimento = atendimentoService.consultar(idAtendimento);
 
         TratamentoResponse tratamento = tratamentoService.consultar(atendimento.getTratamento().getId());
 

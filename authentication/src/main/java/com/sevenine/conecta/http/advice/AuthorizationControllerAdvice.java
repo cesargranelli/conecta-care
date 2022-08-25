@@ -1,4 +1,4 @@
-package com.sevenine.conecta.http.advice;
+package com.sevenine.conecta.controllers.advice;
 
 import org.springframework.context.support.DefaultMessageSourceResolvable;
 import org.springframework.http.HttpHeaders;

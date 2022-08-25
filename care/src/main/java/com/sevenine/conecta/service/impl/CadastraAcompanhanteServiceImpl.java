@@ -1,12 +1,12 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
 import com.sevenine.conecta.config.properties.EndpointsPacienteProperties;
 import com.sevenine.conecta.config.properties.ExceptionMessageProperties;
-import com.sevenine.conecta.controller.data.request.tratamento.AdicionaAcompanhanteRequest;
+import com.sevenine.conecta.controllers.data.request.tratamento.AdicionaAcompanhanteRequest;
 import com.sevenine.conecta.exception.FalhaCadastroAcompanhanteException;
 import com.sevenine.conecta.exception.ServiceIndisponivelException;
-import com.sevenine.conecta.service.CadastraAcompanhanteService;
-import com.sevenine.conecta.service.data.response.AcompanhanteResponse;
+import com.sevenine.conecta.services.CadastraAcompanhanteService;
+import com.sevenine.conecta.services.data.response.AcompanhanteResponse;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.ParameterizedTypeReference;

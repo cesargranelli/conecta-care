@@ -1,10 +1,10 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
 import com.sevenine.conecta.enumerator.StatusCadastro;
 import com.sevenine.conecta.repository.data.SequenceCadastro;
 import com.sevenine.conecta.repository.data.Usuario;
-import com.sevenine.conecta.service.BuscaStatusCadastroService;
-import com.sevenine.conecta.service.ConsultaUsuarioService;
+import com.sevenine.conecta.services.BuscaStatusCadastroService;
+import com.sevenine.conecta.services.ConsultaUsuarioService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 

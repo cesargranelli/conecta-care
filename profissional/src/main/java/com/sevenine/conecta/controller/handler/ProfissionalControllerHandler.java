@@ -1,4 +1,4 @@
-package com.sevenine.conecta.controller.handler;
+package com.sevenine.conecta.controllers.handler;
 
 import com.sevenine.conecta.exception.GeneroNaoLocalizadoException;
 import com.sevenine.conecta.exception.InformacaoNaoEncontradaException;

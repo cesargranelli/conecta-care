@@ -1,6 +1,6 @@
-package com.connecta.evento.usecase;
+package com.sevenine.conecta.usecase;
 
-import com.connecta.evento.controller.data.response.EnvioResponse;
+import com.sevenine.conecta.controllers.data.response.EnvioResponse;
 
 public interface EventoEnviaUseCase {
     EnvioResponse executar(long idEvento);

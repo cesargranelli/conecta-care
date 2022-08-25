@@ -1,11 +1,11 @@
 package com.sevenine.conecta.converter.atendimento.impl;
 
-import com.sevenine.conecta.controller.data.response.atendimento.AtendimentoPacienteProtocoloResponse;
-import com.sevenine.conecta.controller.data.response.atendimento.AtendimentoPacienteResponse;
+import com.sevenine.conecta.controllers.data.response.atendimento.AtendimentoPacienteProtocoloResponse;
+import com.sevenine.conecta.controllers.data.response.atendimento.AtendimentoPacienteResponse;
 import com.sevenine.conecta.converter.atendimento.ConsultaListaAtendimentoPacienteUseCaseConverter;
-import com.sevenine.conecta.service.data.response.AtendimentoResponse;
-import com.sevenine.conecta.service.data.response.AtendimentoSituacaoResponse;
-import com.sevenine.conecta.service.data.response.AtendimentoProfissionalResponse;
+import com.sevenine.conecta.services.data.response.AtendimentoResponse;
+import com.sevenine.conecta.services.data.response.AtendimentoSituacaoResponse;
+import com.sevenine.conecta.services.data.response.AtendimentoProfissionalResponse;
 import org.springframework.stereotype.Component;
 
 import java.util.Comparator;

@@ -1,9 +1,9 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.http.resource.EstadoResource;
+import com.sevenine.conecta.controllers.resource.EstadoResource;
 import com.sevenine.conecta.repository.EstadoRepository;
 import com.sevenine.conecta.repository.conveter.EstadoConverter;
-import com.sevenine.conecta.service.EstadoService;
+import com.sevenine.conecta.services.EstadoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

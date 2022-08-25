@@ -1,8 +1,8 @@
-package com.connecta.evento.service.state.evento;
+package com.sevenine.conecta.services.state.evento;
 
-import com.connecta.evento.enumerator.EventoStatus;
-import com.connecta.evento.repository.entity.Evento;
-import com.connecta.evento.service.state.EventoState;
+import com.sevenine.conecta.enumerator.EventoStatus;
+import com.sevenine.conecta.repository.entity.Evento;
+import com.sevenine.conecta.services.state.EventoState;
 
 public class EventoAberto implements EventoState {
 

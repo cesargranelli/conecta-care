@@ -1,9 +1,9 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.http.resource.GeneroResource;
+import com.sevenine.conecta.controllers.resource.GeneroResource;
 import com.sevenine.conecta.repository.GeneroRepository;
 import com.sevenine.conecta.repository.conveter.GeneroConverter;
-import com.sevenine.conecta.service.GeneroService;
+import com.sevenine.conecta.services.GeneroService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

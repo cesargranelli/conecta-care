@@ -1,9 +1,9 @@
-package com.connecta.evento.mapper.impl;
+package com.sevenine.conecta.mapper.impl;
 
-import com.connecta.evento.controller.data.response.EnvioResponse;
-import com.connecta.evento.mapper.EventoEnviaMapper;
-import com.connecta.evento.service.data.request.EventoEnviaRequest;
-import com.connecta.evento.service.data.response.ProfissionalEventoResponse;
+import com.sevenine.conecta.controllers.data.response.EnvioResponse;
+import com.sevenine.conecta.mapper.EventoEnviaMapper;
+import com.sevenine.conecta.services.data.request.EventoEnviaRequest;
+import com.sevenine.conecta.services.data.response.ProfissionalEventoResponse;
 import java.util.ArrayList;
 import java.util.List;
 import javax.annotation.processing.Generated;

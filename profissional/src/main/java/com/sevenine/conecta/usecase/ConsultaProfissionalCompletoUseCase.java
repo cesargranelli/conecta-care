@@ -1,7 +1,7 @@
 package com.sevenine.conecta.usecase;
 
-import com.sevenine.conecta.controller.data.response.ProfissionalCompletoResponse;
-import com.sevenine.conecta.controller.data.response.ProfissionalCpfResponse;
+import com.sevenine.conecta.controllers.data.response.ProfissionalCompletoResponse;
+import com.sevenine.conecta.controllers.data.response.ProfissionalCpfResponse;
 
 import java.util.List;
 

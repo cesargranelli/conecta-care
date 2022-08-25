@@ -2,8 +2,8 @@ package com.sevenine.conecta.mapper.tratamento;
 
 import com.sevenine.conecta.repository.data.Atendimento;
 import com.sevenine.conecta.repository.data.Tratamento;
-import com.sevenine.conecta.service.data.response.AtendimentoDetalheResponse;
-import com.sevenine.conecta.service.data.response.TratamentoResponse;
+import com.sevenine.conecta.services.data.response.AtendimentoDetalheResponse;
+import com.sevenine.conecta.services.data.response.TratamentoResponse;
 import org.mapstruct.IterableMapping;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

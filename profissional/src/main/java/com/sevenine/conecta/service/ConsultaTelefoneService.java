@@ -1,6 +1,6 @@
-package com.sevenine.conecta.service;
+package com.sevenine.conecta.services;
 
-import com.sevenine.conecta.controller.data.response.TelefoneResponse;
+import com.sevenine.conecta.controllers.data.response.TelefoneResponse;
 
 public interface ConsultaTelefoneService {
     TelefoneResponse consultar(Long profissionalId);

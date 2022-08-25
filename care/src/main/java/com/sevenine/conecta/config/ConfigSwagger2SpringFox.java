@@ -1,7 +1,7 @@
 package com.sevenine.conecta.config;
 
-import com.sevenine.conecta.controller.AtendimentoController;
-import com.sevenine.conecta.controller.TratamentoController;
+import com.sevenine.conecta.controllers.AtendimentoController;
+import com.sevenine.conecta.controllers.TratamentoController;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import springfox.documentation.builders.PathSelectors;

@@ -1,12 +1,12 @@
 package com.sevenine.conecta.usecase.impl;
 
-import com.sevenine.conecta.controller.data.response.tratamento.ConsultaTratamentoResponse;
+import com.sevenine.conecta.controllers.data.response.tratamento.ConsultaTratamentoResponse;
 import com.sevenine.conecta.converter.tratamento.ConsultaTratamentoConverter;
-import com.sevenine.conecta.service.ConsultaAcompanhanteService;
-import com.sevenine.conecta.service.ConsultaPacienteService;
-import com.sevenine.conecta.service.ConsultaProfissionalService;
-import com.sevenine.conecta.service.ConsultaTratamentoService;
-import com.sevenine.conecta.service.data.response.TratamentoResponse;
+import com.sevenine.conecta.services.ConsultaAcompanhanteService;
+import com.sevenine.conecta.services.ConsultaPacienteService;
+import com.sevenine.conecta.services.ConsultaProfissionalService;
+import com.sevenine.conecta.services.ConsultaTratamentoService;
+import com.sevenine.conecta.services.data.response.TratamentoResponse;
 import com.sevenine.conecta.usecase.ConsultaTratamentoUseCase;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;

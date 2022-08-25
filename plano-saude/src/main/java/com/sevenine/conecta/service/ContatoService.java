@@ -1,8 +1,8 @@
-package com.sevenine.conecta.service;
+package com.sevenine.conecta.services;
 
-import com.sevenine.conecta.controller.data.request.ContatoRequest;
-import com.sevenine.conecta.controller.data.response.ContatoCadastroResponse;
-import com.sevenine.conecta.controller.data.response.ContatoResponse;
+import com.sevenine.conecta.controllers.data.request.ContatoRequest;
+import com.sevenine.conecta.controllers.data.response.ContatoCadastroResponse;
+import com.sevenine.conecta.controllers.data.response.ContatoResponse;
 
 public interface ContatoService {
     ContatoCadastroResponse cadastrar(ContatoRequest request);

@@ -1,6 +1,6 @@
-package com.sevenine.conecta.service;
+package com.sevenine.conecta.services;
 
-import com.sevenine.conecta.http.resource.GeneroResource;
+import com.sevenine.conecta.controllers.resource.GeneroResource;
 
 import java.util.List;
 

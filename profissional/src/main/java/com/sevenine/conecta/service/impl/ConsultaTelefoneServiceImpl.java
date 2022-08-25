@@ -1,12 +1,12 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
 import com.sevenine.conecta.config.properties.ExceptionMessageProperties;
-import com.sevenine.conecta.controller.data.response.TelefoneResponse;
+import com.sevenine.conecta.controllers.data.response.TelefoneResponse;
 import com.sevenine.conecta.exception.InformacaoNaoEncontradaException;
 import com.sevenine.conecta.mapper.consulta.ConsultaTelefoneMapper;
 import com.sevenine.conecta.repository.TelefoneRepository;
 import com.sevenine.conecta.repository.data.Telefone;
-import com.sevenine.conecta.service.ConsultaTelefoneService;
+import com.sevenine.conecta.services.ConsultaTelefoneService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;

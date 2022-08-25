@@ -1,11 +1,11 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
 import com.sevenine.conecta.config.properties.EndpointsProfissionalProperties;
 import com.sevenine.conecta.config.properties.ExceptionMessageProperties;
 import com.sevenine.conecta.exception.NaoLocalizadoException;
 import com.sevenine.conecta.exception.ServiceIndisponivelException;
-import com.sevenine.conecta.service.ConsultaProfissionalService;
-import com.sevenine.conecta.service.data.response.AtendimentoProfissionalResponse;
+import com.sevenine.conecta.services.ConsultaProfissionalService;
+import com.sevenine.conecta.services.data.response.AtendimentoProfissionalResponse;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.ParameterizedTypeReference;

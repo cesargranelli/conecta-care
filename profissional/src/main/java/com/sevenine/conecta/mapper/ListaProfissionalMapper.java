@@ -1,6 +1,6 @@
 package com.sevenine.conecta.mapper;
 
-import com.sevenine.conecta.controller.data.response.ListaProfissionalResponse;
+import com.sevenine.conecta.controllers.data.response.ListaProfissionalResponse;
 import com.sevenine.conecta.repository.data.ListaProfissional;
 import org.mapstruct.IterableMapping;
 import org.mapstruct.Mapper;

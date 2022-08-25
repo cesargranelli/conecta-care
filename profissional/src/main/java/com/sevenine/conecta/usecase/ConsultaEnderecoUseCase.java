@@ -1,6 +1,6 @@
 package com.sevenine.conecta.usecase;
 
-import com.sevenine.conecta.controller.data.response.EnderecoResponse;
+import com.sevenine.conecta.controllers.data.response.EnderecoResponse;
 
 public interface ConsultaEnderecoUseCase {
     EnderecoResponse executar(Long profissionalId);

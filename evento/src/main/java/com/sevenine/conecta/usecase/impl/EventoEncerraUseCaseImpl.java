@@ -1,7 +1,7 @@
-package com.connecta.evento.usecase.impl;
+package com.sevenine.conecta.usecase.impl;
 
-import com.connecta.evento.service.EventoEncerraService;
-import com.connecta.evento.usecase.EventoEncerraUseCase;
+import com.sevenine.conecta.services.EventoEncerraService;
+import com.sevenine.conecta.usecase.EventoEncerraUseCase;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 

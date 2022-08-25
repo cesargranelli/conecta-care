@@ -1,12 +1,12 @@
-package com.sevenine.conecta.service.converter.impl;
+package com.sevenine.conecta.services.converter.impl;
 
-import com.sevenine.conecta.controller.data.request.CadastroMaterialRequest;
+import com.sevenine.conecta.controllers.data.request.CadastroMaterialRequest;
 import com.sevenine.conecta.repository.data.EstoqueData;
 import com.sevenine.conecta.repository.data.MaterialData;
 import com.sevenine.conecta.repository.data.UnidadesMedidaData;
-import com.sevenine.conecta.service.converter.CadastrarEstoqueServiceConverter;
-import com.sevenine.conecta.service.converter.CadastrarMateriaisServiceConverter;
-import com.sevenine.conecta.service.converter.CadastrarUnidadeMedidaServiceConverter;
+import com.sevenine.conecta.services.converter.CadastrarEstoqueServiceConverter;
+import com.sevenine.conecta.services.converter.CadastrarMateriaisServiceConverter;
+import com.sevenine.conecta.services.converter.CadastrarUnidadeMedidaServiceConverter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 

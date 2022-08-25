@@ -1,4 +1,4 @@
-package com.sevenine.conecta.service.data.request.atendimento;
+package com.sevenine.conecta.services.data.request.atendimento;
 
 public enum AtendimentoPreviewPara {
     JSON, PDF, XML, XLSX, CSV

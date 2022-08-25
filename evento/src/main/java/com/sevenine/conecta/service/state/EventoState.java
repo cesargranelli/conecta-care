@@ -1,7 +1,7 @@
-package com.connecta.evento.service.state;
+package com.sevenine.conecta.services.state;
 
-import com.connecta.evento.enumerator.EventoStatus;
-import com.connecta.evento.repository.entity.Evento;
+import com.sevenine.conecta.enumerator.EventoStatus;
+import com.sevenine.conecta.repository.entity.Evento;
 
 public interface EventoState {
     EventoStatus classificaStatus(Evento evento);

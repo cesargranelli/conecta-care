@@ -1,7 +1,7 @@
-package com.sevenine.conecta.controller.data.request.tratamento;
+package com.sevenine.conecta.controllers.data.request.tratamento;
 
-import com.sevenine.conecta.controller.data.request.atendimento.GeneroRequest;
-import com.sevenine.conecta.controller.data.request.atendimento.ParentescoRequest;
+import com.sevenine.conecta.controllers.data.request.atendimento.GeneroRequest;
+import com.sevenine.conecta.controllers.data.request.atendimento.ParentescoRequest;
 import lombok.Getter;
 import lombok.Setter;
 

@@ -1,8 +1,8 @@
-package com.sevenine.conecta.service.converter.impl;
+package com.sevenine.conecta.services.converter.impl;
 
-import com.sevenine.conecta.controller.data.request.CadastroMaterialRequest;
+import com.sevenine.conecta.controllers.data.request.CadastroMaterialRequest;
 import com.sevenine.conecta.repository.data.*;
-import com.sevenine.conecta.service.converter.*;
+import com.sevenine.conecta.services.converter.*;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 

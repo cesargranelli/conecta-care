@@ -1,6 +1,6 @@
 package com.sevenine.conecta.usecase;
 
-import com.sevenine.conecta.service.data.response.PlantonistaResponse;
+import com.sevenine.conecta.services.data.response.PlantonistaResponse;
 
 import java.util.List;
 

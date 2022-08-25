@@ -1,14 +1,14 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controller.data.request.CarreiraRequest;
-import com.sevenine.conecta.controller.data.response.CadastraAtualizaCarreiraResponse;
+import com.sevenine.conecta.controllers.data.request.CarreiraRequest;
+import com.sevenine.conecta.controllers.data.response.CadastraAtualizaCarreiraResponse;
 import com.sevenine.conecta.mapper.cadastro.CadastraAtualizaCarreiraMapper;
 import com.sevenine.conecta.repository.CarreiraRepository;
 import com.sevenine.conecta.repository.data.Carreira;
-import com.sevenine.conecta.service.CadastraAtualizaCarreiraService;
-import com.sevenine.conecta.service.ConsultaConselhoService;
-import com.sevenine.conecta.service.ConsultaEstadoService;
-import com.sevenine.conecta.service.ConsultaTransporteService;
+import com.sevenine.conecta.services.CadastraAtualizaCarreiraService;
+import com.sevenine.conecta.services.ConsultaConselhoService;
+import com.sevenine.conecta.services.ConsultaEstadoService;
+import com.sevenine.conecta.services.ConsultaTransporteService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

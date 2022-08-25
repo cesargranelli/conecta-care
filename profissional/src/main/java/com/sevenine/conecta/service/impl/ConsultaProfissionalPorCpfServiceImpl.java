@@ -1,12 +1,12 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controller.data.response.ProfissionalCpfResponse;
-import com.sevenine.conecta.controller.data.response.ProfissionalResponse;
+import com.sevenine.conecta.controllers.data.response.ProfissionalCpfResponse;
+import com.sevenine.conecta.controllers.data.response.ProfissionalResponse;
 import com.sevenine.conecta.exception.InformacaoNaoEncontradaException;
 import com.sevenine.conecta.mapper.ProfissionalMapper;
 import com.sevenine.conecta.repository.ProfissionalRepository;
 import com.sevenine.conecta.repository.data.Profissional;
-import com.sevenine.conecta.service.ConsultaProfissionalPorCpfService;
+import com.sevenine.conecta.services.ConsultaProfissionalPorCpfService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;

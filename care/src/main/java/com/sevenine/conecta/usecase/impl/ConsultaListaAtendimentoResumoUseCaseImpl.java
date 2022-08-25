@@ -1,10 +1,10 @@
 package com.sevenine.conecta.usecase.impl;
 
-import com.sevenine.conecta.controller.data.response.atendimento.AtendimentoResumoResponse;
+import com.sevenine.conecta.controllers.data.response.atendimento.AtendimentoResumoResponse;
 import com.sevenine.conecta.converter.atendimento.ConsultaAtendimentoResumoConverter;
-import com.sevenine.conecta.service.ConsultaListaAtendimentoService;
-import com.sevenine.conecta.service.ConsultaListaPacienteService;
-import com.sevenine.conecta.service.data.response.PacienteResponse;
+import com.sevenine.conecta.services.ConsultaListaAtendimentoService;
+import com.sevenine.conecta.services.ConsultaListaPacienteService;
+import com.sevenine.conecta.services.data.response.PacienteResponse;
 import com.sevenine.conecta.usecase.ConsultaListaAtendimentoResumoUseCase;
 import com.sevenine.conecta.usecase.rule.CalculaPeriodoMensalRule;
 import lombok.RequiredArgsConstructor;

@@ -1,7 +1,7 @@
 package com.sevenine.conecta.usecase.impl;
 
-import com.sevenine.conecta.controller.data.response.atendimento.AtendimentoCheckResponse;
-import com.sevenine.conecta.service.ConsultaAtendimentoCheckService;
+import com.sevenine.conecta.controllers.data.response.atendimento.AtendimentoCheckResponse;
+import com.sevenine.conecta.services.ConsultaAtendimentoCheckService;
 import com.sevenine.conecta.usecase.ConsultaAtendimentoCheckUseCase;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;

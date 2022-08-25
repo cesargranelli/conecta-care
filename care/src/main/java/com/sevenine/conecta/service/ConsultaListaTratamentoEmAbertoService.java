@@ -1,6 +1,6 @@
-package com.sevenine.conecta.service;
+package com.sevenine.conecta.services;
 
-import com.sevenine.conecta.service.data.response.ConsultaListaTratamentoResponse;
+import com.sevenine.conecta.services.data.response.ConsultaListaTratamentoResponse;
 
 import java.util.List;
 

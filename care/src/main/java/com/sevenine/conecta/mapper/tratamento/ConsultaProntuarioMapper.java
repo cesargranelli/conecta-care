@@ -1,8 +1,8 @@
 package com.sevenine.conecta.mapper.tratamento;
 
-import com.sevenine.conecta.controller.data.response.tratamento.ProntuarioResponse;
-import com.sevenine.conecta.service.data.response.PacienteResponse;
-import com.sevenine.conecta.service.data.response.TratamentoResponse;
+import com.sevenine.conecta.controllers.data.response.tratamento.ProntuarioResponse;
+import com.sevenine.conecta.services.data.response.PacienteResponse;
+import com.sevenine.conecta.services.data.response.TratamentoResponse;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 

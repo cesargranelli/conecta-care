@@ -1,8 +1,8 @@
-package com.sevenine.conecta.service.converter.impl;
+package com.sevenine.conecta.services.converter.impl;
 
-import com.sevenine.conecta.controller.data.request.MoedaRequest;
+import com.sevenine.conecta.controllers.data.request.MoedaRequest;
 import com.sevenine.conecta.repository.data.MoedaData;
-import com.sevenine.conecta.service.converter.CadastrarMoedaServiceConverter;
+import com.sevenine.conecta.services.converter.CadastrarMoedaServiceConverter;
 import org.springframework.stereotype.Component;
 
 @Component

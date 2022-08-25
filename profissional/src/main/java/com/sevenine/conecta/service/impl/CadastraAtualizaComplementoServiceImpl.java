@@ -1,12 +1,12 @@
-package com.sevenine.conecta.service.impl;
+package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controller.data.request.ComplementoRequest;
-import com.sevenine.conecta.controller.data.response.CadastraAtualizaComplementoResponse;
+import com.sevenine.conecta.controllers.data.request.ComplementoRequest;
+import com.sevenine.conecta.controllers.data.response.CadastraAtualizaComplementoResponse;
 import com.sevenine.conecta.converter.cadastro.CadastraAtualizaComplementoConverter;
 import com.sevenine.conecta.mapper.cadastro.CadastraAtualizaComplementoMapper;
 import com.sevenine.conecta.repository.ComplementoRepository;
 import com.sevenine.conecta.repository.data.Complemento;
-import com.sevenine.conecta.service.CadastraAtualizaComplementoService;
+import com.sevenine.conecta.services.CadastraAtualizaComplementoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

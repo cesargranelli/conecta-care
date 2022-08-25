@@ -1,9 +1,9 @@
-package com.sevenine.conecta.service.converter;
+package com.sevenine.conecta.services.converter;
 
-import com.sevenine.conecta.controller.data.request.HomeCareRequest;
-import com.sevenine.conecta.controller.data.response.EspecialidadeResponse;
-import com.sevenine.conecta.controller.data.response.HomeCareCadastroResponse;
-import com.sevenine.conecta.controller.data.response.HomeCareResponse;
+import com.sevenine.conecta.controllers.data.request.HomeCareRequest;
+import com.sevenine.conecta.controllers.data.response.EspecialidadeResponse;
+import com.sevenine.conecta.controllers.data.response.HomeCareCadastroResponse;
+import com.sevenine.conecta.controllers.data.response.HomeCareResponse;
 import com.sevenine.conecta.enumerator.TipoEmpresaEnum;
 import com.sevenine.conecta.exception.HomeCareNaoEncontradaException;
 import com.sevenine.conecta.repository.data.Especialidade;
