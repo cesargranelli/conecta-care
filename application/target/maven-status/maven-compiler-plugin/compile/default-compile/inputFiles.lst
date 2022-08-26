@@ -1,2 +1,16 @@
+D:\Projetos\Spring\api-conecta-care\application\src\main\java\com\sevenine\conecta\domain\entities\Parentesco.java
+D:\Projetos\Spring\api-conecta-care\application\src\main\java\com\sevenine\conecta\domain\entities\Transporte.java
+D:\Projetos\Spring\api-conecta-care\application\src\main\java\com\sevenine\conecta\domain\entities\AreaAtendimento.java
 D:\Projetos\Spring\api-conecta-care\application\src\main\java\com\sevenine\conecta\domain\ports\persistences\DominioPersistence.java
 D:\Projetos\Spring\api-conecta-care\application\src\main\java\com\sevenine\conecta\domain\entities\Genero.java
+D:\Projetos\Spring\api-conecta-care\application\src\main\java\com\sevenine\conecta\domain\entities\Estado.java
+D:\Projetos\Spring\api-conecta-care\application\src\main\java\com\sevenine\conecta\domain\entities\Instrucao.java
+D:\Projetos\Spring\api-conecta-care\application\src\main\java\com\sevenine\conecta\domain\entities\Banco.java
+D:\Projetos\Spring\api-conecta-care\application\src\main\java\com\sevenine\conecta\domain\entities\Conselho.java
+D:\Projetos\Spring\api-conecta-care\application\src\main\java\com\sevenine\conecta\domain\entities\Grupo.java
+D:\Projetos\Spring\api-conecta-care\application\src\main\java\com\sevenine\conecta\domain\entities\EstadoCivil.java
+D:\Projetos\Spring\api-conecta-care\application\src\main\java\com\sevenine\conecta\domain\entities\Pais.java
+D:\Projetos\Spring\api-conecta-care\application\src\main\java\com\sevenine\conecta\domain\entities\CategoriaCnh.java
+D:\Projetos\Spring\api-conecta-care\application\src\main\java\com\sevenine\conecta\domain\entities\TipoEmpresa.java
+D:\Projetos\Spring\api-conecta-care\application\src\main\java\com\sevenine\conecta\domain\entities\Modelo.java
+D:\Projetos\Spring\api-conecta-care\application\src\main\java\com\sevenine\conecta\domain\entities\TipoConta.java

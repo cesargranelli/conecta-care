@@ -1,2 +1,16 @@
-com\sevenine\conecta\domain\ports\persistences\DominioPersistence.class
+com\sevenine\conecta\domain\entities\Instrucao.class
+com\sevenine\conecta\domain\entities\TipoConta.class
+com\sevenine\conecta\domain\entities\Conselho.class
+com\sevenine\conecta\domain\entities\TipoEmpresa.class
+com\sevenine\conecta\domain\entities\Pais.class
 com\sevenine\conecta\domain\entities\Genero.class
+com\sevenine\conecta\domain\entities\AreaAtendimento.class
+com\sevenine\conecta\domain\ports\persistences\DominioPersistence.class
+com\sevenine\conecta\domain\entities\Grupo.class
+com\sevenine\conecta\domain\entities\EstadoCivil.class
+com\sevenine\conecta\domain\entities\CategoriaCnh.class
+com\sevenine\conecta\domain\entities\Transporte.class
+com\sevenine\conecta\domain\entities\Modelo.class
+com\sevenine\conecta\domain\entities\Estado.class
+com\sevenine\conecta\domain\entities\Banco.class
+com\sevenine\conecta\domain\entities\Parentesco.class
