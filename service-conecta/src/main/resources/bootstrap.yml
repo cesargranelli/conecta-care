@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: api-conecta-care
+  main:
+    allow-bean-definition-overriding: true
+
+#spring:
+#  application:
+#    name: api-conecta-care
+#  cloud:
+#    config:
+#      uri: http://localhost:8888
+#      fail-fast: true
+#      server:
+#        git:
+#          uri: https://github.com/cesargranelli/repo-config-server
+#          username: cesar.granelli.dev@gmail.com
+#          password: $3nh4P4dr@0
+#          clone-on-start: true
+#          force-pull: true
+#          base-dir: file:///D:/Projetos/Spring/repo-config-server
+#          search-paths: '{application}'

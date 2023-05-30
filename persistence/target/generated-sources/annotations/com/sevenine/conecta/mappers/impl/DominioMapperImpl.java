@@ -37,8 +37,8 @@ import javax.annotation.processing.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2022-08-27T11:16:43-0300",
-    comments = "version: 1.5.2.Final, compiler: javac, environment: Java 14.0.1 (Oracle Corporation)"
+    date = "2023-05-29T22:11:30-0300",
+    comments = "version: 1.5.2.Final, compiler: javac, environment: Java 19.0.2 (N/A)"
 )
 public class DominioMapperImpl implements DominioMapper {
 
