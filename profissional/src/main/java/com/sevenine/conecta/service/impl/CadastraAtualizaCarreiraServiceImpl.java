@@ -1,7 +1,7 @@
 package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controllers.data.request.CarreiraRequest;
-import com.sevenine.conecta.controllers.data.response.CadastraAtualizaCarreiraResponse;
+import com.sevenine.conecta.adapter.controller.data.request.CarreiraRequest;
+import com.sevenine.conecta.adapter.controller.data.response.CadastraAtualizaCarreiraResponse;
 import com.sevenine.conecta.mapper.cadastro.CadastraAtualizaCarreiraMapper;
 import com.sevenine.conecta.repository.CarreiraRepository;
 import com.sevenine.conecta.repository.data.Carreira;

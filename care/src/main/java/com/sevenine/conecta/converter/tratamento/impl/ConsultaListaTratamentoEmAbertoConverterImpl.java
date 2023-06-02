@@ -1,6 +1,6 @@
 package com.sevenine.conecta.converter.tratamento.impl;
 
-import com.sevenine.conecta.controllers.data.response.tratamento.ListaTratamentoEmAbertoResponse;
+import com.sevenine.conecta.adapter.controller.data.response.tratamento.ListaTratamentoEmAbertoResponse;
 import com.sevenine.conecta.converter.tratamento.ConsultaListaTratamentoEmAbertoConverter;
 import com.sevenine.conecta.services.data.response.ConsultaListaTratamentoResponse;
 import com.sevenine.conecta.services.data.response.PacienteResponse;

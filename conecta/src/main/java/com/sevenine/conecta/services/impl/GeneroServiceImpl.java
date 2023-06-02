@@ -1,7 +1,7 @@
 package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.adapters.GeneroAdapter;
-import com.sevenine.conecta.controllers.data.response.ConsultaGeneroResponse;
+import com.sevenine.conecta.adapter.GeneroAdapter;
+import com.sevenine.conecta.adapter.controller.data.response.ConsultaGeneroResponse;
 import com.sevenine.conecta.mapper.GeneroMapper;
 import com.sevenine.conecta.services.DominioService;
 import lombok.RequiredArgsConstructor;

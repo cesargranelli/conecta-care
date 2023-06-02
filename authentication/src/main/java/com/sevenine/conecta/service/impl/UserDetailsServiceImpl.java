@@ -1,6 +1,6 @@
 package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controllers.data.request.CadastroUsuarioRequest;
+import com.sevenine.conecta.adapter.controller.data.request.CadastroUsuarioRequest;
 import com.sevenine.conecta.repository.UsuarioRepository;
 import com.sevenine.conecta.repository.data.Usuario;
 import lombok.RequiredArgsConstructor;

@@ -1,6 +1,6 @@
-package com.sevenine.conecta.controllers;
+package com.sevenine.conecta.adapter.controller;
 
-import com.sevenine.conecta.adapters.*;
+import com.sevenine.conecta.adapter.*;
 import com.sevenine.conecta.domain.ports.persistences.DominioPersistence;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,6 +1,6 @@
 package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controllers.data.response.ConsultaPaisResponse;
+import com.sevenine.conecta.adapter.controller.data.response.ConsultaPaisResponse;
 import com.sevenine.conecta.repository.PaisRepository;
 import com.sevenine.conecta.services.PaisService;
 import com.sevenine.conecta.mapper.PaisMapper;

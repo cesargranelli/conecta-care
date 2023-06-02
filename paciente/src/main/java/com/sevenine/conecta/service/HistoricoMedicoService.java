@@ -1,6 +1,6 @@
 package com.sevenine.conecta.services;
 
-import com.sevenine.conecta.controllers.resource.HistoricoMedicoResource;
+import com.sevenine.conecta.adapter.controller.resource.HistoricoMedicoResource;
 
 public interface HistoricoMedicoService {
 

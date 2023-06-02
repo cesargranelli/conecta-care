@@ -1,7 +1,7 @@
 package com.sevenine.conecta.usecase;
 
-import com.sevenine.conecta.controllers.data.request.CadastraDocumentoRequest;
-import com.sevenine.conecta.controllers.data.response.CadastraDocumentoResponse;
+import com.sevenine.conecta.adapter.controller.data.request.CadastraDocumentoRequest;
+import com.sevenine.conecta.adapter.controller.data.response.CadastraDocumentoResponse;
 import com.sevenine.conecta.enumerator.StatusCadastro;
 import com.sevenine.conecta.exception.DocumentoDuplicadoException;
 import com.sevenine.conecta.exception.DocumentoNaoEncontradoException;

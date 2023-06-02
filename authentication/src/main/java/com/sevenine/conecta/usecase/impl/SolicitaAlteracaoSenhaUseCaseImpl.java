@@ -1,7 +1,7 @@
 package com.sevenine.conecta.usecase.impl;
 
-import com.sevenine.conecta.controllers.data.request.EsqueciMinhaSenhaRequest;
-import com.sevenine.conecta.controllers.data.response.EsqueciMinhaSenhaResponse;
+import com.sevenine.conecta.adapter.controller.data.request.EsqueciMinhaSenhaRequest;
+import com.sevenine.conecta.adapter.controller.data.response.EsqueciMinhaSenhaResponse;
 import com.sevenine.conecta.repository.data.Usuario;
 import com.sevenine.conecta.services.ConsultaUsuarioService;
 import com.sevenine.conecta.usecase.SolicitaAlteracaoSenhaUseCase;

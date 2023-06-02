@@ -1,6 +1,6 @@
 package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controllers.resource.TipoSanguineoResource;
+import com.sevenine.conecta.adapter.controller.resource.TipoSanguineoResource;
 import com.sevenine.conecta.repository.TipoSanguineoRepository;
 import com.sevenine.conecta.repository.conveter.TipoSanguineoConverter;
 import com.sevenine.conecta.services.TipoSanguineoService;

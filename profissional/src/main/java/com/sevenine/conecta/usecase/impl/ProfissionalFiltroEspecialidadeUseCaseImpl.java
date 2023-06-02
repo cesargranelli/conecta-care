@@ -1,6 +1,6 @@
 package com.sevenine.conecta.usecase.impl;
 
-import com.sevenine.conecta.controllers.data.response.ProfissionalResponse;
+import com.sevenine.conecta.adapter.controller.data.response.ProfissionalResponse;
 import com.sevenine.conecta.services.ProfissionalFiltroEspecialidadeService;
 import com.sevenine.conecta.usecase.ProfissionalFiltroEspecialidadeUseCase;
 import lombok.RequiredArgsConstructor;

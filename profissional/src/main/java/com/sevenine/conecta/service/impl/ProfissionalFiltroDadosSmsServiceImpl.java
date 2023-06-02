@@ -1,6 +1,6 @@
 package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controllers.data.response.ProfissionalFiltroDadosSmsResponse;
+import com.sevenine.conecta.adapter.controller.data.response.ProfissionalFiltroDadosSmsResponse;
 import com.sevenine.conecta.repository.ProfissionalRepository;
 import com.sevenine.conecta.services.ProfissionalFiltroDadosSmsService;
 import lombok.RequiredArgsConstructor;

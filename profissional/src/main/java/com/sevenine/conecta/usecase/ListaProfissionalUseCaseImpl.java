@@ -1,6 +1,6 @@
 package com.sevenine.conecta.usecase;
 
-import com.sevenine.conecta.controllers.data.response.ListaProfissionalResponse;
+import com.sevenine.conecta.adapter.controller.data.response.ListaProfissionalResponse;
 import com.sevenine.conecta.services.ListaProfissionalService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;

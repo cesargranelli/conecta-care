@@ -1,4 +1,4 @@
-package com.sevenine.conecta.controllers.resource;
+package com.sevenine.conecta.adapter.controller.resource;
 
 import com.sevenine.conecta.repository.entity.*;
 import com.fasterxml.jackson.annotation.JsonInclude;

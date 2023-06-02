@@ -1,9 +1,9 @@
-package com.sevenine.conecta.adapters;
+package com.sevenine.conecta.adapter;
 
-import com.sevenine.conecta.domain.entities.Transporte;
+import com.sevenine.conecta.domain.model.Transporte;
 import com.sevenine.conecta.domain.ports.persistences.DominioPersistence;
-import com.sevenine.conecta.mappers.DominioMapper;
-import com.sevenine.conecta.repositories.TransporteRepository;
+import com.sevenine.conecta.mapper.DominioMapper;
+import com.sevenine.conecta.repository.TransporteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package com.sevenine.conecta.controllers.handler;
+package com.sevenine.conecta.adapter.controller.handler;
 
 import com.sevenine.conecta.exception.EventoNaoEncontradoException;
 import com.sevenine.conecta.exception.EventoRuntimeException;

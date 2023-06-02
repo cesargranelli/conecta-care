@@ -1,7 +1,7 @@
 package com.sevenine.conecta.usecase.rule.impl;
 
-import com.sevenine.conecta.controllers.data.request.atendimento.AdicionaAtendimentoRequest;
-import com.sevenine.conecta.controllers.data.request.atendimento.DiaSemanaRequest;
+import com.sevenine.conecta.adapter.controller.data.request.atendimento.AdicionaAtendimentoRequest;
+import com.sevenine.conecta.adapter.controller.data.request.atendimento.DiaSemanaRequest;
 import com.sevenine.conecta.usecase.rule.GeraRecorrenciaSemanalRule;
 import org.springframework.stereotype.Component;
 

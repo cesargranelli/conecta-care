@@ -1,4 +1,4 @@
-package com.sevenine.conecta.configs;
+package com.sevenine.conecta.application.configuration;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Value;

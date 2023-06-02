@@ -1,7 +1,7 @@
-package com.sevenine.conecta.controllers;
+package com.sevenine.conecta.adapter.controller;
 
-import com.sevenine.conecta.controllers.resource.ContatoResource;
-import com.sevenine.conecta.controllers.resource.PacienteResource;
+import com.sevenine.conecta.adapter.controller.resource.ContatoResource;
+import com.sevenine.conecta.adapter.controller.resource.PacienteResource;
 import com.sevenine.conecta.services.ContatoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

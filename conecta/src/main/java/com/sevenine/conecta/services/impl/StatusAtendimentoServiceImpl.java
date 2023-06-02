@@ -1,6 +1,6 @@
 package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controllers.data.response.ConsultaStatusAtendimentoResponse;
+import com.sevenine.conecta.adapter.controller.data.response.ConsultaStatusAtendimentoResponse;
 import com.sevenine.conecta.repository.StatusAtendimentoRepository;
 import com.sevenine.conecta.mapper.StatusAtendimentoMapper;
 import com.sevenine.conecta.services.StatusAtendimentoService;

@@ -1,6 +1,6 @@
-package com.sevenine.conecta.controllers;
+package com.sevenine.conecta.adapter.controller;
 
-import com.sevenine.conecta.controllers.resource.GeneroResource;
+import com.sevenine.conecta.adapter.controller.resource.GeneroResource;
 import com.sevenine.conecta.services.GeneroService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;

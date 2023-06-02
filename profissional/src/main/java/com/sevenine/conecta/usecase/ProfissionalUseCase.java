@@ -1,6 +1,6 @@
 package com.sevenine.conecta.usecase;
 
-import com.sevenine.conecta.controllers.data.response.ProfissionalResponse;
+import com.sevenine.conecta.adapter.controller.data.response.ProfissionalResponse;
 import com.sevenine.conecta.services.EstadoCivilService;
 import com.sevenine.conecta.services.GeneroService;
 import com.sevenine.conecta.services.ProfissionalService;

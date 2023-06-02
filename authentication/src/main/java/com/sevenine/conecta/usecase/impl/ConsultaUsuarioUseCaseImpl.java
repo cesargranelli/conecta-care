@@ -1,7 +1,7 @@
 package com.sevenine.conecta.usecase.impl;
 
 import com.sevenine.conecta.entity.ConsultaUsuario;
-import com.sevenine.conecta.controllers.data.response.ConsultaUsuarioResponse;
+import com.sevenine.conecta.adapter.controller.data.response.ConsultaUsuarioResponse;
 import com.sevenine.conecta.repository.data.SequenceCadastro;
 import com.sevenine.conecta.repository.data.Usuario;
 import com.sevenine.conecta.services.ConsultaUsuarioService;

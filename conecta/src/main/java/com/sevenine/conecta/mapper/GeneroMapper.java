@@ -1,7 +1,7 @@
 package com.sevenine.conecta.mapper;
 
-import com.sevenine.conecta.controllers.data.response.ConsultaGeneroResponse;
-import com.sevenine.conecta.repositories.entities.GeneroData;
+import com.sevenine.conecta.adapter.controller.data.response.ConsultaGeneroResponse;
+import com.sevenine.conecta.repository.entities.GeneroData;
 import com.sevenine.conecta.services.output.GeneroOutput;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;

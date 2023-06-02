@@ -1,6 +1,6 @@
 package com.sevenine.conecta.mapper.atendimento;
 
-import com.sevenine.conecta.controllers.data.response.atendimento.ConsultaAtendimentoDetalheResponse;
+import com.sevenine.conecta.adapter.controller.data.response.atendimento.ConsultaAtendimentoDetalheResponse;
 import com.sevenine.conecta.services.data.response.AcompanhanteResponse;
 import com.sevenine.conecta.services.data.response.AtendimentoDetalheResponse;
 import com.sevenine.conecta.services.data.response.AtendimentoProfissionalResponse;

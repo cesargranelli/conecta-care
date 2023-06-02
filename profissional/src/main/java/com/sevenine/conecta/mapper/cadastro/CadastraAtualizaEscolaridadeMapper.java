@@ -1,7 +1,7 @@
 package com.sevenine.conecta.mapper.cadastro;
 
-import com.sevenine.conecta.controllers.data.request.EscolaridadeRequest;
-import com.sevenine.conecta.controllers.data.response.CadastraAtualizaEscolaridadeResponse;
+import com.sevenine.conecta.adapter.controller.data.request.EscolaridadeRequest;
+import com.sevenine.conecta.adapter.controller.data.response.CadastraAtualizaEscolaridadeResponse;
 import com.sevenine.conecta.repository.data.Escolaridade;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

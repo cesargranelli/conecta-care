@@ -1,6 +1,6 @@
 package com.sevenine.conecta.mapper;
 
-import com.sevenine.conecta.controllers.data.request.EventoRequest;
+import com.sevenine.conecta.adapter.controller.data.request.EventoRequest;
 import com.sevenine.conecta.repository.entity.Evento;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

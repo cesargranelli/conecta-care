@@ -1,6 +1,6 @@
 package com.sevenine.conecta.usecase.impl;
 
-import com.sevenine.conecta.controllers.data.response.EscolaridadeResponse;
+import com.sevenine.conecta.adapter.controller.data.response.EscolaridadeResponse;
 import com.sevenine.conecta.services.ConsultaEscolaridadeService;
 import com.sevenine.conecta.usecase.ConsultaEscolaridadeUseCase;
 import lombok.RequiredArgsConstructor;

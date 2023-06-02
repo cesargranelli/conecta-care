@@ -1,4 +1,4 @@
-package com.sevenine.conecta.controllers.data.response.tratamento;
+package com.sevenine.conecta.adapter.controller.data.response.tratamento;
 
 import com.sevenine.conecta.services.data.response.ProntuarioProfissionalResponse;
 import lombok.Getter;

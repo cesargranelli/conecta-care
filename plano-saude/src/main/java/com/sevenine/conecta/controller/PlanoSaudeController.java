@@ -1,8 +1,8 @@
-package com.sevenine.conecta.controllers;
+package com.sevenine.conecta.adapter.controller;
 
-import com.sevenine.conecta.controllers.data.request.PlanoSaudeRequest;
-import com.sevenine.conecta.controllers.data.response.PlanoSaudeCadastroResponse;
-import com.sevenine.conecta.controllers.data.response.PlanoSaudeResponse;
+import com.sevenine.conecta.adapter.controller.data.request.PlanoSaudeRequest;
+import com.sevenine.conecta.adapter.controller.data.response.PlanoSaudeCadastroResponse;
+import com.sevenine.conecta.adapter.controller.data.response.PlanoSaudeResponse;
 import com.sevenine.conecta.usecase.PlanoSaudeUseCase;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

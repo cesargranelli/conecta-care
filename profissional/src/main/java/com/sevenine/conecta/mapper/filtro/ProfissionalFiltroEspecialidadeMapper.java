@@ -1,6 +1,6 @@
 package com.sevenine.conecta.mapper.filtro;//package com.sevenine.conecta.mapper.filtro;
 //
-//import com.sevenine.conecta.controller.data.response.ProfissionalResponse;
+//import com.sevenine.conecta.adapter.controller.data.response.ProfissionalResponse;
 //import com.sevenine.conecta.repository.data.Profissional;
 //import org.mapstruct.IterableMapping;
 //import org.mapstruct.Mapper;

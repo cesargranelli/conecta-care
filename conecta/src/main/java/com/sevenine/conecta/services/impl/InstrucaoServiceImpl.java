@@ -1,6 +1,6 @@
 package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controllers.data.response.ConsultaInstrucaoResponse;
+import com.sevenine.conecta.adapter.controller.data.response.ConsultaInstrucaoResponse;
 import com.sevenine.conecta.repository.InstrucaoRepository;
 import com.sevenine.conecta.services.InstrucaoService;
 import com.sevenine.conecta.mapper.InstrucaoMapper;

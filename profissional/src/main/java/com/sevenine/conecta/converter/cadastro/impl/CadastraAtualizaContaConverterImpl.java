@@ -1,8 +1,8 @@
 package com.sevenine.conecta.converter.cadastro.impl;
 
-import com.sevenine.conecta.controllers.data.request.BancoRequest;
-import com.sevenine.conecta.controllers.data.request.ContaRequest;
-import com.sevenine.conecta.controllers.data.request.TipoContaRequest;
+import com.sevenine.conecta.adapter.controller.data.request.BancoRequest;
+import com.sevenine.conecta.adapter.controller.data.request.ContaRequest;
+import com.sevenine.conecta.adapter.controller.data.request.TipoContaRequest;
 import com.sevenine.conecta.converter.cadastro.CadastraAtualizaContaConverter;
 import com.sevenine.conecta.repository.data.Banco;
 import com.sevenine.conecta.repository.data.Conta;

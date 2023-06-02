@@ -1,6 +1,6 @@
 package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controllers.resource.ContatoResource;
+import com.sevenine.conecta.adapter.controller.resource.ContatoResource;
 import com.sevenine.conecta.infra.enumerator.ErrorMappingEnum;
 import com.sevenine.conecta.infra.exception.PacienteException;
 import com.sevenine.conecta.repository.ContatoRepository;

@@ -1,7 +1,7 @@
 package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controllers.data.request.EnderecoRequest;
-import com.sevenine.conecta.controllers.data.response.CadastraAtualizaEnderecoResponse;
+import com.sevenine.conecta.adapter.controller.data.request.EnderecoRequest;
+import com.sevenine.conecta.adapter.controller.data.response.CadastraAtualizaEnderecoResponse;
 import com.sevenine.conecta.mapper.cadastro.CadastraAtualizaEnderecoMapper;
 import com.sevenine.conecta.repository.EnderecoRepository;
 import com.sevenine.conecta.repository.data.Endereco;

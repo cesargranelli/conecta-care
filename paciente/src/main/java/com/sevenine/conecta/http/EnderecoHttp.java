@@ -1,6 +1,6 @@
-package com.sevenine.conecta.controllers;
+package com.sevenine.conecta.adapter.controller;
 
-import com.sevenine.conecta.controllers.resource.EnderecoResource;
+import com.sevenine.conecta.adapter.controller.resource.EnderecoResource;
 import com.sevenine.conecta.services.EnderecoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

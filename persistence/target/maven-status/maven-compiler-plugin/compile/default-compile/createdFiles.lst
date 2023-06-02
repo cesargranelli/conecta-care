@@ -38,7 +38,7 @@ com\sevenine\conecta\repositories\datas\CategoriaCnhData.class
 com\sevenine\conecta\adapters\BancoPersistence.class
 com\sevenine\conecta\repositories\datas\GeneroData.class
 com\sevenine\conecta\adapters\TransportePersistence.class
-META-INF\services\com.sevenine.conecta.mappers.DominioMapper
+META-INF\services\com.sevenine.conecta.mapper.DominioMapper
 com\sevenine\conecta\repositories\datas\GrupoData.class
 com\sevenine\conecta\repositories\EstadoRepository.class
 com\sevenine\conecta\repositories\ParentescoRepository.class

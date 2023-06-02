@@ -1,6 +1,6 @@
 package com.sevenine.conecta.repository.conveter;
 
-import com.sevenine.conecta.controllers.resource.HistoricoMedicoResource;
+import com.sevenine.conecta.adapter.controller.resource.HistoricoMedicoResource;
 import com.sevenine.conecta.repository.entity.HistoricoMedicoEntity;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;

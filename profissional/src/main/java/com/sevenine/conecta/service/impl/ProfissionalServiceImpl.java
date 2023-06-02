@@ -1,6 +1,6 @@
 package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controllers.data.response.ProfissionalResponse;
+import com.sevenine.conecta.adapter.controller.data.response.ProfissionalResponse;
 import com.sevenine.conecta.exception.InformacaoNaoEncontradaException;
 import com.sevenine.conecta.mapper.ProfissionalMapper;
 import com.sevenine.conecta.repository.ProfissionalRepository;

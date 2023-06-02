@@ -1,6 +1,6 @@
 package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controllers.data.response.ConsultaTransporteResponse;
+import com.sevenine.conecta.adapter.controller.data.response.ConsultaTransporteResponse;
 import com.sevenine.conecta.repository.TransporteRepository;
 import com.sevenine.conecta.services.TransporteService;
 import com.sevenine.conecta.mapper.TransporteMapper;

@@ -1,6 +1,6 @@
 package com.sevenine.conecta.services;
 
-import com.sevenine.conecta.controllers.resource.AcompanhanteResponseResource;
+import com.sevenine.conecta.adapter.controller.resource.AcompanhanteResponseResource;
 
 import java.util.List;
 

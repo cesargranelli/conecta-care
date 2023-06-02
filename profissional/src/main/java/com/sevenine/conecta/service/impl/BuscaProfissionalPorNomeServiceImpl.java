@@ -1,6 +1,6 @@
 package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controllers.data.response.ProfissionalCpfResponse;
+import com.sevenine.conecta.adapter.controller.data.response.ProfissionalCpfResponse;
 import com.sevenine.conecta.exception.InformacaoNaoEncontradaException;
 import com.sevenine.conecta.repository.ProfissionalPesquisaRepository;
 import com.sevenine.conecta.repository.data.ProfissionalPesquisa;

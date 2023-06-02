@@ -1,6 +1,6 @@
 package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controllers.data.request.tratamento.EncerraTratamentoRequest;
+import com.sevenine.conecta.adapter.controller.data.request.tratamento.EncerraTratamentoRequest;
 import com.sevenine.conecta.exception.NaoLocalizadoException;
 import com.sevenine.conecta.repository.TratamentoRepository;
 import com.sevenine.conecta.repository.data.Tratamento;

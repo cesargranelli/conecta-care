@@ -1,6 +1,6 @@
 package com.sevenine.conecta.usecase.impl;
 
-import com.sevenine.conecta.controllers.data.request.EventoRequest;
+import com.sevenine.conecta.adapter.controller.data.request.EventoRequest;
 import com.sevenine.conecta.services.EventoCadastraService;
 import com.sevenine.conecta.usecase.EventoCadastraUseCase;
 import lombok.RequiredArgsConstructor;

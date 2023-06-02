@@ -1,6 +1,6 @@
 package com.sevenine.conecta.usecase.impl;
 
-import com.sevenine.conecta.controllers.data.response.tratamento.ListaTratamentoEmAbertoResponse;
+import com.sevenine.conecta.adapter.controller.data.response.tratamento.ListaTratamentoEmAbertoResponse;
 import com.sevenine.conecta.converter.tratamento.ConsultaListaTratamentoEmAbertoConverter;
 import com.sevenine.conecta.services.ConsultaListaPacienteService;
 import com.sevenine.conecta.services.ConsultaListaTratamentoEmAbertoService;

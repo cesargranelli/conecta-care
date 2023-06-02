@@ -1,6 +1,6 @@
 package com.sevenine.conecta.services;
 
-import com.sevenine.conecta.controllers.resource.EstadoCivilResource;
+import com.sevenine.conecta.adapter.controller.resource.EstadoCivilResource;
 
 import java.util.List;
 

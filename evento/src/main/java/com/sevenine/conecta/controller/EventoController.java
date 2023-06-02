@@ -1,8 +1,8 @@
-package com.sevenine.conecta.controllers;
+package com.sevenine.conecta.adapter.controller;
 
-import com.sevenine.conecta.controllers.data.request.EventoRequest;
-import com.sevenine.conecta.controllers.data.response.EnvioResponse;
-import com.sevenine.conecta.controllers.data.response.EventoResponse;
+import com.sevenine.conecta.adapter.controller.data.request.EventoRequest;
+import com.sevenine.conecta.adapter.controller.data.response.EnvioResponse;
+import com.sevenine.conecta.adapter.controller.data.response.EventoResponse;
 import com.sevenine.conecta.usecase.*;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

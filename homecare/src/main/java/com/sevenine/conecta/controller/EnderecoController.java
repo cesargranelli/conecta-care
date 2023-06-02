@@ -1,8 +1,8 @@
-package com.sevenine.conecta.controllers;
+package com.sevenine.conecta.adapter.controller;
 
-import com.sevenine.conecta.controllers.data.request.EnderecoRequest;
-import com.sevenine.conecta.controllers.data.response.EnderecoCadastroResponse;
-import com.sevenine.conecta.controllers.data.response.EnderecoResponse;
+import com.sevenine.conecta.adapter.controller.data.request.EnderecoRequest;
+import com.sevenine.conecta.adapter.controller.data.response.EnderecoCadastroResponse;
+import com.sevenine.conecta.adapter.controller.data.response.EnderecoResponse;
 import com.sevenine.conecta.usecase.EnderecoUseCase;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

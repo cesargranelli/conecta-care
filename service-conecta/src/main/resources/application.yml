@@ -1,62 +1,9 @@
-spring:
-  datasource:
-    url: ${database.host.dev.url}
-    username: ${database.host.dev.username}
-    password: ${database.host.dev.password}
-  jpa:
-    properties:
-    hibernate:
-      ddl-auto: none #none, validate, update, create, and create-drop
-    show-sql: true
-  flyway:
-    enabled: true
-  main:
-    allow-bean-definition-overriding: true
-  mail:
-    host: email-smtp.us-east-2.amazonaws.com
-    port: 587
-    username: AKIA4UCJHAJ5L67OI2HR
-    password: BO0bZ0j0d7eA6kAXfZdQqQCsNa5FsigjWqbgVCIGqsoS
-    properties:
-      mail:
-        transport:
-          protocol: smtp
-      smtp:
-        auth: true
-        starttls:
-          enable: true
-          required: true
-
-security:
-  oauth2:
-    resource:
-      userInfoUri: ${url.services.conecta-care}/oauth2/userinfo
-      tokenInfoUri: ${url.services.conecta-care}/oauth2/check_token
-  configs:
-    sign-up-url: "/usuarios"
-    key: "q3t6w9z$C&F)J@NcQfTjWnZr4u7x!A%D*G-KaPdSgUkXp2s5v8y/B?E(H+MbQeTh"
-    expiration-time: 1800000 #Milisegundos
----
 server:
   port: 5000
-
-url:
-  php:
-    connecta: http://service-connecta-php-env-dev.us-east-2.elasticbeanstalk.com
-  services:
-    conecta-care: http://localhost:5000
 
 conecta:
   config:
     timezone: America/Sao_Paulo
-
-database:
-  host:
-    dev:
-      url: jdbc:mysql://localhost:3306/conecta
-      username: conecta
-      password: conecta
-    prd: jdbc:mysql://db-connecta-prd.cynh1jlres6n.us-east-2.rds.amazonaws.com:3306
 
 spring:
   output:
@@ -65,9 +12,8 @@ spring:
   jpa:
     properties:
       hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect
         jdbc:
-          time_zone: ${connecta.config.timezone}
+          time_zone: ${conecta.config.timezone}
 
 management:
   endpoint:

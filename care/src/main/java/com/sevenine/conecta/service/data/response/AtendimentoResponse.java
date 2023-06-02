@@ -3,7 +3,7 @@ package com.sevenine.conecta.services.data.response;
 import lombok.Getter;
 import lombok.Setter;
 
-import com.sevenine.conecta.controllers.data.response.atendimento.TipoAtendimentoResponse;
+import com.sevenine.conecta.adapter.controller.data.response.atendimento.TipoAtendimentoResponse;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import java.math.BigDecimal;

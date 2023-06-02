@@ -1,4 +1,4 @@
-package com.sevenine.conecta.configs.properties;
+package com.sevenine.conecta.application.configuration.properties;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,7 +1,7 @@
 package com.sevenine.conecta.mapper.cadastro;
 
-import com.sevenine.conecta.controllers.data.request.CarreiraRequest;
-import com.sevenine.conecta.controllers.data.response.CadastraAtualizaCarreiraResponse;
+import com.sevenine.conecta.adapter.controller.data.request.CarreiraRequest;
+import com.sevenine.conecta.adapter.controller.data.response.CadastraAtualizaCarreiraResponse;
 import com.sevenine.conecta.repository.data.Carreira;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

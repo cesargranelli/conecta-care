@@ -1,6 +1,6 @@
 package com.sevenine.conecta.usecase.impl;
 
-import com.sevenine.conecta.controllers.data.response.CarreiraResponse;
+import com.sevenine.conecta.adapter.controller.data.response.CarreiraResponse;
 import com.sevenine.conecta.services.ConsultaCarreiraService;
 import com.sevenine.conecta.usecase.ConsultaCarreiraUseCase;
 import lombok.RequiredArgsConstructor;

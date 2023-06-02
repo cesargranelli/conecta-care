@@ -1,8 +1,8 @@
 package com.sevenine.conecta.services.impl;
 
 import com.sevenine.conecta.enumerator.StatusCadastro;
-import com.sevenine.conecta.controllers.data.response.ConsultaUsuarioResponse;
-import com.sevenine.conecta.controllers.data.response.ValidationResponse;
+import com.sevenine.conecta.adapter.controller.data.response.ConsultaUsuarioResponse;
+import com.sevenine.conecta.adapter.controller.data.response.ValidationResponse;
 import com.sevenine.conecta.repository.SequenceCadastroRepository;
 import com.sevenine.conecta.repository.data.SequenceCadastro;
 import com.sevenine.conecta.services.DocumentoService;

@@ -1,6 +1,6 @@
 package com.sevenine.conecta.usecase.impl;
 
-import com.sevenine.conecta.controllers.data.response.ContaResponse;
+import com.sevenine.conecta.adapter.controller.data.response.ContaResponse;
 import com.sevenine.conecta.services.ConsultaContaService;
 import com.sevenine.conecta.usecase.ConsultaContaUseCase;
 import lombok.RequiredArgsConstructor;

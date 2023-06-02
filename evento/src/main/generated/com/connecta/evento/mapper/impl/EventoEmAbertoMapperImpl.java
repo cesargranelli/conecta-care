@@ -1,8 +1,8 @@
 package com.sevenine.conecta.mapper.impl;
 
-import com.sevenine.conecta.controllers.data.response.EspecialidadeResponse;
-import com.sevenine.conecta.controllers.data.response.EstadoResponse;
-import com.sevenine.conecta.controllers.data.response.EventoResponse;
+import com.sevenine.conecta.adapter.controller.data.response.EspecialidadeResponse;
+import com.sevenine.conecta.adapter.controller.data.response.EstadoResponse;
+import com.sevenine.conecta.adapter.controller.data.response.EventoResponse;
 import com.sevenine.conecta.mapper.EventoEmAbertoMapper;
 import com.sevenine.conecta.repository.entity.Especialidade;
 import com.sevenine.conecta.repository.entity.Estado;

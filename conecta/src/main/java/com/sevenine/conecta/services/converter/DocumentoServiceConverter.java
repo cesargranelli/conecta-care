@@ -1,8 +1,8 @@
 package com.sevenine.conecta.services.converter;
 
-import com.sevenine.conecta.controllers.data.request.CadastraDocumentoRequest;
-import com.sevenine.conecta.controllers.data.response.CadastraDocumentoResponse;
-import com.sevenine.conecta.controllers.data.response.DocumentoConsultaResponse;
+import com.sevenine.conecta.adapter.controller.data.request.CadastraDocumentoRequest;
+import com.sevenine.conecta.adapter.controller.data.response.CadastraDocumentoResponse;
+import com.sevenine.conecta.adapter.controller.data.response.DocumentoConsultaResponse;
 import com.sevenine.conecta.exception.DocumentoNaoEncontradoException;
 import com.sevenine.conecta.enumerator.Modulo;
 import com.sevenine.conecta.enumerator.StatusCadastro;

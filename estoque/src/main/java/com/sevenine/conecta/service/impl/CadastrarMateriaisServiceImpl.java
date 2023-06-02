@@ -1,6 +1,6 @@
 package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controllers.data.request.CadastroMaterialRequest;
+import com.sevenine.conecta.adapter.controller.data.request.CadastroMaterialRequest;
 import com.sevenine.conecta.repository.EstoqueRepository;
 import com.sevenine.conecta.repository.data.EstoqueData;
 import com.sevenine.conecta.services.CadastrarMateriaisService;

@@ -1,4 +1,4 @@
-package com.sevenine.conecta.repositories.datas;
+package com.sevenine.conecta.repository.datas;
 
 import lombok.Getter;
 import lombok.Setter;

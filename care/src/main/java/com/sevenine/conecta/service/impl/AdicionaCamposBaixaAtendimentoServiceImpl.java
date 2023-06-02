@@ -1,6 +1,6 @@
 package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controllers.data.request.atendimento.GrupoBaixaRequest;
+import com.sevenine.conecta.adapter.controller.data.request.atendimento.GrupoBaixaRequest;
 import com.sevenine.conecta.repository.AtendimentoCampoBaixaRepository;
 import com.sevenine.conecta.repository.data.AtendimentoCampoBaixa;
 import com.sevenine.conecta.services.AdicionaCamposBaixaAtendimentoService;

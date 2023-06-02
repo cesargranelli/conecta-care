@@ -1,6 +1,6 @@
 package com.sevenine.conecta.mapper;
 
-import com.sevenine.conecta.controllers.data.response.ConsultaStatusAtendimentoResponse;
+import com.sevenine.conecta.adapter.controller.data.response.ConsultaStatusAtendimentoResponse;
 import com.sevenine.conecta.repository.data.StatusAtendimento;
 
 import java.util.List;

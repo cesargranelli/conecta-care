@@ -1,7 +1,7 @@
 package com.sevenine.conecta.usecase.impl;
 
-import com.sevenine.conecta.controllers.data.request.TelefoneRequest;
-import com.sevenine.conecta.controllers.data.response.CadastraAtualizaTelefoneResponse;
+import com.sevenine.conecta.adapter.controller.data.request.TelefoneRequest;
+import com.sevenine.conecta.adapter.controller.data.response.CadastraAtualizaTelefoneResponse;
 import com.sevenine.conecta.services.CadastraAtualizaTelefoneService;
 import com.sevenine.conecta.usecase.CadastraAtualizaTelefoneUseCase;
 import lombok.RequiredArgsConstructor;

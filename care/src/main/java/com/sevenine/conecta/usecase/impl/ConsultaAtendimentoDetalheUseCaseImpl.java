@@ -1,6 +1,6 @@
 package com.sevenine.conecta.usecase.impl;
 
-import com.sevenine.conecta.controllers.data.response.atendimento.ConsultaAtendimentoDetalheResponse;
+import com.sevenine.conecta.adapter.controller.data.response.atendimento.ConsultaAtendimentoDetalheResponse;
 import com.sevenine.conecta.mapper.atendimento.ConsultaAtendimentoDetalheMapper;
 import com.sevenine.conecta.services.*;
 import com.sevenine.conecta.services.data.response.*;

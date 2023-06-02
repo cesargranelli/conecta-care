@@ -1,7 +1,7 @@
 package com.sevenine.conecta.services.impl;
 
 import com.sevenine.conecta.config.properties.ExceptionMessageProperties;
-import com.sevenine.conecta.controllers.data.response.EventoResponse;
+import com.sevenine.conecta.adapter.controller.data.response.EventoResponse;
 import com.sevenine.conecta.exception.EventoNaoEncontradoException;
 import com.sevenine.conecta.repository.EventoRepository;
 import com.sevenine.conecta.repository.entity.Evento;

@@ -1,7 +1,7 @@
 package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controllers.data.request.ExperienciaRequest;
-import com.sevenine.conecta.controllers.data.response.CadastraAtualizaExperienciaResponse;
+import com.sevenine.conecta.adapter.controller.data.request.ExperienciaRequest;
+import com.sevenine.conecta.adapter.controller.data.response.CadastraAtualizaExperienciaResponse;
 import com.sevenine.conecta.mapper.cadastro.CadastraAtualizaExperienciaMapper;
 import com.sevenine.conecta.repository.ExperienciaRepository;
 import com.sevenine.conecta.services.CadastraAtualizaExperienciaService;

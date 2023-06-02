@@ -1,7 +1,7 @@
 package com.sevenine.conecta.mapper.impl;
 
-import com.sevenine.conecta.controllers.data.request.EstadoRequest;
-import com.sevenine.conecta.controllers.data.request.EventoRequest;
+import com.sevenine.conecta.adapter.controller.data.request.EstadoRequest;
+import com.sevenine.conecta.adapter.controller.data.request.EventoRequest;
 import com.sevenine.conecta.mapper.EventoCadastraMapper;
 import com.sevenine.conecta.repository.entity.Estado;
 import com.sevenine.conecta.repository.entity.Evento;

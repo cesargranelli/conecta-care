@@ -2,7 +2,7 @@ package com.sevenine.conecta.services.impl;
 
 import com.sevenine.conecta.config.properties.EndpointsConnectaProperties;
 import com.sevenine.conecta.config.properties.ExceptionMessageProperties;
-import com.sevenine.conecta.controllers.data.response.TipoEmpresaResponse;
+import com.sevenine.conecta.adapter.controller.data.response.TipoEmpresaResponse;
 import com.sevenine.conecta.exception.ServiceIndisponivelException;
 import com.sevenine.conecta.exception.TipoEmpresaNaoLocalizadoException;
 import com.sevenine.conecta.services.TipoEmpresaService;

@@ -1,6 +1,6 @@
 package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controllers.data.response.ConsultaTipoContaResponse;
+import com.sevenine.conecta.adapter.controller.data.response.ConsultaTipoContaResponse;
 import com.sevenine.conecta.repository.TipoContaRepository;
 import com.sevenine.conecta.services.TipoContaService;
 import com.sevenine.conecta.mapper.TipoContaMapper;

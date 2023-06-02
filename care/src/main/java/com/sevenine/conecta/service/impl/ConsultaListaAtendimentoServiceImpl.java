@@ -1,7 +1,7 @@
 package com.sevenine.conecta.services.impl;
 
 import com.sevenine.conecta.config.properties.ExceptionMessageProperties;
-import com.sevenine.conecta.controllers.data.response.atendimento.AtendimentoResumoResponse;
+import com.sevenine.conecta.adapter.controller.data.response.atendimento.AtendimentoResumoResponse;
 import com.sevenine.conecta.converter.atendimento.ConsultaListaAtendimentoConverter;
 import com.sevenine.conecta.exception.NaoLocalizadoException;
 import com.sevenine.conecta.repository.AtendimentoRepository;

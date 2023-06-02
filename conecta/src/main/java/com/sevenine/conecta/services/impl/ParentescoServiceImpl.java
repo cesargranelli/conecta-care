@@ -1,6 +1,6 @@
 package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controllers.data.response.ConsultaParentescoResponse;
+import com.sevenine.conecta.adapter.controller.data.response.ConsultaParentescoResponse;
 import com.sevenine.conecta.mapper.ParentescoMapper;
 import com.sevenine.conecta.repository.ParentescoRepository;
 import com.sevenine.conecta.services.ParentescoService;

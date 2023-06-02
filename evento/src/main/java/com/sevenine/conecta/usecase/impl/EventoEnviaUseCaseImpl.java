@@ -1,8 +1,8 @@
 package com.sevenine.conecta.usecase.impl;
 
-import com.sevenine.conecta.controllers.data.response.EnvioResponse;
-import com.sevenine.conecta.controllers.data.response.EspecialidadeResponse;
-import com.sevenine.conecta.controllers.data.response.EventoResponse;
+import com.sevenine.conecta.adapter.controller.data.response.EnvioResponse;
+import com.sevenine.conecta.adapter.controller.data.response.EspecialidadeResponse;
+import com.sevenine.conecta.adapter.controller.data.response.EventoResponse;
 import com.sevenine.conecta.mapper.EventoEnviaMapper;
 import com.sevenine.conecta.services.EventoConsultaService;
 import com.sevenine.conecta.services.EventoEnviaService;

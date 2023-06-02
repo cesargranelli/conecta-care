@@ -1,7 +1,7 @@
 package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controllers.data.request.ProfissionalRequest;
-import com.sevenine.conecta.controllers.data.response.CadastraAtualizaProfissionalResponse;
+import com.sevenine.conecta.adapter.controller.data.request.ProfissionalRequest;
+import com.sevenine.conecta.adapter.controller.data.response.CadastraAtualizaProfissionalResponse;
 import com.sevenine.conecta.mapper.cadastro.CadastraAtualizaProfissionalMapper;
 import com.sevenine.conecta.repository.ProfissionalRepository;
 import com.sevenine.conecta.repository.data.Profissional;

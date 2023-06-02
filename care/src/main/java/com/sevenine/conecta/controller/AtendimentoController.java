@@ -1,11 +1,11 @@
-package com.sevenine.conecta.controllers;
+package com.sevenine.conecta.adapter.controller;
 
-import com.sevenine.conecta.controllers.data.request.atendimento.AdicionaAtendimentoRequest;
-import com.sevenine.conecta.controllers.data.request.atendimento.BaixaRequest;
-import com.sevenine.conecta.controllers.data.response.atendimento.AtendimentoCheckResponse;
-import com.sevenine.conecta.controllers.data.response.atendimento.AtendimentoPacienteResponse;
-import com.sevenine.conecta.controllers.data.response.atendimento.AtendimentoResumoResponse;
-import com.sevenine.conecta.controllers.data.response.atendimento.ConsultaAtendimentoDetalheResponse;
+import com.sevenine.conecta.adapter.controller.data.request.atendimento.AdicionaAtendimentoRequest;
+import com.sevenine.conecta.adapter.controller.data.request.atendimento.BaixaRequest;
+import com.sevenine.conecta.adapter.controller.data.response.atendimento.AtendimentoCheckResponse;
+import com.sevenine.conecta.adapter.controller.data.response.atendimento.AtendimentoPacienteResponse;
+import com.sevenine.conecta.adapter.controller.data.response.atendimento.AtendimentoResumoResponse;
+import com.sevenine.conecta.adapter.controller.data.response.atendimento.ConsultaAtendimentoDetalheResponse;
 import com.sevenine.conecta.services.data.request.atendimento.AtendimentoPreviewPara;
 import com.sevenine.conecta.services.data.response.AtendimentoPreviewResponse;
 import com.sevenine.conecta.services.data.response.ProfissionalAtendimentoResponse;

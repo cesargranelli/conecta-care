@@ -1,9 +1,9 @@
-package com.sevenine.conecta.controllers;
+package com.sevenine.conecta.adapter.controller;
 
-import com.sevenine.conecta.controllers.resource.PacienteNomeDocumentoResource;
-import com.sevenine.conecta.controllers.resource.PacientePesquisaResource;
-import com.sevenine.conecta.controllers.resource.PacienteResource;
-import com.sevenine.conecta.controllers.resource.PacienteResponseResource;
+import com.sevenine.conecta.adapter.controller.resource.PacienteNomeDocumentoResource;
+import com.sevenine.conecta.adapter.controller.resource.PacientePesquisaResource;
+import com.sevenine.conecta.adapter.controller.resource.PacienteResource;
+import com.sevenine.conecta.adapter.controller.resource.PacienteResponseResource;
 import com.sevenine.conecta.services.ConsultaAcompanhanteService;
 import com.sevenine.conecta.services.PacienteService;
 import lombok.RequiredArgsConstructor;

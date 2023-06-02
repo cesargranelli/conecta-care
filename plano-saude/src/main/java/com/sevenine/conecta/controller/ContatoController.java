@@ -1,8 +1,8 @@
-package com.sevenine.conecta.controllers;
+package com.sevenine.conecta.adapter.controller;
 
-import com.sevenine.conecta.controllers.data.request.ContatoRequest;
-import com.sevenine.conecta.controllers.data.response.ContatoCadastroResponse;
-import com.sevenine.conecta.controllers.data.response.ContatoResponse;
+import com.sevenine.conecta.adapter.controller.data.request.ContatoRequest;
+import com.sevenine.conecta.adapter.controller.data.response.ContatoCadastroResponse;
+import com.sevenine.conecta.adapter.controller.data.response.ContatoResponse;
 import com.sevenine.conecta.usecase.ContatoUseCase;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

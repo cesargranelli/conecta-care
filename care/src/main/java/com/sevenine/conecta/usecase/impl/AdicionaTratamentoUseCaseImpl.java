@@ -1,6 +1,6 @@
 package com.sevenine.conecta.usecase.impl;
 
-import com.sevenine.conecta.controllers.data.request.tratamento.AdicionaTratamentoRequest;
+import com.sevenine.conecta.adapter.controller.data.request.tratamento.AdicionaTratamentoRequest;
 import com.sevenine.conecta.exception.ExisteTratamentoEmAbertoException;
 import com.sevenine.conecta.exception.NaoExisteTratamentoEmAbertoException;
 import com.sevenine.conecta.exception.NaoLocalizadoException;

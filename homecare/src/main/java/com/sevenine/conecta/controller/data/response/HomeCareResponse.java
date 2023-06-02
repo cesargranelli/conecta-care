@@ -1,4 +1,4 @@
-package com.sevenine.conecta.controllers.data.response;
+package com.sevenine.conecta.adapter.controller.data.response;
 
 import com.sevenine.conecta.repository.data.HomeCare;
 import java.util.List;

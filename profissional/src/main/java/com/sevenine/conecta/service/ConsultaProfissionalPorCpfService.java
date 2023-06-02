@@ -1,7 +1,7 @@
 package com.sevenine.conecta.services;
 
-import com.sevenine.conecta.controllers.data.response.ProfissionalCpfResponse;
-import com.sevenine.conecta.controllers.data.response.ProfissionalResponse;
+import com.sevenine.conecta.adapter.controller.data.response.ProfissionalCpfResponse;
+import com.sevenine.conecta.adapter.controller.data.response.ProfissionalResponse;
 
 import java.util.List;
 

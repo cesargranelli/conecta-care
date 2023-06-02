@@ -1,4 +1,4 @@
-package com.sevenine.conecta.configs;
+package com.sevenine.conecta.application.configuration;
 
 public class SecurityConstants {
     public static final String HEADER_NAME = "Authorization";

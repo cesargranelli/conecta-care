@@ -1,6 +1,6 @@
 package com.sevenine.conecta.services;
 
-import com.sevenine.conecta.controllers.resource.TipoSanguineoResource;
+import com.sevenine.conecta.adapter.controller.resource.TipoSanguineoResource;
 
 import java.util.List;
 

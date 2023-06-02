@@ -1,7 +1,7 @@
 package com.sevenine.conecta.usecase.impl;
 
-import com.sevenine.conecta.controllers.data.request.ProfissionalRequest;
-import com.sevenine.conecta.controllers.data.response.CadastraAtualizaProfissionalResponse;
+import com.sevenine.conecta.adapter.controller.data.request.ProfissionalRequest;
+import com.sevenine.conecta.adapter.controller.data.response.CadastraAtualizaProfissionalResponse;
 import com.sevenine.conecta.services.BuscaDocumentoProfissionalService;
 import com.sevenine.conecta.services.CadastraAtualizaProfissionalService;
 import com.sevenine.conecta.usecase.CadastraAtualizaProfissionalUseCase;

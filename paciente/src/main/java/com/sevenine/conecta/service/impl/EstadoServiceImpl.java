@@ -1,6 +1,6 @@
 package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controllers.resource.EstadoResource;
+import com.sevenine.conecta.adapter.controller.resource.EstadoResource;
 import com.sevenine.conecta.repository.EstadoRepository;
 import com.sevenine.conecta.repository.conveter.EstadoConverter;
 import com.sevenine.conecta.services.EstadoService;

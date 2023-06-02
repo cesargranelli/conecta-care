@@ -1,6 +1,6 @@
 package com.sevenine.conecta.services;
 
-import com.sevenine.conecta.controllers.data.response.ExperienciaResponse;
+import com.sevenine.conecta.adapter.controller.data.response.ExperienciaResponse;
 
 import java.util.List;
 

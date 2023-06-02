@@ -1,6 +1,6 @@
 package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controllers.data.response.ConsultaConselhoResponse;
+import com.sevenine.conecta.adapter.controller.data.response.ConsultaConselhoResponse;
 import com.sevenine.conecta.repository.ConselhoRepository;
 import com.sevenine.conecta.services.ConselhoService;
 import com.sevenine.conecta.mapper.ConselhoMapper;

@@ -1,7 +1,7 @@
 package com.sevenine.conecta.mapper.cadastro;
 
-import com.sevenine.conecta.controllers.data.request.TelefoneRequest;
-import com.sevenine.conecta.controllers.data.response.CadastraAtualizaTelefoneResponse;
+import com.sevenine.conecta.adapter.controller.data.request.TelefoneRequest;
+import com.sevenine.conecta.adapter.controller.data.response.CadastraAtualizaTelefoneResponse;
 import com.sevenine.conecta.repository.data.Telefone;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

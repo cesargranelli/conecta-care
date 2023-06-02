@@ -1,8 +1,8 @@
 package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controllers.data.request.EnderecoRequest;
-import com.sevenine.conecta.controllers.data.response.EnderecoCadastroResponse;
-import com.sevenine.conecta.controllers.data.response.EnderecoResponse;
+import com.sevenine.conecta.adapter.controller.data.request.EnderecoRequest;
+import com.sevenine.conecta.adapter.controller.data.response.EnderecoCadastroResponse;
+import com.sevenine.conecta.adapter.controller.data.response.EnderecoResponse;
 import com.sevenine.conecta.exception.DadosNaoEncontradosException;
 import com.sevenine.conecta.repository.EnderecoRepository;
 import com.sevenine.conecta.repository.data.Endereco;

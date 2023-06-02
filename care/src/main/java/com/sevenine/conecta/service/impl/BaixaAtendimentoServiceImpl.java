@@ -1,8 +1,8 @@
 package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controllers.data.request.atendimento.AdicionaAtendimentoRequest;
-import com.sevenine.conecta.controllers.data.request.atendimento.AdicionaAtendimentoSituacaoRequest;
-import com.sevenine.conecta.controllers.data.request.atendimento.BaixaRequest;
+import com.sevenine.conecta.adapter.controller.data.request.atendimento.AdicionaAtendimentoRequest;
+import com.sevenine.conecta.adapter.controller.data.request.atendimento.AdicionaAtendimentoSituacaoRequest;
+import com.sevenine.conecta.adapter.controller.data.request.atendimento.BaixaRequest;
 import com.sevenine.conecta.enumerator.StatusAtendimentoEnum;
 import com.sevenine.conecta.exception.AtendimentoRuntimeException;
 import com.sevenine.conecta.exception.NaoLocalizadoException;

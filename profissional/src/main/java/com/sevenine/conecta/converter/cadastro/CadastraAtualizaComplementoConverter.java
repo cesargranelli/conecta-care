@@ -1,6 +1,6 @@
 package com.sevenine.conecta.converter.cadastro;
 
-import com.sevenine.conecta.controllers.data.request.ComplementoRequest;
+import com.sevenine.conecta.adapter.controller.data.request.ComplementoRequest;
 import com.sevenine.conecta.repository.data.Complemento;
 
 public interface CadastraAtualizaComplementoConverter {

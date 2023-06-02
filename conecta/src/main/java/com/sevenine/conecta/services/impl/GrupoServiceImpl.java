@@ -1,6 +1,6 @@
 package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controllers.data.response.ConsultaGrupoResponse;
+import com.sevenine.conecta.adapter.controller.data.response.ConsultaGrupoResponse;
 import com.sevenine.conecta.mapper.GrupoMapper;
 import com.sevenine.conecta.repository.GrupoRepository;
 import com.sevenine.conecta.services.GrupoService;

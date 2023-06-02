@@ -1,7 +1,7 @@
 package com.sevenine.conecta.converter.atendimento.impl;
 
-import com.sevenine.conecta.controllers.data.response.atendimento.AtendimentoPacienteProtocoloResponse;
-import com.sevenine.conecta.controllers.data.response.atendimento.AtendimentoPacienteResponse;
+import com.sevenine.conecta.adapter.controller.data.response.atendimento.AtendimentoPacienteProtocoloResponse;
+import com.sevenine.conecta.adapter.controller.data.response.atendimento.AtendimentoPacienteResponse;
 import com.sevenine.conecta.converter.atendimento.ConsultaListaAtendimentoPacienteUseCaseConverter;
 import com.sevenine.conecta.services.data.response.AtendimentoResponse;
 import com.sevenine.conecta.services.data.response.AtendimentoSituacaoResponse;

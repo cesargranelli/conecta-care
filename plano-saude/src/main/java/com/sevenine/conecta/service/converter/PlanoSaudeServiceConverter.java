@@ -1,9 +1,9 @@
 package com.sevenine.conecta.services.converter;
 
-import com.sevenine.conecta.controllers.data.request.PlanoSaudeRequest;
-import com.sevenine.conecta.controllers.data.response.EspecialidadeResponse;
-import com.sevenine.conecta.controllers.data.response.PlanoSaudeCadastroResponse;
-import com.sevenine.conecta.controllers.data.response.PlanoSaudeResponse;
+import com.sevenine.conecta.adapter.controller.data.request.PlanoSaudeRequest;
+import com.sevenine.conecta.adapter.controller.data.response.EspecialidadeResponse;
+import com.sevenine.conecta.adapter.controller.data.response.PlanoSaudeCadastroResponse;
+import com.sevenine.conecta.adapter.controller.data.response.PlanoSaudeResponse;
 import com.sevenine.conecta.enumerator.TipoEmpresaEnum;
 import com.sevenine.conecta.repository.data.Especialidade;
 import com.sevenine.conecta.repository.data.PlanoSaude;

@@ -1,6 +1,6 @@
 package com.sevenine.conecta.usecase.impl;
 
-import com.sevenine.conecta.controllers.data.request.tratamento.EncerraTratamentoRequest;
+import com.sevenine.conecta.adapter.controller.data.request.tratamento.EncerraTratamentoRequest;
 import com.sevenine.conecta.services.AdicionaTratamentoSituacaoService;
 import com.sevenine.conecta.services.ConsultaTratamentoEmAbertoService;
 import com.sevenine.conecta.services.ConsultaTratamentoService;

@@ -1,6 +1,6 @@
 package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controllers.resource.GeneroResource;
+import com.sevenine.conecta.adapter.controller.resource.GeneroResource;
 import com.sevenine.conecta.repository.GeneroRepository;
 import com.sevenine.conecta.repository.conveter.GeneroConverter;
 import com.sevenine.conecta.services.GeneroService;

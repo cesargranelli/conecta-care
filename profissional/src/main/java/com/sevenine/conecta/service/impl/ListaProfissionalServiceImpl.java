@@ -1,7 +1,7 @@
 package com.sevenine.conecta.services.impl;
 
 import com.sevenine.conecta.config.properties.ExceptionMessageProperties;
-import com.sevenine.conecta.controllers.data.response.ListaProfissionalResponse;
+import com.sevenine.conecta.adapter.controller.data.response.ListaProfissionalResponse;
 import com.sevenine.conecta.exception.InformacaoNaoEncontradaException;
 import com.sevenine.conecta.mapper.ListaProfissionalMapper;
 import com.sevenine.conecta.repository.ListaProfissionalRepository;

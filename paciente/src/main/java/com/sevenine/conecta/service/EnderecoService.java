@@ -1,6 +1,6 @@
 package com.sevenine.conecta.services;
 
-import com.sevenine.conecta.controllers.resource.EnderecoResource;
+import com.sevenine.conecta.adapter.controller.resource.EnderecoResource;
 
 public interface EnderecoService {
 

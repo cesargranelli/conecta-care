@@ -2,7 +2,7 @@ package com.sevenine.conecta.services.impl;
 
 import com.sevenine.conecta.entity.Role;
 import com.sevenine.conecta.enumerator.StatusCadastro;
-import com.sevenine.conecta.controllers.data.request.CadastroUsuarioRequest;
+import com.sevenine.conecta.adapter.controller.data.request.CadastroUsuarioRequest;
 import com.sevenine.conecta.repository.UsuarioRepository;
 import com.sevenine.conecta.repository.data.SequenceCadastro;
 import com.sevenine.conecta.repository.data.Usuario;

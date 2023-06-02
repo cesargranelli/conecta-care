@@ -1,6 +1,6 @@
 package com.sevenine.conecta.services;
 
-import com.sevenine.conecta.controllers.data.response.ProfissionalFiltroDadosSmsResponse;
+import com.sevenine.conecta.adapter.controller.data.response.ProfissionalFiltroDadosSmsResponse;
 
 import java.util.List;
 

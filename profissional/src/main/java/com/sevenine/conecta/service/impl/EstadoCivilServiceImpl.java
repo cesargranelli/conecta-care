@@ -2,7 +2,7 @@ package com.sevenine.conecta.services.impl;
 
 import com.sevenine.conecta.config.properties.EndpointsConnectaProperties;
 import com.sevenine.conecta.config.properties.ExceptionMessageProperties;
-import com.sevenine.conecta.controllers.data.response.EstadoCivilResponse;
+import com.sevenine.conecta.adapter.controller.data.response.EstadoCivilResponse;
 import com.sevenine.conecta.exception.EstadoCivilNaoLocalizadoException;
 import com.sevenine.conecta.exception.ServiceIndisponivelException;
 import com.sevenine.conecta.services.EstadoCivilService;

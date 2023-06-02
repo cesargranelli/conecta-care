@@ -1,7 +1,7 @@
 package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controllers.resource.AcompanhanteResource;
-import com.sevenine.conecta.controllers.resource.AcompanhanteResponseResource;
+import com.sevenine.conecta.adapter.controller.resource.AcompanhanteResource;
+import com.sevenine.conecta.adapter.controller.resource.AcompanhanteResponseResource;
 import com.sevenine.conecta.mapper.AdicionaAcompanhanteMapper;
 import com.sevenine.conecta.repository.AcompanhanteRepository;
 import com.sevenine.conecta.repository.entity.AcompanhanteEntity;

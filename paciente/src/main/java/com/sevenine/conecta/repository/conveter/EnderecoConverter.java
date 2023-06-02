@@ -1,6 +1,6 @@
 package com.sevenine.conecta.repository.conveter;
 
-import com.sevenine.conecta.controllers.resource.EnderecoResource;
+import com.sevenine.conecta.adapter.controller.resource.EnderecoResource;
 import com.sevenine.conecta.repository.entity.EnderecoEntity;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;

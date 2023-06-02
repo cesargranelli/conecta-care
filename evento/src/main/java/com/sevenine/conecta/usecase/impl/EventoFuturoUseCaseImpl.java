@@ -1,7 +1,7 @@
 package com.sevenine.conecta.usecase.impl;
 
 import com.sevenine.conecta.config.properties.ExceptionMessageProperties;
-import com.sevenine.conecta.controllers.data.response.EventoResponse;
+import com.sevenine.conecta.adapter.controller.data.response.EventoResponse;
 import com.sevenine.conecta.exception.EventoNaoEncontradoException;
 import com.sevenine.conecta.services.EventoEmAbertoService;
 import com.sevenine.conecta.usecase.EventoFuturoUseCase;

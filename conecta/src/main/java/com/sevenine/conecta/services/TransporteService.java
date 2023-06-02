@@ -1,6 +1,6 @@
 package com.sevenine.conecta.services;
 
-import com.sevenine.conecta.controllers.data.response.ConsultaTransporteResponse;
+import com.sevenine.conecta.adapter.controller.data.response.ConsultaTransporteResponse;
 
 import java.util.List;
 

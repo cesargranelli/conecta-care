@@ -1,4 +1,4 @@
-package com.sevenine.conecta.configs;
+package com.sevenine.conecta.application.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

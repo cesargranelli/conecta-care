@@ -1,4 +1,4 @@
-package com.sevenine.conecta.controllers.resource;
+package com.sevenine.conecta.adapter.controller.resource;
 
 import lombok.Builder;
 import lombok.Getter;

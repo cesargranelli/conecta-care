@@ -1,7 +1,7 @@
-package com.sevenine.conecta.controllers;
+package com.sevenine.conecta.adapter.controller;
 
-import com.sevenine.conecta.controllers.data.request.CadastraDocumentoRequest;
-import com.sevenine.conecta.controllers.data.response.CadastraDocumentoResponse;
+import com.sevenine.conecta.adapter.controller.data.request.CadastraDocumentoRequest;
+import com.sevenine.conecta.adapter.controller.data.response.CadastraDocumentoResponse;
 import com.sevenine.conecta.services.data.response.DocumentoResponse;
 import com.sevenine.conecta.usecase.DocumentoConsultaUseCase;
 import com.sevenine.conecta.usecase.DocumentoUseCase;

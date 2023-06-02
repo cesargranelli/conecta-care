@@ -1,6 +1,6 @@
 package com.sevenine.conecta.converter.tratamento.impl;
 
-import com.sevenine.conecta.controllers.data.response.tratamento.*;
+import com.sevenine.conecta.adapter.controller.data.response.tratamento.*;
 import com.sevenine.conecta.converter.tratamento.ConsultaTratamentoConverter;
 import com.sevenine.conecta.services.data.response.*;
 import org.springframework.stereotype.Component;

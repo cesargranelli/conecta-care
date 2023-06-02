@@ -1,6 +1,6 @@
 package com.sevenine.conecta.services;
 
-import com.sevenine.conecta.controllers.data.request.atendimento.AdicionaAtendimentoRequest;
+import com.sevenine.conecta.adapter.controller.data.request.atendimento.AdicionaAtendimentoRequest;
 
 import java.util.List;
 

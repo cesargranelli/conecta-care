@@ -1,6 +1,6 @@
 package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controllers.data.response.atendimento.AtendimentoCheckResponse;
+import com.sevenine.conecta.adapter.controller.data.response.atendimento.AtendimentoCheckResponse;
 import com.sevenine.conecta.converter.atendimento.ConsultaAtendimentoConverter;
 import com.sevenine.conecta.exception.NaoLocalizadoException;
 import com.sevenine.conecta.mapper.atendimento.ConsultaAtendimentoMapper;

@@ -1,6 +1,6 @@
 package com.sevenine.conecta.services.converter.impl;
 
-import com.sevenine.conecta.controllers.data.request.CadastroMaterialRequest;
+import com.sevenine.conecta.adapter.controller.data.request.CadastroMaterialRequest;
 import com.sevenine.conecta.repository.data.CategoriaData;
 import com.sevenine.conecta.services.converter.CadastrarCategoriaServiceConverter;
 import org.springframework.stereotype.Component;

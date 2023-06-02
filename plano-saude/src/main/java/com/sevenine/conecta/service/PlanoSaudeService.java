@@ -1,8 +1,8 @@
 package com.sevenine.conecta.services;
 
-import com.sevenine.conecta.controllers.data.request.PlanoSaudeRequest;
-import com.sevenine.conecta.controllers.data.response.PlanoSaudeCadastroResponse;
-import com.sevenine.conecta.controllers.data.response.PlanoSaudeResponse;
+import com.sevenine.conecta.adapter.controller.data.request.PlanoSaudeRequest;
+import com.sevenine.conecta.adapter.controller.data.response.PlanoSaudeCadastroResponse;
+import com.sevenine.conecta.adapter.controller.data.response.PlanoSaudeResponse;
 
 import java.util.List;
 

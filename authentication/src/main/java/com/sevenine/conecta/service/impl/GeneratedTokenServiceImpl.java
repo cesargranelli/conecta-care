@@ -1,6 +1,6 @@
 package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.configs.properties.SecurityProperties;
+import com.sevenine.conecta.application.configuration.properties.SecurityProperties;
 import com.sevenine.conecta.services.GeneratedTokenService;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;

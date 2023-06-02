@@ -1,6 +1,6 @@
 package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controllers.data.response.ConsultaCategoriaCnhResponse;
+import com.sevenine.conecta.adapter.controller.data.response.ConsultaCategoriaCnhResponse;
 import com.sevenine.conecta.repository.CategoriaCnhRepository;
 import com.sevenine.conecta.services.CategoriaCnhService;
 import com.sevenine.conecta.mapper.CategoriaCnhMapper;

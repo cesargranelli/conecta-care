@@ -1,6 +1,6 @@
 package com.sevenine.conecta.mapper.consulta;
 
-import com.sevenine.conecta.controllers.data.response.EnderecoResponse;
+import com.sevenine.conecta.adapter.controller.data.response.EnderecoResponse;
 import com.sevenine.conecta.repository.data.Endereco;
 import org.mapstruct.Mapper;
 

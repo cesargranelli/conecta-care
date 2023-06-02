@@ -1,6 +1,6 @@
 package com.sevenine.conecta.mapper;
 
-import com.sevenine.conecta.controllers.data.response.ConsultaAreaAtendimentoResponse;
+import com.sevenine.conecta.adapter.controller.data.response.ConsultaAreaAtendimentoResponse;
 import com.sevenine.conecta.repository.data.AreaAtendimento;
 import org.mapstruct.Mapper;
 

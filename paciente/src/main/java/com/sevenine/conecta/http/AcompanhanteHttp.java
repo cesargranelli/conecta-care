@@ -1,7 +1,7 @@
-package com.sevenine.conecta.controllers;
+package com.sevenine.conecta.adapter.controller;
 
-import com.sevenine.conecta.controllers.resource.AcompanhanteResource;
-import com.sevenine.conecta.controllers.resource.AcompanhanteResponseResource;
+import com.sevenine.conecta.adapter.controller.resource.AcompanhanteResource;
+import com.sevenine.conecta.adapter.controller.resource.AcompanhanteResponseResource;
 import com.sevenine.conecta.services.AdicionaAcompanhanteService;
 import com.sevenine.conecta.services.ConsultaAcompanhanteService;
 import lombok.RequiredArgsConstructor;

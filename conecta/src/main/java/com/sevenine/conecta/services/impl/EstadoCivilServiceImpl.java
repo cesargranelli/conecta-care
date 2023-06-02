@@ -1,6 +1,6 @@
 package com.sevenine.conecta.services.impl;
 
-import com.sevenine.conecta.controllers.data.response.ConsultaEstadoCivilResponse;
+import com.sevenine.conecta.adapter.controller.data.response.ConsultaEstadoCivilResponse;
 import com.sevenine.conecta.repository.EstadoCivilRepository;
 import com.sevenine.conecta.services.EstadoCivilService;
 import com.sevenine.conecta.mapper.EstadoCivilMapper;
