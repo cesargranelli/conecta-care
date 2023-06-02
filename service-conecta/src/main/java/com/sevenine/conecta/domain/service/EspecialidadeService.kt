@@ -7,8 +7,8 @@ import org.springframework.stereotype.Service
 @Service
 class EspecialidadeService(private val persistence: DominioPersistencePort) {
 
-    fun executa(): List<Especialidade> {
-        return persistence.executa()
+    fun lista(): List<Especialidade> {
+        return persistence.lista()
     }
 
 }
