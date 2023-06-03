@@ -1,6 +1,6 @@
 package com.sevenine.conecta.adapter.controller;
 
-import com.sevenine.conecta.adapter.*;
+import com.sevenine.conecta.adapter.output.persistence.*;
 import com.sevenine.conecta.domain.port.persistence.DominioPersistence;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -18,12 +18,6 @@ public class DominiosController {
 
     public DominiosController(List<DominioPersistence<Object, List<?>>> services) {
         this.services = services;
-    }
-
-    @GetMapping("area")
-    public List<?> especialidades() {
-        return services.stream().filter(AreaAtendimentoPersistence.class::isInstance).findAny().orElseThrow()
-                .execute();
     }
 
     @GetMapping("banco")
@@ -53,12 +47,6 @@ public class DominiosController {
     @GetMapping("estado-civil")
     public List<?> estadosCivil() {
         return services.stream().filter(EstadoCivilPersistence.class::isInstance).findAny().orElseThrow()
-                .execute();
-    }
-
-    @GetMapping("genero")
-    public List<?> generos() {
-        return services.stream().filter(GeneroPersistence.class::isInstance).findAny().orElseThrow()
                 .execute();
     }
 

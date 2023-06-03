@@ -1,7 +1,7 @@
 package com.sevenine.conecta.mapper;
 
+import com.sevenine.conecta.adapter.output.entity.*;
 import com.sevenine.conecta.domain.model.*;
-import com.sevenine.conecta.repository.datas.*;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;
 
@@ -12,8 +12,6 @@ public interface DominioMapper {
 
     DominioMapper INSTANCE = Mappers.getMapper(DominioMapper.class);
 
-    List<AreaAtendimento> toAreaAtendimento(List<AreaAtendimentoData> dataList);
-
     List<Banco> toBanco(List<BancoData> dataList);
 
     List<CategoriaCnh> toCategoriaCnh(List<CategoriaCnhData> dataList);
@@ -23,8 +21,6 @@ public interface DominioMapper {
     List<Estado> toEstado(List<EstadoData> dataList);
 
     List<EstadoCivil> toEstadoCivil(List<EstadoCivilData> dataList);
-
-    List<Genero> toGenero(List<GeneroData> dataList);
 
     List<Grupo> toGrupo(List<GrupoData> dataList);
 
