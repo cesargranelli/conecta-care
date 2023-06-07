@@ -2,7 +2,7 @@ package com.sevenine.conecta.adapter.output.entity
 
 import jakarta.persistence.*
 
-@Table(name = "especialidades")
+@Table(name = "especialidade")
 @Entity(name = "Especialidade")
 data class EspecialidadeEntity(
         @Id
