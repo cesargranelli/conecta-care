@@ -9,6 +9,6 @@ import jakarta.persistence.Table
 data class GeneroEntity(
         @Id
         val id: Long,
-        val codigo: String,
+        val tipo: String,
         val descricao: String,
 )

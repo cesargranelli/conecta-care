@@ -32,7 +32,7 @@ class DominioMapper : Mapper {
     }
 
     override fun convertGenero(entry: GeneroEntity): Genero {
-        return Genero(entry.id, entry.codigo, entry.descricao)
+        return Genero(entry.id, entry.tipo, entry.descricao)
     }
 
     override fun convertGrupo(entry: GrupoEntity): Grupo {
