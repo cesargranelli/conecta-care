@@ -1,4 +1,4 @@
-package com.sevenine.usuario.application.configuration;
+package com.sevenine.usuario.configs;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -58,7 +58,7 @@ public class SecurityConfiguration /*extends WebSecurityConfigurerAdapter*/ {
     @Bean
     public SecurityFilterChain web(HttpSecurity http) throws Exception {
         http.cors().and().csrf().disable().authorizeHttpRequests(authorize -> authorize
-                .mvcMatchers("/**").permitAll()
+//                .mvcMatchers("/**").permitAll()
                 .anyRequest().authenticated());
 
         return http.getOrBuild();
