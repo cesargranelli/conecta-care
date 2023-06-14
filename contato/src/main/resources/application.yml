@@ -1,0 +1,47 @@
+server:
+  port: 5000
+
+conecta:
+  config:
+    timezone: America/Sao_Paulo
+
+spring:
+  output:
+    ansi:
+      enabled: ALWAYS
+  jpa:
+    properties:
+      hibernate:
+        jdbc:
+          time_zone: ${conecta.config.timezone}
+
+management:
+  endpoint:
+    health:
+      show-details: ALWAYS
+
+logging:
+  level:
+    root: INFO
+    org:
+      springframework: INFO
+      zalando:
+        logbook: TRACE
+
+logbook:
+  exclude:
+    - /actuator/health
+  filter.enabled: true
+  format.style: json
+  obfuscate:
+    headers:
+      - Authorization
+      - X-Secret
+    parameters:
+      - access_token
+      - password
+      - senha
+    properties: "foto, fotoRg, fotoComprovante, fotoCpf, fotoCtps, fotoProfissional, fotoRgFrente, fotoRgVerso,
+        fotoAssinatura, comprovante, fotoCNHFrente, fotoCNHVerso, assinatura, fotos"
+  write:
+    chunk-size: 1000

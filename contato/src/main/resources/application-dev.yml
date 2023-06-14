@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/conecta
+    username: conecta
+    password: conecta
+  jpa:
+    hibernate:
+      format-sql: true
+    show-sql: true
