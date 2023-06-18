@@ -13,3 +13,7 @@ spring:
         projectId: conecta-care-e77c0
       credentials:
         location: file:contato/src/main/resources/conecta-care-e77c0.json
+
+server:
+  servlet:
+    context-path: /care-contato

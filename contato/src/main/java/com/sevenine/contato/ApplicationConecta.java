@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RequestMapping("/service-contato/v1/cadastro")
+@RequestMapping("/v1/contatos")
 @RestController
 @SpringBootApplication
 public class ApplicationConecta {
@@ -20,7 +20,7 @@ public class ApplicationConecta {
         SpringApplication.run(ApplicationConecta.class, args);
     }
 
-    @PostMapping
+    @PostMapping("cadastro")
     public void cadastro(@RequestBody Object request) {
         System.out.println(request);
 
