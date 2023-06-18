@@ -1,6 +1,3 @@
-server:
-  port: 5000
-
 conecta:
   config:
     timezone: America/Sao_Paulo
@@ -41,7 +38,5 @@ logbook:
       - access_token
       - password
       - senha
-    properties: "foto, fotoRg, fotoComprovante, fotoCpf, fotoCtps, fotoProfissional, fotoRgFrente, fotoRgVerso,
-        fotoAssinatura, comprovante, fotoCNHFrente, fotoCNHVerso, assinatura, fotos"
   write:
     chunk-size: 1000

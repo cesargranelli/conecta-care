@@ -7,3 +7,9 @@ spring:
     hibernate:
       format-sql: true
     show-sql: true
+  cloud:
+    gcp:
+      firestore:
+        projectId: conecta-care-e77c0
+      credentials:
+        location: file:contato/src/main/resources/conecta-care-e77c0.json
