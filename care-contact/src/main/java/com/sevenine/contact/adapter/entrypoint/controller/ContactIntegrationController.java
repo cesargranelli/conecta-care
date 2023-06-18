@@ -19,6 +19,8 @@ public class ContactIntegrationController {
     public void subscribe(@RequestBody ContactDocument document) {
         System.out.println(document);
 
+        repository.save(document).block();
+
         System.out.printf("Amount contacts: %s", repository.count().block());
     }
 

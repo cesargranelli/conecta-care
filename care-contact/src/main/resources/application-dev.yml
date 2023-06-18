@@ -12,7 +12,7 @@ spring:
       firestore:
         projectId: conecta-care-e77c0
       credentials:
-        location: file:contato/src/main/resources/credentials-firebase.json
+        location: file:care-contact/src/main/resources/credentials-firebase.json
 
 server:
   servlet:
