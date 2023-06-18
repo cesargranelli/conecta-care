@@ -12,8 +12,8 @@ spring:
       firestore:
         projectId: conecta-care-e77c0
       credentials:
-        location: file:contato/src/main/resources/conecta-care-e77c0.json
+        location: file:contato/src/main/resources/credentials-firebase.json
 
 server:
   servlet:
-    context-path: /care-contato
+    context-path: /care-contact

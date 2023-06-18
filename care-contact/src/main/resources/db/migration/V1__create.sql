@@ -1,8 +1,8 @@
--- `conecta-contato`.telefone_situacao definition
+-- `conecta-contact`.telefone_situacao definition
 
-CREATE TABLE `telefone_situacao` (
+CREATE TABLE `phone_situation` (
   `id` bigint NOT NULL,
-  `descricao` varchar(25) NOT NULL,
+  `description` varchar(25) NOT NULL,
   PRIMARY KEY (`id`)
 );
 
